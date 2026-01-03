@@ -1,0 +1,67 @@
+{
+    "contact": {
+        "form": {
+            "heading": "Get In Touch",
+            "subheading": "Have questions? We're here to help!",
+            "fields": {
+                "name": {
+                    "label": "Full Name",
+                    "placeholder": "Enter your full name",
+                    "required": true
+                },
+                "email": {
+                    "label": "Email Address",
+                    "placeholder": "your.email@example.com",
+                    "required": true
+                },
+                "phone": {
+                    "label": "Phone Number",
+                    "placeholder": "+91 98765 43210",
+                    "required": true
+                },
+                "service": {
+                    "label": "Select Service",
+                    "placeholder": "Choose a service",
+                    "required": true,
+                    "options": {
+                        "training": [
+                            "Basic Laptop Repair Course",
+                            "Advanced Motherboard Repair",
+                            "Professional Certification",
+                            "Workshop Access",
+                            "General Inquiry"
+                        ],
+                        "services": [
+                            "Screen Replacement",
+                            "Battery Replacement",
+                            "Motherboard Repair",
+                            "Data Recovery",
+                            "Software Issues",
+                            "General Inquiry"
+                        ]
+                    }
+                },
+                "message": {
+                    "label": "Message",
+                    "placeholder": "Tell us about your requirements...",
+                    "required": true
+                }
+            },
+            "submitButton": "Send Message",
+            "successMessage": "Thank you for contacting us! We'll get back to you within 24 hours.",
+            "errorMessage": "Sorry, there was an error sending your message. Please try again or contact us directly."
+        },
+        "info": {
+            "training": {
+                "heading": "Training Center",
+                "description": "Enroll in our professional laptop repair courses and start your career today.",
+                "workingHours": "Mon - Sat: 9:00 AM - 6:00 PM"
+            },
+            "services": {
+                "heading": "Repair Services",
+                "description": "Get your laptop repaired by certified technicians with same-day service available.",
+                "workingHours": "Mon - Sat: 9:00 AM - 6:00 PM"
+            }
+        }
+    }
+}
