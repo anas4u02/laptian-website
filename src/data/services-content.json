@@ -1,0 +1,207 @@
+{
+    "hero": {
+        "title": "Expert",
+        "titleHighlight": "Laptop Repair",
+        "titleSuffix": "Services",
+        "subtitle": "Fast, reliable, and professional laptop repair services. We fix all brands with certified technicians and genuine parts.",
+        "primaryCta": {
+            "text": "Book Repair",
+            "link": "/contact"
+        },
+        "secondaryCta": {
+            "text": "Our Services",
+            "link": "/services"
+        },
+        "features": [
+            {
+                "icon": "⚡",
+                "title": "Same-Day Service",
+                "subtitle": "For most repairs"
+            },
+            {
+                "icon": "🛡️",
+                "title": "6-Month Warranty",
+                "subtitle": "On all repairs"
+            },
+            {
+                "icon": "✓",
+                "title": "Certified Experts",
+                "subtitle": "Trained technicians"
+            },
+            {
+                "icon": "💯",
+                "title": "Free Diagnosis",
+                "subtitle": "Know before you pay"
+            }
+        ]
+    },
+    "servicesList": {
+        "title": "Our",
+        "titleHighlight": "Repair Services",
+        "subtitle": "Professional solutions for all your laptop problems",
+        "services": [
+            {
+                "icon": "📱",
+                "title": "Screen Replacement",
+                "description": "Cracked or broken screen? We replace all types of laptop screens with original quality panels.",
+                "price": "From ₹2,500"
+            },
+            {
+                "icon": "🔋",
+                "title": "Battery Replacement",
+                "description": "Poor battery life? Get genuine replacement batteries with warranty for all laptop models.",
+                "price": "From ₹1,800"
+            },
+            {
+                "icon": "🔌",
+                "title": "Motherboard Repair",
+                "description": "Complex motherboard issues including power problems, chip-level repairs, and circuit fixes.",
+                "price": "From ₹3,500"
+            },
+            {
+                "icon": "💾",
+                "title": "Data Recovery",
+                "description": "Lost important data? Professional data recovery services for hard drives and SSDs.",
+                "price": "From ₹2,000"
+            },
+            {
+                "icon": "⌨️",
+                "title": "Keyboard Repair",
+                "description": "Stuck keys, broken keyboard, or liquid damage? Complete keyboard replacement and cleaning.",
+                "price": "From ₹1,500"
+            },
+            {
+                "icon": "💻",
+                "title": "Software Troubleshooting",
+                "description": "OS installation, virus removal, performance optimization, and software configuration.",
+                "price": "From ₹500"
+            },
+            {
+                "icon": "🌡️",
+                "title": "Overheating Solutions",
+                "description": "Laptop overheating? Thermal paste replacement, fan cleaning, and cooling system servicing.",
+                "price": "From ₹800"
+            },
+            {
+                "icon": "🔧",
+                "title": "General Maintenance",
+                "description": "Complete laptop servicing including cleaning, optimization, and health check-up.",
+                "price": "From ₹600"
+            }
+        ],
+        "brandsHeading": "We Repair All Major Brands",
+        "brands": [
+            "Dell",
+            "HP",
+            "Lenovo",
+            "Apple",
+            "Asus",
+            "Acer",
+            "MSI",
+            "Samsung"
+        ]
+    },
+    "processFlow": {
+        "title": "Our",
+        "titleHighlight": "Repair Process",
+        "subtitle": "Simple, transparent, and reliable service from start to finish",
+        "steps": [
+            {
+                "number": 1,
+                "title": "Free Diagnosis",
+                "description": "Bring your laptop to us or request pickup. We'll diagnose the issue for free.",
+                "icon": "🔍"
+            },
+            {
+                "number": 2,
+                "title": "Get Quote",
+                "description": "Receive a detailed quote with repair cost and timeline. No hidden charges.",
+                "icon": "💰"
+            },
+            {
+                "number": 3,
+                "title": "Approval & Repair",
+                "description": "Once approved, our experts begin the repair using genuine parts.",
+                "icon": "🔧"
+            },
+            {
+                "number": 4,
+                "title": "Quality Check",
+                "description": "Every repair undergoes rigorous testing to ensure perfect functionality.",
+                "icon": "✓"
+            },
+            {
+                "number": 5,
+                "title": "Delivery",
+                "description": "Collect your laptop or get it delivered. Enjoy your device with warranty!",
+                "icon": "📦"
+            }
+        ],
+        "cta": {
+            "text": "Need help? Our experts are just a call away!",
+            "buttonText": "📞 Call Now: +91 98765 43210",
+            "buttonLink": "tel:+919876543210"
+        }
+    },
+    "testimonials": {
+        "title": "What Our",
+        "titleHighlight": "Customers Say",
+        "subtitle": "Trusted by thousands of satisfied customers",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rajesh Verma",
+                "role": "Business Owner",
+                "company": "Freelancer",
+                "rating": 5,
+                "text": "Excellent service! My laptop screen was replaced in just 2 hours. Great quality work and very reasonable pricing.",
+                "image": "👨‍💼"
+            },
+            {
+                "id": 2,
+                "name": "Meera Shah",
+                "role": "Software Engineer",
+                "company": "Tech Company",
+                "rating": 5,
+                "text": "Data recovery experts! They recovered all my important files from a dead hard drive. Highly recommend their services.",
+                "image": "👩‍💻"
+            },
+            {
+                "id": 3,
+                "name": "Arjun Reddy",
+                "role": "Student",
+                "company": "University",
+                "rating": 5,
+                "text": "Fast and professional service. Fixed my overheating issue and now my laptop works like new. Thank you!",
+                "image": "👨‍🎓"
+            },
+            {
+                "id": 4,
+                "name": "Divya Krishnan",
+                "role": "Designer",
+                "company": "Creative Agency",
+                "rating": 5,
+                "text": "Best repair shop in town! They fixed my MacBook motherboard issue and it's been working perfectly for 6 months now.",
+                "image": "👩‍🎨"
+            },
+            {
+                "id": 5,
+                "name": "Prakash Iyer",
+                "role": "Accountant",
+                "company": "Finance Firm",
+                "rating": 5,
+                "text": "Very trustworthy service. They gave me a fair quote and completed the repair on time. Will definitely come back.",
+                "image": "👨‍💼"
+            },
+            {
+                "id": 6,
+                "name": "Kavita Menon",
+                "role": "Teacher",
+                "company": "School",
+                "rating": 5,
+                "text": "Excellent customer service! They explained the issue clearly and fixed my battery problem at a great price.",
+                "image": "👩‍🏫"
+            }
+        ]
+    }
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://training.laptian.com/sitemap.xml
+Sitemap: https://services.laptian.com/sitemap.xml

@@ -1,0 +1,65 @@
+.services-list-section {
+    background: var(--color-bg-primary);
+}
+
+.services-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-6);
+}
+
+.service-list-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.service-list-icon {
+    font-size: var(--font-size-5xl);
+    margin-bottom: var(--spacing-4);
+}
+
+.service-list-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: var(--spacing-4);
+    border-top: 1px solid var(--color-border-primary);
+}
+
+.service-price-tag {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-accent-gold);
+}
+
+.brands-supported {
+    margin-top: var(--spacing-16);
+    padding: var(--spacing-8);
+    background: var(--color-bg-elevated);
+    border-radius: var(--radius-xl);
+    text-align: center;
+}
+
+.brands-supported h3 {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-4);
+}
+
+.brands-list {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+}
+
+.brands-list span {
+    color: var(--color-accent-gold);
+    font-weight: var(--font-weight-semibold);
+}
+
+@media (max-width: 768px) {
+    .services-list-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,47 @@
+import React from 'react';
+import Link from 'next/link';
+import trainingContent from '@/data/training-content.json';
+import './ServicesCards.css';
+
+export default function ServicesCards() {
+    const { courses } = trainingContent;
+
+    return (
+        <section className="section services-section">
+            <div className="container">
+                <div className="section-header">
+                    <h2>{courses.title} <span className="text-highlight">{courses.titleHighlight}</span></h2>
+                    <p>{courses.subtitle}</p>
+                </div>
+
+                <div className="services-grid">
+                    {courses.items.map((course) => (
+                        <div key={course.id} className="service-card card">
+                            <div className="service-badge">{course.level}</div>
+                            <h3 className="card-title">{course.title}</h3>
+                            <div className="service-meta">
+                                <span className="service-duration">
+                                    <span className="meta-icon">⏱️</span>
+                                    {course.duration}
+                                </span>
+                                <span className="service-price">{course.price}</span>
+                            </div>
+                            <p className="card-description">{course.description}</p>
+                            <ul className="service-highlights">
+                                {course.highlights.map((highlight, index) => (
+                                    <li key={index}>
+                                        <span className="highlight-icon">✓</span>
+                                        {highlight}
+                                    </li>
+                                ))}
+                            </ul>
+                            <Link href={`/courses#${course.id}`} className="btn btn-primary w-full mt-4">
+                                Learn More
+                            </Link>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}

@@ -1,0 +1,305 @@
+{
+    "hero": {
+        "title": "Master the Art of",
+        "titleHighlight": "Laptop Repair",
+        "subtitle": "Join India's premier laptop repair training center. Learn from industry experts, get hands-on experience, and earn internationally recognized certifications.",
+        "primaryCta": {
+            "text": "Enroll Now",
+            "link": "/contact"
+        },
+        "secondaryCta": {
+            "text": "Explore Courses",
+            "link": "/courses"
+        },
+        "stats": [
+            {
+                "value": "2500+",
+                "label": "Students Trained"
+            },
+            {
+                "value": "95%",
+                "label": "Placement Rate"
+            },
+            {
+                "value": "15+",
+                "label": "Years Experience"
+            },
+            {
+                "value": "50+",
+                "label": "Partner Companies"
+            }
+        ]
+    },
+    "gallery": {
+        "title": "Our",
+        "titleHighlight": "Training Facility",
+        "subtitle": "Take a glimpse into our state-of-the-art training center and workshops",
+        "images": [
+            {
+                "src": "/training-facility.png",
+                "alt": "Training Facility",
+                "title": "Modern Training Center"
+            },
+            {
+                "src": "/laptop-repair.png",
+                "alt": "Laptop Repair",
+                "title": "Hands-on Practice"
+            },
+            {
+                "src": "/training-facility.png",
+                "alt": "Students Learning",
+                "title": "Expert Instructors"
+            },
+            {
+                "src": "/laptop-repair.png",
+                "alt": "Repair Tools",
+                "title": "Professional Equipment"
+            },
+            {
+                "src": "/training-facility.png",
+                "alt": "Classroom",
+                "title": "Interactive Sessions"
+            },
+            {
+                "src": "/laptop-repair.png",
+                "alt": "Circuit Board",
+                "title": "Advanced Techniques"
+            }
+        ]
+    },
+    "testimonials": {
+        "title": "What Our",
+        "titleHighlight": "Students Say",
+        "subtitle": "Don't just take our word for it - hear from our successful graduates",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rahul Sharma",
+                "role": "Certified Technician",
+                "company": "TechCare Solutions",
+                "rating": 5,
+                "text": "The training program at Laptian completely transformed my career. The hands-on approach and expert instructors gave me the confidence to start my own laptop repair business.",
+                "image": "👨‍🔧"
+            },
+            {
+                "id": 2,
+                "name": "Priya Patel",
+                "role": "Hardware Engineer",
+                "company": "Dell Service Center",
+                "rating": 5,
+                "text": "Best investment I ever made! The curriculum is comprehensive, covering everything from basic troubleshooting to advanced motherboard repair. Highly recommended!",
+                "image": "👩‍💻"
+            },
+            {
+                "id": 3,
+                "name": "Amit Kumar",
+                "role": "Service Center Owner",
+                "company": "QuickFix Repairs",
+                "rating": 5,
+                "text": "Started with zero knowledge and now running my own successful service center. The placement support and industry connections make all the difference.",
+                "image": "👨‍💼"
+            },
+            {
+                "id": 4,
+                "name": "Sneha Desai",
+                "role": "Technical Specialist",
+                "company": "HP Support",
+                "rating": 5,
+                "text": "The practical skills I learned here are invaluable. Real laptops, real problems, real solutions. This is not just theory - it's industry-ready training.",
+                "image": "👩‍🔬"
+            },
+            {
+                "id": 5,
+                "name": "Vikram Singh",
+                "role": "Freelance Technician",
+                "company": "Self-Employed",
+                "rating": 5,
+                "text": "The certification opened so many doors for me. Clients trust my work because of the Laptian badge. Worth every penny and every hour spent learning.",
+                "image": "👨‍🎓"
+            },
+            {
+                "id": 6,
+                "name": "Anjali Nair",
+                "role": "Service Manager",
+                "company": "Laptop Hospital",
+                "rating": 5,
+                "text": "Instructors are industry veterans who share real-world insights. The course equipped me with skills that immediately added value to my employer.",
+                "image": "👩‍🏫"
+            }
+        ]
+    },
+    "placements": {
+        "title": "Excellent",
+        "titleHighlight": "Placement Support",
+        "subtitle": "Our students are placed in leading laptop service centers and tech companies",
+        "stats": [
+            {
+                "value": "95%",
+                "label": "Placement Rate"
+            },
+            {
+                "value": "₹25,000",
+                "label": "Avg. Starting Salary"
+            },
+            {
+                "value": "50+",
+                "label": "Partner Companies"
+            },
+            {
+                "value": "30 Days",
+                "label": "Avg. Placement Time"
+            }
+        ],
+        "companiesHeading": "Our Placement Partners",
+        "companies": [
+            {
+                "name": "Dell",
+                "logo": "🖥️"
+            },
+            {
+                "name": "HP",
+                "logo": "💻"
+            },
+            {
+                "name": "Lenovo",
+                "logo": "⚡"
+            },
+            {
+                "name": "Apple",
+                "logo": "🍎"
+            },
+            {
+                "name": "Asus",
+                "logo": "🔧"
+            },
+            {
+                "name": "Acer",
+                "logo": "🌟"
+            },
+            {
+                "name": "MSI",
+                "logo": "🎮"
+            },
+            {
+                "name": "Sony",
+                "logo": "📱"
+            }
+        ],
+        "successStoriesHeading": "Recent Success Stories",
+        "successStories": [
+            {
+                "icon": "🏆",
+                "title": "Rohan placed at Dell Service Center",
+                "description": "Starting package: ₹28,000/month • Within 2 weeks of course completion"
+            },
+            {
+                "icon": "🎯",
+                "title": "Neha started her own repair shop",
+                "description": "Monthly revenue: ₹1.5 Lakhs • Serving 100+ clients"
+            },
+            {
+                "icon": "💼",
+                "title": "Karthik joined HP Support Team",
+                "description": "Starting package: ₹32,000/month • International certifications"
+            }
+        ]
+    },
+    "courses": {
+        "title": "Our",
+        "titleHighlight": "Training Courses",
+        "subtitle": "Choose the program that fits your career goals",
+        "items": [
+            {
+                "id": 1,
+                "title": "Basic Laptop Repair",
+                "duration": "4 Weeks",
+                "level": "Beginner",
+                "price": "₹15,000",
+                "description": "Learn fundamental laptop repair skills including hardware troubleshooting, component replacement, and basic diagnostics.",
+                "highlights": [
+                    "Hardware Basics",
+                    "OS Installation",
+                    "Basic Troubleshooting",
+                    "Tool Usage"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Advanced Motherboard Repair",
+                "duration": "8 Weeks",
+                "level": "Advanced",
+                "price": "₹35,000",
+                "description": "Master complex motherboard-level repairs, circuit analysis, and component-level troubleshooting techniques.",
+                "highlights": [
+                    "Circuit Analysis",
+                    "BGA Reballing",
+                    "Chip-level Repair",
+                    "Advanced Diagnostics"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Professional Certification Course",
+                "duration": "12 Weeks",
+                "level": "Professional",
+                "price": "₹50,000",
+                "description": "Comprehensive training covering all aspects of laptop repair with industry-recognized certification and placement support.",
+                "highlights": [
+                    "Complete Curriculum",
+                    "Certification",
+                    "Internship",
+                    "Placement Support"
+                ]
+            }
+        ]
+    },
+    "otherServices": {
+        "title": "Additional",
+        "titleHighlight": "Benefits & Services",
+        "subtitle": "We go beyond training to ensure your complete success",
+        "items": [
+            {
+                "icon": "📜",
+                "title": "Industry Certifications",
+                "description": "Get certified by leading brands like Dell, HP, and Lenovo. Boost your credibility and career prospects."
+            },
+            {
+                "icon": "🛠️",
+                "title": "Workshop Access",
+                "description": "Practice on real equipment after class hours. Full access to our state-of-the-art workshop facilities."
+            },
+            {
+                "icon": "💼",
+                "title": "Business Setup Guidance",
+                "description": "Learn how to start and run your own repair business. From licensing to customer acquisition."
+            },
+            {
+                "icon": "🔧",
+                "title": "Tool & Equipment Rental",
+                "description": "Rent professional repair tools and equipment at student-friendly rates for your practice."
+            },
+            {
+                "icon": "👨‍🏫",
+                "title": "Lifetime Mentorship",
+                "description": "Get ongoing support from our experts even after course completion. We're here to help you succeed."
+            },
+            {
+                "icon": "📚",
+                "title": "Updated Course Material",
+                "description": "Access to latest repair manuals, schematics, and video tutorials. Stay updated with new technologies."
+            }
+        ],
+        "cta": {
+            "heading": "Ready to Start Your Journey?",
+            "subtitle": "Join thousands of successful technicians who started their career with us",
+            "primaryButton": {
+                "text": "Enroll Now",
+                "link": "/contact"
+            },
+            "secondaryButton": {
+                "text": "Learn More About Us",
+                "link": "/about"
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "contact": {
+        "phone": "+91 98765 43210",
+        "email": "info@laptian.com",
+        "address": {
+            "street": "123 Tech Street",
+            "city": "Bangalore",
+            "state": "India",
+            "zip": "560001"
+        },
+        "hours": "Mon - Sat: 9:00 AM - 6:00 PM"
+    },
+    "social": {
+        "facebook": "https://facebook.com/laptian",
+        "instagram": "https://instagram.com/laptian",
+        "twitter": "https://twitter.com/laptian",
+        "linkedin": "https://linkedin.com/company/laptian"
+    },
+    "infoBar": {
+        "training": {
+            "message": "🎓 Enroll now and get certified in laptop repair!"
+        },
+        "services": {
+            "message": "⚡ Same-day repair service available!"
+        }
+    },
+    "navigation": {
+        "training": [
+            {
+                "href": "/",
+                "label": "Home"
+            },
+            {
+                "href": "/courses",
+                "label": "Courses"
+            },
+            {
+                "href": "/about",
+                "label": "About Us"
+            },
+            {
+                "href": "/placements",
+                "label": "Placements"
+            },
+            {
+                "href": "/contact",
+                "label": "Contact"
+            }
+        ],
+        "services": [
+            {
+                "href": "/",
+                "label": "Home"
+            },
+            {
+                "href": "/services",
+                "label": "Our Services"
+            },
+            {
+                "href": "/about",
+                "label": "About Us"
+            },
+            {
+                "href": "/pricing",
+                "label": "Pricing"
+            },
+            {
+                "href": "/contact",
+                "label": "Contact"
+            }
+        ]
+    },
+    "footer": {
+        "training": {
+            "title": "Laptian Academy",
+            "description": "Empowering individuals with professional laptop repair skills and industry-recognized certifications.",
+            "quickLinksHeading": "Quick Links",
+            "contactHeading": "Contact Us",
+            "exploreHeading": "Explore More",
+            "exploreLinkText": "Visit Repair Center",
+            "exploreLinkUrl": "/?subdomain=services",
+            "exploreMessage": "Looking for repair services?"
+        },
+        "services": {
+            "title": "Laptian Repair",
+            "description": "Expert laptop repair and maintenance services with quick turnaround times and quality guarantee.",
+            "quickLinksHeading": "Quick Links",
+            "contactHeading": "Contact Us",
+            "exploreHeading": "Explore More",
+            "exploreLinkText": "Visit Training Academy",
+            "exploreLinkUrl": "/?subdomain=training",
+            "exploreMessage": "Looking for training courses?"
+        }
+    },
+    "promotionalOffers": {
+        "training": {
+            "text": "🎉 Limited Time: Get 20% OFF on Professional Certification Course!",
+            "daysValid": 30
+        },
+        "services": {
+            "text": "⚡ Special Offer: FREE Laptop Health Check-up with Any Repair!",
+            "daysValid": 30
+        }
+    },
+    "seo": {
+        "training": {
+            "siteNameShort": "Laptian Academy",
+            "siteName": "Laptian Training Center",
+            "organizationType": "EducationalOrganization"
+        },
+        "services": {
+            "siteNameShort": "Laptian Repair",
+            "siteName": "Laptian Repair Services",
+            "organizationType": "ComputerStore",
+            "priceRange": "$$"
+        }
+    }
+}
