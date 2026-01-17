@@ -20,6 +20,9 @@ import ServicesList from '@/components/services/ServicesList';
 import ProcessFlow from '@/components/services/ProcessFlow';
 import ServicesTestimonials from '@/components/services/Testimonials';
 
+// Shared components
+import FAQ from '@/components/FAQ';
+
 export async function generateMetadata() {
   const subdomain = await getSubdomain();
 
@@ -75,6 +78,7 @@ export default async function HomePage() {
             <Placements />
             <ServicesCards />
             <OtherServices />
+            <FAQ subdomain="training" />
           </main>
         </>
       ) : (
@@ -88,6 +92,7 @@ export default async function HomePage() {
             <ServicesList />
             <ProcessFlow />
             <ServicesTestimonials />
+            <FAQ subdomain="services" />
           </main>
         </>
       )}

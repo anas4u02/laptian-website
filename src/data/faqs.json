@@ -1,0 +1,86 @@
+{
+    "training": [
+        {
+            "id": 1,
+            "question": "What certifications will I receive after completing the training?",
+            "answer": "Upon successful completion of our laptop repair training program, you will receive an industry-recognized certification that validates your technical skills. This certification is highly valued by employers and demonstrates your proficiency in laptop diagnostics, repair, and maintenance across all major brands."
+        },
+        {
+            "id": 2,
+            "question": "Do you provide placement assistance after the course?",
+            "answer": "Yes! We have a proven track record with a 95% placement rate. Our dedicated placement cell connects you with leading service centers, authorized repair shops, and tech companies. We also provide resume building, interview preparation, and ongoing career support to ensure your success in the industry."
+        },
+        {
+            "id": 3,
+            "question": "What is the duration of the training program?",
+            "answer": "Our comprehensive laptop repair training program spans 3-6 months, depending on the course level you choose. The program includes both theoretical knowledge and extensive hands-on practical training with real laptop repair scenarios. We offer flexible schedules including weekend batches to accommodate working professionals."
+        },
+        {
+            "id": 4,
+            "question": "Do I need any prior technical knowledge to enroll?",
+            "answer": "No prior technical experience is required! Our training program is designed for complete beginners as well as those looking to enhance their existing skills. We start with the fundamentals and gradually progress to advanced repair techniques, ensuring everyone can follow along regardless of their background."
+        },
+        {
+            "id": 5,
+            "question": "What laptop brands will I learn to repair?",
+            "answer": "Our training covers all major laptop brands including Dell, HP, Lenovo, Acer, ASUS, Apple MacBooks, and more. You'll learn brand-specific repair techniques, component replacement procedures, and troubleshooting methods that apply across different manufacturers. We use real laptops from various brands for hands-on practice."
+        },
+        {
+            "id": 6,
+            "question": "Will I get hands-on practice during the training?",
+            "answer": "Absolutely! Hands-on practical training is the core of our program. You'll work on real laptops, diagnose actual problems, and perform repairs under expert supervision. Our well-equipped lab provides all necessary tools and components, ensuring you gain real-world experience that prepares you for professional work."
+        },
+        {
+            "id": 7,
+            "question": "What is the fee structure and do you offer installment options?",
+            "answer": "We offer competitive pricing with flexible payment options to make the training accessible. You can choose to pay in installments over the course duration. Contact us for detailed fee information and current promotional offers. We believe quality education should be affordable and accessible to all."
+        },
+        {
+            "id": 8,
+            "question": "Can I start my own laptop repair business after training?",
+            "answer": "Yes! Many of our graduates have successfully launched their own laptop repair businesses. We provide business setup guidance, vendor connections for spare parts, and ongoing technical support. Our training equips you with both technical skills and business insights needed to run a successful repair service."
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "question": "How long does a typical laptop repair take?",
+            "answer": "Most repairs are completed within 24-48 hours. However, the exact turnaround time depends on the issue complexity and parts availability. For common problems like screen replacement or keyboard repairs, we often offer same-day service. We'll provide you with an accurate timeline after our free diagnosis."
+        },
+        {
+            "id": 2,
+            "question": "Do you offer a warranty on repairs?",
+            "answer": "Yes! All our repairs come with a comprehensive 6-month warranty covering both parts and labor. If you experience any issues related to the repair work within this period, we'll fix it at no additional cost. This warranty demonstrates our confidence in the quality of our work and genuine parts."
+        },
+        {
+            "id": 3,
+            "question": "What brands of laptops do you repair?",
+            "answer": "We repair all major laptop brands including Dell, HP, Lenovo, Acer, ASUS, Apple MacBook, MSI, Toshiba, Samsung, and more. Our certified technicians have extensive experience with various models and configurations, from budget laptops to high-end gaming and professional workstations."
+        },
+        {
+            "id": 4,
+            "question": "Is the diagnosis really free?",
+            "answer": "Yes, absolutely! We offer completely free diagnostics with no hidden charges. Our expert technicians will thoroughly examine your laptop, identify the problem, and provide a detailed quote before any repair work begins. You're under no obligation to proceed with the repair after the diagnosis."
+        },
+        {
+            "id": 5,
+            "question": "Do you use genuine parts for repairs?",
+            "answer": "We use only genuine OEM (Original Equipment Manufacturer) parts and high-quality compatible components. All parts come with manufacturer warranties and are sourced from authorized distributors. We never compromise on quality, ensuring your laptop performs optimally after repair."
+        },
+        {
+            "id": 6,
+            "question": "Can you recover data from my laptop if it's not working?",
+            "answer": "Yes, we offer professional data recovery services. Whether your laptop won't boot, has a damaged hard drive, or suffered physical damage, our specialists can attempt to recover your important files, photos, and documents. We'll assess the situation during diagnosis and explain the recovery options available."
+        },
+        {
+            "id": 7,
+            "question": "Do you provide pickup and delivery service?",
+            "answer": "Yes, we offer convenient pickup and delivery service within the city for your laptop repairs. You can schedule a pickup at your preferred time, and we'll deliver the repaired laptop back to you. This service ensures a hassle-free repair experience without you having to visit our service center."
+        },
+        {
+            "id": 8,
+            "question": "What if the repair costs more than expected?",
+            "answer": "Transparency is our priority. After our free diagnosis, we provide a detailed quote with no hidden charges. If during the repair we discover additional issues, we'll contact you for approval before proceeding. You'll never be surprised by unexpected costs – we believe in upfront, honest pricing."
+        }
+    ]
+}
