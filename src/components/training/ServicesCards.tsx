@@ -35,7 +35,7 @@ export default function ServicesCards() {
                                     </li>
                                 ))}
                             </ul>
-                            <Link href={`/courses#${course.id}`} className="btn btn-primary w-full mt-4">
+                            <Link href={`/courses/${course.slug}`} className="btn btn-primary w-full mt-4">
                                 Learn More
                             </Link>
                         </div>
