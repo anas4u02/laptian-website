@@ -67,10 +67,12 @@ export default async function HomePage() {
 
       {subdomain === 'training' ? (
         <>
-          <PromotionalBar
-            offerText={offerConfig.text}
-            targetDate={offerEndDate.toISOString()}
-          />
+          {offerConfig.isVisible && (
+            <PromotionalBar
+              offerText={offerConfig.text}
+              targetDate={offerEndDate.toISOString()}
+            />
+          )}
           <main>
             <TrainingHero />
             <Gallery />
@@ -83,10 +85,12 @@ export default async function HomePage() {
         </>
       ) : (
         <>
-          <PromotionalBar
-            offerText={offerConfig.text}
-            targetDate={offerEndDate.toISOString()}
-          />
+          {offerConfig.isVisible && (
+            <PromotionalBar
+              offerText={offerConfig.text}
+              targetDate={offerEndDate.toISOString()}
+            />
+          )}
           <main>
             <ServicesHero />
             <ServicesList />

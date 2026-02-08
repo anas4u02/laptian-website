@@ -1,0 +1,138 @@
+/* AboutSectionCard Styles */
+.card {
+    position: relative;
+    width: 100%;
+    border-radius: var(--radius-2xl);
+    border: 1px solid rgba(42, 42, 42, 0.5);
+    background: linear-gradient(to bottom right, rgba(6, 78, 59, 0.4), rgba(19, 78, 74, 0.6));
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+}
+
+.cardInner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 400px;
+}
+
+/* Left Content */
+.content {
+    flex: 1;
+    z-index: 10;
+    padding: var(--spacing-8);
+}
+
+/* Icon Container */
+.iconWrapper {
+    margin-bottom: var(--spacing-6);
+}
+
+.iconBox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: var(--radius-lg);
+    background: linear-gradient(to bottom right, rgba(250, 204, 21, 0.2), rgba(202, 138, 4, 0.2));
+    border: 1px solid rgba(234, 179, 8, 0.3);
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    color: var(--color-accent-gold);
+}
+
+/* Title */
+.title {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-4);
+    line-height: 1.2;
+}
+
+/* Description */
+.description {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-base);
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+/* Right Image Container (Desktop) */
+.imageContainerDesktop {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    display: none;
+}
+
+.imageOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(6, 78, 59, 0.9), rgba(6, 78, 59, 0.9), transparent);
+    z-index: 10;
+    pointer-events: none;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Mobile Image Container */
+.imageContainerMobile {
+    position: relative;
+    width: 100%;
+    height: 256px;
+}
+
+.imageOverlayMobile {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(6, 78, 59, 0.9), rgba(6, 78, 59, 0.5), transparent);
+    z-index: 10;
+    pointer-events: none;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+    .cardInner {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .content {
+        padding: var(--spacing-12);
+        padding-right: var(--spacing-8);
+    }
+
+    .title {
+        font-size: var(--font-size-4xl);
+    }
+
+    .description {
+        font-size: var(--font-size-lg);
+    }
+
+    .imageContainerDesktop {
+        display: block;
+    }
+
+    .imageContainerMobile {
+        display: none;
+    }
+}

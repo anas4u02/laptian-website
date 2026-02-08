@@ -1,0 +1,24 @@
+{
+    "pageHeader": {
+        "title": "Many Problems. One Solution.",
+        "subtitle": "Let me show you how to fully take control of your life."
+    },
+    "sections": [
+        {
+            "id": "course-info",
+            "title": "What is this Course?",
+            "description": "This is a groundbreaking time management and productivity course that will transform the way you work and live. I will teach you my personal secrets and the practical, step-by-step techniques that I use to achieve exponential productivity.",
+            "icon": "PlayCircle",
+            "image": "/images/generated/man_on_red_chair.png",
+            "theme": "dark"
+        },
+        {
+            "id": "course-info",
+            "title": "What is this Course?",
+            "description": "This is a groundbreaking time management and productivity course that will transform the way you work and live. I will teach you my personal secrets and the practical, step-by-step techniques that I use to achieve exponential productivity.",
+            "icon": "PlayCircle",
+            "image": "/images/generated/man_on_red_chair.png",
+            "theme": "dark"
+        }
+    ]
+}

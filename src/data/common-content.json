@@ -95,11 +95,13 @@
     "promotionalOffers": {
         "training": {
             "text": "🎉 Limited Time: Get 20% OFF on Professional Certification Course!",
-            "daysValid": 30
+            "daysValid": 30,
+            "isVisible": false
         },
         "services": {
             "text": "⚡ Special Offer: FREE Laptop Health Check-up with Any Repair!",
-            "daysValid": 30
+            "daysValid": 30,
+            "isVisible": false
         }
     },
     "seo": {
