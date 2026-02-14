@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import trainingContent from '@/data/training-content.json';
 import './ServicesCards.css';
+import coursesContent from '@/data/training/courses.json';
 
 export default function ServicesCards() {
-    const { courses } = trainingContent;
+    const { courses } = coursesContent;
 
     return (
         <section className="section services-section">

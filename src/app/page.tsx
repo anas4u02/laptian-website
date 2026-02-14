@@ -10,7 +10,6 @@ import Footer from '@/components/Footer';
 import TrainingHero from '@/components/training/HeroSection';
 import Gallery from '@/components/training/Gallery';
 import TrainingTestimonials from '@/components/training/Testimonials';
-import Placements from '@/components/training/Placements';
 import ServicesCards from '@/components/training/ServicesCards';
 import OtherServices from '@/components/training/OtherServices';
 
@@ -77,7 +76,6 @@ export default async function HomePage() {
             <TrainingHero />
             <Gallery />
             <TrainingTestimonials />
-            <Placements />
             <ServicesCards />
             <OtherServices />
             <FAQ subdomain="training" />

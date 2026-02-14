@@ -7,7 +7,11 @@ import {
     Layers,
     Heart,
     Users,
-    PlayCircle
+    PlayCircle,
+    ArrowRight,
+    Wrench,
+    Cpu,
+    Award
 } from 'lucide-react';
 
 export const Icons = {
@@ -19,5 +23,9 @@ export const Icons = {
     Layers,
     Heart,
     Users,
-    PlayCircle
+    PlayCircle,
+    ArrowRight,
+    Wrench,
+    Cpu,
+    Award
 };

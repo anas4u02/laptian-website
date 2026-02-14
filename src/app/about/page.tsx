@@ -2,10 +2,10 @@ import React from 'react';
 import { getSubdomain } from '@/lib/subdomain';
 import InfoBar from '@/components/InfoBar';
 import Header from '@/components/Header';
-import AboutSectionCard from '@/components/about/AboutSectionCard';
 import Footer from '@/components/Footer';
 import aboutData from '@/data/about-content.json';
 import { Icons } from '@/components/Icons';
+import FeatureCard from '@/components/FeatureCard/FeatureCard';
 
 export const metadata = {
     title: 'Many Problems. One Solution.',
@@ -34,13 +34,14 @@ export default async function AboutPage() {
 
                     <div className="flex flex-col gap-8">
                         {sections.map((section) => (
-                            <AboutSectionCard
+                            <FeatureCard
                                 key={section.id}
                                 id={section.id}
                                 title={section.title}
                                 description={section.description}
                                 icon={section.icon as keyof typeof Icons}
                                 image={section.image}
+                                url={section.url}
                             />
                         ))}
                     </div>

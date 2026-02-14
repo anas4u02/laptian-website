@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getSubdomain } from '@/lib/subdomain';
 import { generateMetadata as createMetadata } from '@/lib/seo';
-import trainingContent from '@/data/training-content.json';
+import coursesContent from '@/data/training/courses.json';
 import InfoBar from '@/components/InfoBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -15,7 +15,7 @@ interface CoursePageProps {
 
 export async function generateMetadata({ params }: CoursePageProps) {
     const { slug } = await params;
-    const course = trainingContent.courses.items.find(
+    const course = coursesContent.courses.items.find(
         (c) => c.slug === slug
     );
 
@@ -45,7 +45,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
     }
 
     const { slug } = await params;
-    const course = trainingContent.courses.items.find(
+    const course = coursesContent.courses.items.find(
         (c) => c.slug === slug
     );
 
@@ -65,7 +65,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
 // Generate static params for all courses
 export async function generateStaticParams() {
-    return trainingContent.courses.items.map((course) => ({
+    return coursesContent.courses.items.map((course) => ({
         slug: course.slug,
     }));
 }

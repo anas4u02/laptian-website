@@ -1,0 +1,88 @@
+.courses-page {
+    background: var(--color-bg-primary);
+    min-height: 100vh;
+    padding: var(--spacing-20) 0;
+}
+
+/* Header */
+.courses-header {
+    text-align: center;
+    margin-bottom: var(--spacing-10);
+    padding-top: var(--spacing-8);
+}
+
+.courses-header h1 {
+    font-size: var(--font-size-5xl);
+    font-weight: var(--font-weight-extrabold);
+    margin-bottom: var(--spacing-4);
+}
+
+.courses-header p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-lg);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Tabs */
+.tabs-container {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-3);
+    margin-bottom: var(--spacing-10);
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    padding: var(--spacing-3) var(--spacing-6);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-border-primary);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    font-family: var(--font-family-primary);
+}
+
+.tab-button:hover {
+    border-color: var(--color-accent-gold);
+    color: var(--color-text-primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+}
+
+.tab-button.active {
+    border-color: var(--color-accent-gold);
+    color: var(--color-bg-primary);
+    background: var(--gradient-gold);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+}
+
+/* Course Cards List */
+.courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+
+@media (max-width: 768px) {
+    .courses-page {
+        padding: var(--spacing-12) 0;
+    }
+
+    .courses-header h1 {
+        font-size: var(--font-size-4xl);
+    }
+
+    .tabs-container {
+        gap: var(--spacing-2);
+    }
+
+    .tab-button {
+        padding: var(--spacing-2) var(--spacing-4);
+        font-size: var(--font-size-sm);
+    }
+}

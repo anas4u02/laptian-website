@@ -1,0 +1,160 @@
+{
+    "courses": {
+        "title": "Our",
+        "titleHighlight": "Training Courses",
+        "subtitle": "Choose the program that fits your career goals",
+        "items": [
+            {
+                "id": 1,
+                "title": "Basic Laptop Repair",
+                "slug": "basic-laptop-repair",
+                "icon": "Wrench",
+                "image": "/laptop-repair.png",
+                "duration": "4 Weeks",
+                "level": "Beginner",
+                "price": "₹15,000",
+                "description": "Learn fundamental laptop repair skills including hardware troubleshooting, component replacement, and basic diagnostics.",
+                "highlights": [
+                    "Hardware Basics",
+                    "OS Installation",
+                    "Basic Troubleshooting",
+                    "Tool Usage"
+                ],
+                "detailedDescription": "Our Basic Laptop Repair course is designed to provide you with a solid foundation in laptop repair and maintenance. This beginner-friendly program covers essential hardware components, common issues, and practical repair techniques that will enable you to diagnose and fix typical laptop problems confidently.",
+                "whoShouldEnroll": [
+                    "Complete beginners with no prior technical experience",
+                    "Students looking to start a career in laptop repair",
+                    "Small business owners wanting to handle basic IT issues",
+                    "Anyone interested in understanding how laptops work",
+                    "Professionals seeking a career change into tech services"
+                ],
+                "practicalTraining": "Our hands-on approach ensures you work with real laptops from day one. You'll disassemble and reassemble various laptop models, diagnose actual hardware failures, and perform component replacements under expert supervision. This practical experience builds muscle memory and confidence that theoretical learning alone cannot provide.",
+                "curriculum": [
+                    "Laptop Architecture & Components",
+                    "Power System Troubleshooting",
+                    "Display & Video Issues",
+                    "Keyboard & Touchpad Repair",
+                    "Storage Device Management",
+                    "RAM & Memory Upgrades",
+                    "Operating System Installation",
+                    "Software Troubleshooting",
+                    "Basic Diagnostics Tools",
+                    "Professional Repair Practices"
+                ],
+                "careerOutcomes": [
+                    "Start as a Junior Laptop Technician",
+                    "Work in computer repair shops",
+                    "Freelance repair services",
+                    "IT support roles in companies",
+                    "Foundation for advanced certifications"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Advanced Motherboard Repair",
+                "slug": "advanced-motherboard-repair",
+                "icon": "Cpu",
+                "image": "/laptop-repair.png",
+                "duration": "8 Weeks",
+                "level": "Advanced",
+                "price": "₹35,000",
+                "description": "Master complex motherboard-level repairs, circuit analysis, and component-level troubleshooting techniques.",
+                "highlights": [
+                    "Circuit Analysis",
+                    "BGA Reballing",
+                    "Chip-level Repair",
+                    "Advanced Diagnostics"
+                ],
+                "detailedDescription": "Take your skills to the next level with our Advanced Motherboard Repair course. This intensive program delves deep into component-level troubleshooting, circuit board analysis, and micro-soldering techniques. You'll learn to diagnose and repair complex motherboard issues that most technicians consider irreparable.",
+                "whoShouldEnroll": [
+                    "Technicians with basic laptop repair experience",
+                    "Service center professionals seeking specialization",
+                    "Graduates of our Basic Laptop Repair course",
+                    "Electronics enthusiasts with soldering experience",
+                    "Anyone looking to master high-value repair skills"
+                ],
+                "practicalTraining": "Work with advanced diagnostic equipment including oscilloscopes, multimeters, and thermal cameras. You'll practice BGA reballing, micro-soldering on actual motherboards, and learn to read schematics like a pro. Our experienced instructors guide you through real-world repair scenarios that you'll encounter in professional settings.",
+                "curriculum": [
+                    "Motherboard Architecture Deep Dive",
+                    "Circuit Theory & Analysis",
+                    "Power Delivery Systems",
+                    "Reading & Understanding Schematics",
+                    "Component-Level Diagnostics",
+                    "Micro-Soldering Techniques",
+                    "BGA Reballing & Rework",
+                    "GPU & CPU Troubleshooting",
+                    "BIOS Programming & Recovery",
+                    "EC (Embedded Controller) Repair",
+                    "Advanced Testing Equipment",
+                    "Professional Workshop Setup"
+                ],
+                "careerOutcomes": [
+                    "Become a motherboard repair specialist",
+                    "Command premium service rates",
+                    "Open specialized repair centers",
+                    "Work with authorized service centers",
+                    "Freelance high-value repair services",
+                    "Train other technicians"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Professional Certification Course",
+                "slug": "professional-certification-course",
+                "icon": "Award",
+                "image": "/training-facility.png",
+                "duration": "12 Weeks",
+                "level": "Professional",
+                "price": "₹50,000",
+                "description": "Comprehensive training covering all aspects of laptop repair with industry-recognized certification and placement support.",
+                "highlights": [
+                    "Complete Curriculum",
+                    "Certification",
+                    "Internship",
+                    "Placement Support"
+                ],
+                "detailedDescription": "Our flagship Professional Certification Course is a complete career transformation program. Combining basic fundamentals with advanced techniques, this comprehensive course prepares you for immediate employment in the laptop repair industry. You'll receive industry-recognized certifications, internship opportunities, and guaranteed placement support.",
+                "whoShouldEnroll": [
+                    "Career starters seeking comprehensive training",
+                    "Professionals wanting career transition",
+                    "Entrepreneurs planning repair business",
+                    "Recent graduates entering tech industry",
+                    "Anyone serious about laptop repair career"
+                ],
+                "practicalTraining": "Experience the most comprehensive hands-on training available. Work with over 50 different laptop models, handle real customer repairs during your internship, and learn business aspects including customer service, pricing strategies, and workshop management. Our 95% placement rate speaks to the quality and depth of this program.",
+                "curriculum": [
+                    "Foundation: Hardware Fundamentals",
+                    "Component Identification & Testing",
+                    "Common Repair Scenarios",
+                    "Display & Video Systems",
+                    "Power & Charging Issues",
+                    "Storage Solutions & Data Recovery",
+                    "Advanced: Motherboard Repair",
+                    "Circuit Analysis & Diagnostics",
+                    "Micro-Soldering & BGA Work",
+                    "Brand-Specific Repair Techniques",
+                    "Dell, HP, Lenovo Certifications",
+                    "Apple MacBook Repair",
+                    "Business Skills: Customer Service",
+                    "Workshop Management",
+                    "Parts Sourcing & Inventory",
+                    "Pricing & Profitability",
+                    "Marketing Your Services",
+                    "Internship: Real-World Experience",
+                    "Placement Preparation",
+                    "Interview Skills & Resume Building"
+                ],
+                "careerOutcomes": [
+                    "Certified Professional Laptop Technician",
+                    "Average starting salary: ₹25,000-₹32,000/month",
+                    "Placement in leading service centers",
+                    "Start your own repair business",
+                    "Freelance with established client base",
+                    "Become a technical trainer",
+                    "Partner with OEM service networks",
+                    "Lifetime career support and mentorship"
+                ]
+            }
+        ]
+    }
+}

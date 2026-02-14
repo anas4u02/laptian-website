@@ -48,28 +48,27 @@ Timestamp: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
         console.log(emailBody);
         console.log('===============================');
 
-        // TODO: In production, integrate with an email service like:
-        // - Resend (https://resend.com)
-        // - SendGrid (https://sendgrid.com)
-        // - Nodemailer with SMTP
-        // - AWS SES
 
-        // Example with Resend (uncomment and configure when ready):
-        /*
         const { Resend } = require('resend');
-        const resend = new Resend(process.env.RESEND_API_KEY);
-        
-        await resend.emails.send({
-          from: 'noreply@laptian.com',
-          to: RECIPIENT_EMAIL,
-          subject: emailSubject,
-          text: emailBody,
-          replyTo: email,
-        });
-        */
+        const resend = new Resend('re_QzRSBomD_KFsCY1HUzUUvmX5FT1cUkjkj');
 
-        // For now, we'll simulate success
-        // In production, replace this with actual email sending
+        // await resend.emails.send({
+        //     from: 'noreply@laptian.com',
+        //     to: RECIPIENT_EMAIL,
+        //     subject: emailSubject,
+        //     text: emailBody,
+        //     replyTo: email,
+        // });
+
+
+        await resend.emails.send({
+            from: 'onboarding@resend.dev',
+            to: 'anas4u02@gmail.com',
+            subject: 'Hello World',
+            html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
+        });
+
+
         return NextResponse.json(
             {
                 success: true,
