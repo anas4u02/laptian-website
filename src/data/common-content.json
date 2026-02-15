@@ -35,6 +35,10 @@
                 "label": "Courses"
             },
             {
+                "href": "/blogs",
+                "label": "Blogs"
+            },
+            {
                 "href": "/about",
                 "label": "About Us"
             },

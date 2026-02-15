@@ -1,0 +1,130 @@
+{
+    "blogs": {
+        "title": "Our",
+        "titleHighlight": "Blog",
+        "subtitle": "Stay updated with the latest tips, tutorials, and industry news in laptop repair and technology.",
+        "categories": [
+            "All",
+            "Repair Tips",
+            "Industry News",
+            "Tutorials"
+        ],
+        "items": [
+            {
+                "id": 1,
+                "slug": "essential-tools-for-laptop-repair",
+                "title": "Essential Tools Every Laptop Repair Technician Needs",
+                "excerpt": "A comprehensive guide to the must-have tools for any aspiring laptop repair professional, from basic screwdrivers to advanced diagnostic equipment.",
+                "content": [
+                    "Starting a career in laptop repair requires the right set of tools. Whether you're just beginning or looking to upgrade your toolkit, having the proper equipment makes all the difference in delivering quality repairs.",
+                    "First and foremost, you'll need a precision screwdriver set. Most laptops use Phillips #0 and #1 screws, but many modern devices also require Torx and Pentalobe bits. Investing in a quality set with magnetic tips will save you countless hours of frustration.",
+                    "A good multimeter is essential for diagnosing power-related issues. You'll use it to check voltage levels, continuity, and resistance across various components. Digital multimeters with auto-ranging capabilities are the most user-friendly option.",
+                    "Anti-static equipment, including an ESD wrist strap and anti-static mat, protects sensitive components from electrostatic discharge. This is non-negotiable — a single static shock can destroy a motherboard or RAM module.",
+                    "Finally, consider investing in a hot air rework station for advanced board-level repairs. This tool is essential for working with SMD components and performing BGA reflow or reballing operations."
+                ],
+                "author": "Anas Khan",
+                "date": "2026-02-10",
+                "category": "Tutorials",
+                "tags": [
+                    "tools",
+                    "getting-started",
+                    "equipment"
+                ],
+                "youtubeEmbedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "image": "/images/blog-tools.jpg"
+            },
+            {
+                "id": 2,
+                "slug": "common-laptop-overheating-solutions",
+                "title": "5 Common Causes of Laptop Overheating and How to Fix Them",
+                "excerpt": "Learn about the most frequent reasons your laptop overheats and practical solutions to keep your device running cool and efficient.",
+                "content": [
+                    "Laptop overheating is one of the most common issues technicians encounter. Understanding the root causes helps you diagnose and resolve these problems efficiently, ensuring your customers' devices run smoothly.",
+                    "Dust accumulation is the number one culprit. Over time, dust and debris clog the cooling vents and fan blades, reducing airflow significantly. Regular cleaning with compressed air can prevent this, but heavily clogged systems may require full disassembly.",
+                    "Dried or degraded thermal paste is another frequent issue. The thermal compound between the CPU/GPU and heatsink degrades over time, losing its thermal conductivity. Replacing thermal paste can drop temperatures by 10-20°C.",
+                    "A failing or seized fan will cause temperatures to spike rapidly. Listen for unusual noises like grinding or clicking, which indicate bearing failure. Fan replacement is usually straightforward and inexpensive.",
+                    "Software issues can also cause overheating. Malware, runaway processes, or poorly optimized drivers can keep the CPU at high utilization constantly. Always check Task Manager or Activity Monitor for abnormal CPU usage before diving into hardware fixes."
+                ],
+                "author": "Anas Khan",
+                "date": "2026-02-05",
+                "category": "Repair Tips",
+                "tags": [
+                    "overheating",
+                    "cooling",
+                    "maintenance"
+                ],
+                "youtubeEmbedUrl": null,
+                "image": "/images/blog-overheating.jpg"
+            },
+            {
+                "id": 3,
+                "slug": "future-of-laptop-repair-industry",
+                "title": "The Future of Laptop Repair: Trends to Watch in 2026",
+                "excerpt": "Explore the emerging trends shaping the laptop repair industry, from right-to-repair legislation to AI-powered diagnostics.",
+                "content": [
+                    "The laptop repair industry is evolving rapidly, driven by technological advances and changing regulations. Staying ahead of these trends is crucial for any repair professional looking to grow their business.",
+                    "Right-to-repair legislation is gaining momentum worldwide. Several countries and states have passed laws requiring manufacturers to provide repair manuals, diagnostic tools, and genuine parts to independent repair shops. This is a game-changer for the industry.",
+                    "AI-powered diagnostic tools are becoming more accessible. These tools can analyze system logs, identify failing components, and even predict future failures before they occur. Early adopters of these technologies will have a significant competitive advantage.",
+                    "Modular laptop designs, championed by companies like Framework, are making repairs more accessible. Components like RAM, storage, and even the display can be swapped without specialized tools, reducing repair time and complexity.",
+                    "Sustainability is driving demand for repair services. As consumers become more environmentally conscious, the demand for repair over replacement continues to grow. This presents a significant business opportunity for well-trained technicians."
+                ],
+                "author": "Anas Khan",
+                "date": "2026-01-28",
+                "category": "Industry News",
+                "tags": [
+                    "trends",
+                    "right-to-repair",
+                    "future"
+                ],
+                "youtubeEmbedUrl": null,
+                "image": "/images/blog-future.jpg"
+            },
+            {
+                "id": 4,
+                "slug": "laptop-screen-replacement-guide",
+                "title": "Step-by-Step Guide: How to Replace a Laptop Screen",
+                "excerpt": "A detailed walkthrough of the laptop screen replacement process, covering LCD, LED, and OLED display types.",
+                "content": [
+                    "Screen replacement is one of the most common laptop repairs. Whether it's a cracked display, dead pixels, or backlight failure, knowing how to replace a laptop screen is an essential skill for any technician.",
+                    "Before starting, identify the exact screen model. Check the part number on the back of the existing display panel. This ensures you order the correct replacement with matching resolution, connector type, and form factor.",
+                    "Begin by removing the bezel carefully. Most modern laptops use adhesive bezels rather than screws. A plastic spudger or guitar pick works well for prying the bezel without damaging the housing. Work slowly and evenly around the edges.",
+                    "Once the bezel is removed, unscrew the display mounting brackets. The screen will be held in place by 4-6 small screws on the sides. Support the panel as you remove the last screws to prevent it from falling forward.",
+                    "Disconnect the video cable carefully from the back of the panel. This ribbon cable is delicate — pull it straight back, never at an angle. Connect the new panel, secure the mounting screws, and reattach the bezel. Power on and verify the display works correctly before fully reassembling."
+                ],
+                "author": "Anas Khan",
+                "date": "2026-01-20",
+                "category": "Tutorials",
+                "tags": [
+                    "screen",
+                    "display",
+                    "replacement"
+                ],
+                "youtubeEmbedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "image": "/images/blog-screen.jpg"
+            },
+            {
+                "id": 5,
+                "slug": "data-recovery-tips-for-technicians",
+                "title": "Data Recovery Tips Every Repair Technician Should Know",
+                "excerpt": "Learn essential data recovery techniques to help your customers retrieve important files from damaged or failing drives.",
+                "content": [
+                    "Data recovery is a high-value service that can set your repair business apart. Customers are often willing to pay premium prices to recover irreplaceable photos, documents, and other important files.",
+                    "Always image the drive first. Before attempting any recovery, create a sector-by-sector clone of the failing drive using tools like ddrescue or Clonezilla. This preserves the original drive state and gives you a safe copy to work with.",
+                    "For logically damaged drives (accidentally deleted files, corrupted partitions), software-based recovery tools like R-Studio, Recuva, or PhotoRec can often retrieve most data. These tools scan for file signatures and reconstruct the file system.",
+                    "Physical damage requires more specialized approaches. Clicking sounds typically indicate head failure, while no spin-up suggests motor or PCB issues. For these cases, a clean room environment and donor parts may be necessary.",
+                    "Always be transparent with customers about recovery chances and costs before starting work. Set realistic expectations and provide a clear quote. Offering a 'no data, no charge' policy can build trust while protecting your reputation."
+                ],
+                "author": "Anas Khan",
+                "date": "2026-01-15",
+                "category": "Repair Tips",
+                "tags": [
+                    "data-recovery",
+                    "hard-drive",
+                    "SSD"
+                ],
+                "youtubeEmbedUrl": null,
+                "image": "/images/blog-data-recovery.jpg"
+            }
+        ]
+    }
+}
