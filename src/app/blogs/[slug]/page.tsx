@@ -7,38 +7,35 @@ import Footer from '@/components/Footer';
 import BlogDetail from '@/components/training/BlogDetail';
 import blogsContent from '@/data/blogs-content.json';
 
+
 type Props = {
     params: Promise<{ slug: string }>;
 };
 
 export async function generateMetadata({ params }: Props) {
     const { slug } = await params;
+    const subdomain = await getSubdomain();
     const post = blogsContent.blogs.items.find((p) => p.slug === slug);
 
     if (!post) {
         return createMetadata({
-            title: 'Blog Post Not Found - Laptian Academy',
+            title: 'Blog Post Not Found',
             description: 'The requested blog post could not be found.',
-            subdomain: 'training',
+            subdomain,
             path: `/blogs/${slug}`,
         });
     }
 
     return createMetadata({
-        title: `${post.title} - Laptian Academy Blog`,
+        title: `${post.title} - Blog`,
         description: post.excerpt,
-        subdomain: 'training',
+        subdomain,
         path: `/blogs/${post.slug}`,
     });
 }
 
 export default async function BlogPostPage({ params }: Props) {
     const subdomain = await getSubdomain();
-
-    if (subdomain !== 'training') {
-        notFound();
-    }
-
     const { slug } = await params;
     const post = blogsContent.blogs.items.find((p) => p.slug === slug);
 
@@ -48,10 +45,10 @@ export default async function BlogPostPage({ params }: Props) {
 
     return (
         <>
-            <InfoBar subdomain="training" />
-            <Header subdomain="training" />
+            <InfoBar subdomain={subdomain} />
+            <Header subdomain={subdomain} />
             <BlogDetail post={post} />
-            <Footer subdomain="training" />
+            <Footer subdomain={subdomain} />
         </>
     );
 }

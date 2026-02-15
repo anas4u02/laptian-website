@@ -53,16 +53,12 @@
                 "label": "Home"
             },
             {
-                "href": "/services",
-                "label": "Our Services"
-            },
-            {
                 "href": "/about",
                 "label": "About Us"
             },
             {
-                "href": "/pricing",
-                "label": "Pricing"
+                "href": "/blogs",
+                "label": "Blogs"
             },
             {
                 "href": "/contact",
