@@ -9,8 +9,13 @@ import Footer from '@/components/Footer';
 // Training components
 import TrainingHero from '@/components/training/HeroSection';
 import Gallery from '@/components/training/Gallery';
+import WhyLaptian from '@/components/training/WhyLaptian';
+import TrainingHighlights from '@/components/training/TrainingHighlights';
 import TrainingTestimonials from '@/components/training/Testimonials';
 import ServicesCards from '@/components/training/ServicesCards';
+import SkillsMastery from '@/components/training/SkillsMastery';
+import AboutInstitute from '@/components/training/AboutInstitute';
+import TrainingFeatures from '@/components/training/TrainingFeatures';
 import OtherServices from '@/components/training/OtherServices';
 
 // Services components  
@@ -75,8 +80,13 @@ export default async function HomePage() {
           <main>
             <TrainingHero />
             <Gallery />
+            <WhyLaptian />
+            <TrainingHighlights />
             <TrainingTestimonials />
             <ServicesCards />
+            <SkillsMastery />
+            <AboutInstitute />
+            <TrainingFeatures />
             <OtherServices />
             <FAQ subdomain="training" />
           </main>

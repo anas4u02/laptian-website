@@ -1,0 +1,93 @@
+/* ===== ABOUT INSTITUTE SECTION ===== */
+.about-institute-section {
+    background: var(--color-bg-primary);
+}
+
+.about-institute-banner {
+    position: relative;
+    padding: var(--spacing-16) var(--spacing-12);
+    background: var(--color-bg-elevated);
+    border: 2px solid var(--color-accent-gold);
+    border-radius: var(--radius-2xl);
+    overflow: hidden;
+    text-align: center;
+}
+
+.about-institute-glow {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 120px;
+    background: radial-gradient(ellipse, rgba(242, 176, 30, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.about-institute-banner h2 {
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-extrabold);
+    margin-bottom: var(--spacing-5);
+    position: relative;
+}
+
+.about-institute-desc {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto var(--spacing-8);
+    position: relative;
+}
+
+.about-institute-subtitle {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-accent-gold);
+    margin-bottom: var(--spacing-6);
+    position: relative;
+}
+
+/* Points */
+.about-institute-points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-4);
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+
+.about-institute-point {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    font-size: var(--font-size-base);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-medium);
+    padding: var(--spacing-3) 0;
+}
+
+.about-point-line {
+    flex-shrink: 0;
+    width: 24px;
+    height: 3px;
+    background: var(--gradient-gold);
+    border-radius: var(--radius-full);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .about-institute-banner {
+        padding: var(--spacing-10) var(--spacing-6);
+    }
+
+    .about-institute-banner h2 {
+        font-size: var(--font-size-3xl);
+    }
+
+    .about-institute-points {
+        grid-template-columns: 1fr;
+    }
+}

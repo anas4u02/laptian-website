@@ -65,7 +65,8 @@
 }
 
 .hero-stats {
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: repeat(4, 1fr);
     gap: var(--spacing-8);
     margin-top: var(--spacing-12);

@@ -17,16 +17,8 @@
                 "label": "Students Trained"
             },
             {
-                "value": "95%",
-                "label": "Placement Rate"
-            },
-            {
                 "value": "15+",
                 "label": "Years Experience"
-            },
-            {
-                "value": "50+",
-                "label": "Partner Companies"
             }
         ]
     },
@@ -175,6 +167,152 @@
                 "text": "Learn More About Us",
                 "link": "/about"
             }
+        }
+    },
+    "whyLaptian": [
+        {
+            "title": "Turn Laptop Repair Skills into a",
+            "titleHighlight": "High-Demand Career",
+            "description": "Laptian Tech Institute is a trusted Laptop Repair Training Institute offering industry-ready chip level laptop repair training in Pune. Our programs focus on real motherboard diagnostics, advanced troubleshooting, and practical repair expertise required to succeed in today's competitive laptop repairing industry in India.",
+            "subtitle": "What Makes Our Training Career-Focused",
+            "points": [
+                "Industry-relevant chip-level laptop repair curriculum",
+                "Hands-on motherboard diagnostics and fault finding",
+                "Practical exposure to real laptop repair cases",
+                "Job- and business-oriented skill development"
+            ]
+        },
+        {
+            "title": "Why Laptian Is the Smart Choice for",
+            "titleHighlight": "Laptop Repair Training",
+            "description": "At Laptian, we combine practical learning, expert mentorship, and industry-relevant techniques to help you build confidence and long-term success in laptop repairing. Our training approach ensures you learn how professionals diagnose, repair, and grow in today's competitive repair market.",
+            "subtitle": "",
+            "points": [
+                "Find your ideal specialization in laptop repairing",
+                "Learn real-time chip-level laptop repair on live motherboards",
+                "Understand expert-level laptop motherboard fault diagnosis",
+                "Use smart repair techniques followed by professional service centres"
+            ]
+        }
+    ],
+    "trainingHighlights": [
+        {
+            "title": "Chip-Level Laptop Repair Training Designed for",
+            "titleHighlight": "Real Results",
+            "description": "Our training programs are built to produce confident technicians through hands-on laptop motherboard repair training and expert guidance.",
+            "subdescription": "With online and offline laptop repair courses in Pune, we help learners across India master professional computer hardware and chip-level repair skills and build sustainable careers.",
+            "points": [
+                {
+                    "icon": "🔧",
+                    "text": "Practical chip-level motherboard repair training"
+                },
+                {
+                    "icon": "💻",
+                    "text": "Online and offline laptop repair courses in Pune"
+                },
+                {
+                    "icon": "🎯",
+                    "text": "Expert-led guidance with real repair scenarios"
+                },
+                {
+                    "icon": "📈",
+                    "text": "Career-focused learning for long-term growth"
+                }
+            ]
+        },
+        {
+            "title": "What This Laptop Repair Course Helps You",
+            "titleHighlight": "Achieve",
+            "description": "This laptop repair course is designed to build strong fundamentals, real-world repair confidence, and professional troubleshooting skills. With hands-on training and structured learning, students gain the expertise required to succeed as skilled laptop repair technicians.",
+            "subdescription": "",
+            "points": [
+                {
+                    "icon": "🗺️",
+                    "text": "Identify the right motherboard repair course path for your career"
+                },
+                {
+                    "icon": "⚡",
+                    "text": "Gain live experience in chip-level laptop motherboard repairs"
+                },
+                {
+                    "icon": "🛠️",
+                    "text": "Learn proven methods to solve complex laptop hardware issues"
+                },
+                {
+                    "icon": "🏗️",
+                    "text": "Apply modern repair strategies used in advanced workshops"
+                }
+            ]
+        }
+    ],
+    "skillsMastery": [
+        {
+            "title": "Learn Laptop Repair Faster—with",
+            "titleHighlight": "Confidence and Accuracy",
+            "description": "Master next-generation laptop motherboard repair using a structured, step-by-step approach focused on logic, accuracy, and speed. Our training empowers you with practical skills that translate directly into professional success.",
+            "subtitle": "Key learning advantages",
+            "points": [
+                "Accurate and fast fault diagnosis techniques",
+                "Confidence to repair laptops independently",
+                "Real-world practical tasks that build true skills",
+                "Career-focused training for professional and financial growth"
+            ]
+        },
+        {
+            "title": "Master Laptop Repair with Guidance from",
+            "titleHighlight": "Industry Experts",
+            "description": "Upgrade your expertise with mentorship from experienced professionals. Learn how to diagnose laptop faults using advanced diagnostic tools; understand voltage rails, power sections, signal flow, and motherboard architecture.",
+            "subdescription": "This advanced laptop repair course focuses on practical chip-level laptop repair training that helps technicians and business owners grow confidently.",
+            "subtitle": "Skills You Will Master",
+            "points": [
+                "Advanced chip-level laptop repair methods",
+                "Business-ready skills for laptop repair growth",
+                "IC datasheets, board views, Schematic reading and understanding",
+                "Circuit analysis and professional fault-finding techniques"
+            ]
+        }
+    ],
+    "aboutInstitute": {
+        "title": "About Laptian Technical Institute –",
+        "titleHighlight": "A Trusted Laptop Repairing Institute in India",
+        "description": "Laptian Technical Institute is a recognized Laptop Repairing Institute in India, based in Pune, known for professional chip level laptop repair training and dependable & long-lasting repair services.",
+        "subtitle": "Our training is designed to deliver:",
+        "points": [
+            "Logic-based troubleshooting mastery",
+            "Precision motherboard-level repair skills",
+            "Intensive hands-on practical exposure",
+            "Industry-ready laptop repair professionals"
+        ]
+    },
+    "trainingFeatures": {
+        "cards": [
+            {
+                "icon": "🔬",
+                "title": "Real-World Laptop Repair Skills",
+                "description": "In-depth training on schematics, datasheets, power rails, and signal levels that directly improves repair accuracy and workshop performance."
+            },
+            {
+                "icon": "🎬",
+                "title": "Anytime Learning with Recorded Course Videos",
+                "description": "Unlimited access to laptop repair course videos on mobile and computer."
+            },
+            {
+                "icon": "📊",
+                "title": "Training That Delivers Measurable Results",
+                "description": "A focused learning format designed for real-world repair success."
+            },
+            {
+                "icon": "🏆",
+                "title": "Recognized Laptop Repair Training Certificate",
+                "description": "Showcase your expertise with a professional certificate of completion."
+            }
+        ],
+        "sectionTitle": "What Sets Our",
+        "sectionTitleHighlight": "Training Apart",
+        "videoCta": {
+            "title": "Learn Anytime, Anywhere with",
+            "titleHighlight": "Expert-Led Course Videos",
+            "description": "Our laptop repair course videos feature clear demonstrations, repeatable lessons, self-paced learning, and continuous expert guidance—anytime, anywhere."
         }
     }
 }

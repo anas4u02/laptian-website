@@ -2,43 +2,58 @@
     "training": [
         {
             "id": 1,
-            "question": "What certifications will I receive after completing the training?",
-            "answer": "Upon successful completion of our laptop repair training program, you will receive an industry-recognized certification that validates your technical skills. This certification is highly valued by employers and demonstrates your proficiency in laptop diagnostics, repair, and maintenance across all major brands."
+            "question": "Is this laptop chip-level repair course beginner-friendly?",
+            "answer": "Absolutely! This course is thoughtfully designed by industry experts to support complete beginners as well as those with basic repair experience. Training starts from core fundamentals and gradually progresses to advanced chip-level laptop motherboard repair, ensuring clarity and confidence at every step."
         },
         {
             "id": 2,
-            "question": "Do you provide placement assistance after the course?",
-            "answer": "Yes! We have a proven track record with a 95% placement rate. Our dedicated placement cell connects you with leading service centers, authorized repair shops, and tech companies. We also provide resume building, interview preparation, and ongoing career support to ensure your success in the industry."
+            "question": "What is the duration of the laptop repair course?",
+            "answer": "The course duration typically ranges between 60 to 90 days, covering theory sessions, intensive hands-on practical training, and real-time live laptop repair practice."
         },
         {
             "id": 3,
-            "question": "What is the duration of the training program?",
-            "answer": "Our comprehensive laptop repair training program spans 3-6 months, depending on the course level you choose. The program includes both theoretical knowledge and extensive hands-on practical training with real laptop repair scenarios. We offer flexible schedules including weekend batches to accommodate working professionals."
+            "question": "Can I really learn laptop repair in just 90 days?",
+            "answer": "Yes—definitely! With structured learning and regular practice, you can become job-ready within 90 days by focusing on strong understanding of schematics and datasheets, extensive hands-on practice on real laptop motherboard faults, and continuous troubleshooting practice to improve speed, accuracy, and confidence. This approach helps you grow into a skilled and confident laptop repair technician."
         },
         {
             "id": 4,
-            "question": "Do I need any prior technical knowledge to enroll?",
-            "answer": "No prior technical experience is required! Our training program is designed for complete beginners as well as those looking to enhance their existing skills. We start with the fundamentals and gradually progress to advanced repair techniques, ensuring everyone can follow along regardless of their background."
+            "question": "Will this course make me job-ready?",
+            "answer": "Yes. After completing the course, you will gain industry-ready chip-level repair skills that allow you to work in laptop service centres, join repair workshops, or confidently start your own laptop repair business."
         },
         {
             "id": 5,
-            "question": "What laptop brands will I learn to repair?",
-            "answer": "Our training covers all major laptop brands including Dell, HP, Lenovo, Acer, ASUS, Apple MacBooks, and more. You'll learn brand-specific repair techniques, component replacement procedures, and troubleshooting methods that apply across different manufacturers. We use real laptops from various brands for hands-on practice."
+            "question": "How much practical training does this course include?",
+            "answer": "Practical training is the core of this course. Students work on real laptops and live motherboard faults, learning advanced fault diagnosis and repair through step-by-step guidance from expert trainers."
         },
         {
             "id": 6,
-            "question": "Will I get hands-on practice during the training?",
-            "answer": "Absolutely! Hands-on practical training is the core of our program. You'll work on real laptops, diagnose actual problems, and perform repairs under expert supervision. Our well-equipped lab provides all necessary tools and components, ensuring you gain real-world experience that prepares you for professional work."
+            "question": "Do you teach schematic and datasheet-level troubleshooting?",
+            "answer": "Yes. We provide in-depth training in schematic reading, board view analysis, datasheet interpretation, and circuit tracing, helping you become a highly skilled and logical chip-level laptop repair professional."
         },
         {
             "id": 7,
-            "question": "What is the fee structure and do you offer installment options?",
-            "answer": "We offer competitive pricing with flexible payment options to make the training accessible. You can choose to pay in installments over the course duration. Contact us for detailed fee information and current promotional offers. We believe quality education should be affordable and accessible to all."
+            "question": "Are both online and offline training options available?",
+            "answer": "Yes. We offer offline classroom training in Pune & PCMC, along with online laptop repair courses for flexible learning—so you can choose the mode that fits your schedule and location."
         },
         {
             "id": 8,
-            "question": "Can I start my own laptop repair business after training?",
-            "answer": "Yes! Many of our graduates have successfully launched their own laptop repair businesses. We provide business setup guidance, vendor connections for spare parts, and ongoing technical support. Our training equips you with both technical skills and business insights needed to run a successful repair service."
+            "question": "Is support available after completing the course?",
+            "answer": "Yes. Even after course completion, students receive technical support, doubt-clearing sessions, and expert guidance. We also provide assistance related to jobs and starting a laptop repair business."
+        },
+        {
+            "id": 9,
+            "question": "Will I receive a certificate after completing the course?",
+            "answer": "Yes. You will receive a Course Completion Certificate from Laptian Technical Institute, which adds credibility for jobs, freelancing, and starting your own repair service."
+        },
+        {
+            "id": 10,
+            "question": "Does the course cover MacBooks and latest laptop models?",
+            "answer": "The course primarily focuses on Windows laptops and latest-generation motherboard repair techniques, ensuring you learn the most in-demand skills used in modern repair labs."
+        },
+        {
+            "id": 11,
+            "question": "What qualifications are required to join this laptop repair course?",
+            "answer": "No specific degree or technical background is required. Anyone with an interest in laptop repair—whether from a technical or non-technical background—can enroll and succeed in this course."
         }
     ],
     "services": [

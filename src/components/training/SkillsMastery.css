@@ -1,0 +1,110 @@
+/* ===== SKILLS MASTERY SECTION ===== */
+.skills-mastery-section {
+    background: var(--color-bg-primary);
+}
+
+.skills-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-12);
+    align-items: center;
+    margin-bottom: var(--spacing-20);
+}
+
+.skills-block:last-child {
+    margin-bottom: 0;
+}
+
+.skills-block-reverse {
+    direction: rtl;
+}
+
+.skills-block-reverse>* {
+    direction: ltr;
+}
+
+/* Text Content */
+.skills-text-content h2 {
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-extrabold);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-5);
+}
+
+.skills-description {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+}
+
+.skills-subdesc {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-tertiary);
+    line-height: 1.7;
+    margin-top: var(--spacing-2);
+}
+
+/* Points Content */
+.skills-subtitle {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-accent-gold);
+    margin-bottom: var(--spacing-5);
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4);
+}
+
+.skills-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-4);
+    padding: var(--spacing-4) var(--spacing-5);
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-border-primary);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-base);
+}
+
+.skills-list-item:hover {
+    border-color: var(--color-accent-gold);
+    transform: translateX(4px);
+}
+
+.skills-number {
+    flex-shrink: 0;
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-extrabold);
+    color: var(--color-accent-gold);
+    opacity: 0.6;
+    line-height: 1;
+    min-width: 32px;
+}
+
+.skills-list-text {
+    font-size: var(--font-size-base);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .skills-block {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-8);
+    }
+
+    .skills-block-reverse {
+        direction: ltr;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-text-content h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
