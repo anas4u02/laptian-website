@@ -4,8 +4,9 @@ export function middleware(request: NextRequest) {
     // Get hostname from request headers
     const hostname = request.headers.get('host') || '';
 
-    // Extract subdomain
-    const subdomain = hostname.split('.')[0];
+    // Strip port before extracting subdomain (localhost:3000 → localhost)
+    const hostnameWithoutPort = hostname.split(':')[0];
+    const subdomain = hostnameWithoutPort.split('.')[0];
 
     // For local development, we support:
     // - training.localhost:3000
@@ -20,9 +21,9 @@ export function middleware(request: NextRequest) {
     // Determine which subdomain we're on
     let currentSubdomain = querySubdomain || subdomain;
 
-    // Set default to training if accessing root domain
-    if (currentSubdomain === 'localhost' || currentSubdomain === 'laptian' || !currentSubdomain) {
-        currentSubdomain = 'training';
+    // Root domain and services subdomain both default to services
+    if (currentSubdomain === 'localhost' || currentSubdomain === 'laptian' || currentSubdomain === 'services' || !currentSubdomain) {
+        currentSubdomain = 'services';
     }
 
     // Add subdomain as a header so we can use it in our pages
