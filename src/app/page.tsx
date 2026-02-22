@@ -8,7 +8,6 @@ import Footer from '@/components/Footer';
 
 // Training components
 import TrainingHero from '@/components/training/HeroSection';
-import Gallery from '@/components/training/Gallery';
 import WhyLaptian from '@/components/training/WhyLaptian';
 import TrainingHighlights from '@/components/training/TrainingHighlights';
 import TrainingTestimonials from '@/components/training/Testimonials';
@@ -40,7 +39,7 @@ export async function generateMetadata() {
   }
 
   return createMetadata({
-    title: 'Professional Laptop Repair Training - Laptian Academy',
+    title: 'Professional Laptop Repair Training - Laptian Technical Institue',
     description: 'Master laptop repair with hands-on training, industry certifications, and 95% placement rate. Join 2500+ successful technicians.',
     subdomain: 'training',
     path: '/',
@@ -79,7 +78,6 @@ export default async function HomePage() {
           )}
           <main>
             <TrainingHero />
-            <Gallery />
             <WhyLaptian />
             <TrainingHighlights />
             <TrainingTestimonials />

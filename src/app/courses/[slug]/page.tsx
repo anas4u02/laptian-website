@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: CoursePageProps) {
 
     if (!course) {
         return createMetadata({
-            title: 'Course Not Found - Laptian Academy',
+            title: 'Course Not Found - Laptian Technical Institue',
             description: 'The course you are looking for could not be found.',
             subdomain: 'training',
             path: `/courses/${slug}`,
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: CoursePageProps) {
     }
 
     return createMetadata({
-        title: `${course.title} - Laptian Academy`,
+        title: `${course.title} - Laptian Technical Institue`,
         description: course.description,
         subdomain: 'training',
         path: `/courses/${slug}`,

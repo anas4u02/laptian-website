@@ -8,7 +8,7 @@ import CoursesLanding from '@/components/training/CoursesLanding';
 
 export async function generateMetadata() {
     return createMetadata({
-        title: 'Our Training Courses - Laptian Academy',
+        title: 'Our Training Courses - Laptian Technical Institue',
         description: 'Explore our comprehensive laptop repair training courses. From beginner to professional certification with hands-on training and placement support.',
         subdomain: 'training',
         path: '/courses',

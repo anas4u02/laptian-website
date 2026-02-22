@@ -1,19 +1,19 @@
 {
     "contact": {
-        "phone": "+91 98765 43210",
+        "primaryPhone": "+91 9307124279",
+        "secondaryPhone": "+91 7219000219",
         "email": "info@laptian.com",
         "address": {
-            "street": "123 Tech Street",
-            "city": "Bangalore",
-            "state": "India",
-            "zip": "560001"
+            "street": "16 Number Bus Stop, Santosh Nagar",
+            "city": "Belthika Nagar, Thergaon, Pune",
+            "state": "Maharashtra",
+            "zip": "411033"
         },
         "hours": "Mon - Sat: 9:00 AM - 6:00 PM"
     },
     "social": {
-        "facebook": "https://facebook.com/laptian",
-        "instagram": "https://instagram.com/laptian",
-        "twitter": "https://twitter.com/laptian",
+        "facebook": "https://www.facebook.com/share/1KnJ81pEbo/",
+        "instagram": "https://www.instagram.com/laptianpune?igsh=MWdlM3ZxZmJuNzV4dg==",
         "linkedin": "https://linkedin.com/company/laptian"
     },
     "infoBar": {
@@ -68,7 +68,7 @@
     },
     "footer": {
         "training": {
-            "title": "Laptian Academy",
+            "title": "Laptian Technical Institue",
             "description": "Empowering individuals with professional laptop repair skills and industry-recognized certifications.",
             "quickLinksHeading": "Quick Links",
             "contactHeading": "Contact Us",
@@ -102,7 +102,7 @@
     },
     "seo": {
         "training": {
-            "siteNameShort": "Laptian Academy",
+            "siteNameShort": "Laptian Technical Institue",
             "siteName": "Laptian Training Center",
             "organizationType": "EducationalOrganization"
         },

@@ -2,6 +2,14 @@
     background: var(--gradient-dark);
 }
 
+.other-services-section .section-header {
+    text-align: center;
+}
+
+.services-section .section-header h2 {
+    text-align: center;
+}
+
 .other-services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

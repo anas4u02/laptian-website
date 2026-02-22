@@ -24,7 +24,7 @@ export default function ServicesCards() {
                                     <span className="meta-icon">⏱️</span>
                                     {course.duration}
                                 </span>
-                                <span className="service-price">{course.price}</span>
+                                <span className="service-price">{course?.price}</span>
                             </div>
                             <p className="card-description">{course.description}</p>
                             <ul className="service-highlights">

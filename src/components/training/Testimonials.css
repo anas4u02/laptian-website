@@ -2,6 +2,14 @@
     background: var(--color-bg-primary);
 }
 
+.testimonials-section .section-header {
+    text-align: center;
+}
+
+.testimonials-section .section-header h2 {
+    text-align: center;
+}
+
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));

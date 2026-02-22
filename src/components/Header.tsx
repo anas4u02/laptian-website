@@ -32,7 +32,7 @@ export default function Header({ subdomain }: HeaderProps) {
                 <div className="header-content">
                     <Link href="/" className="logo">
                         <span className="logo-text">
-                            Laptian <span className="text-highlight">{subdomain === 'training' ? 'Academy' : 'Repair'}</span>
+                            Laptian <span className="text-highlight">{subdomain === 'training' ? 'Institue' : 'Repair'}</span>
                         </span>
                     </Link>
 

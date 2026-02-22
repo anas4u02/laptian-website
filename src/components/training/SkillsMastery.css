@@ -3,24 +3,17 @@
     background: var(--color-bg-primary);
 }
 
-.skills-block {
+.skills-blocks-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-12);
-    align-items: center;
-    margin-bottom: var(--spacing-20);
+    gap: var(--spacing-8);
+    align-items: stretch;
 }
 
-.skills-block:last-child {
-    margin-bottom: 0;
-}
-
-.skills-block-reverse {
-    direction: rtl;
-}
-
-.skills-block-reverse>* {
-    direction: ltr;
+.skills-block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
 }
 
 /* Text Content */
@@ -93,13 +86,9 @@
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
-    .skills-block {
+    .skills-blocks-row {
         grid-template-columns: 1fr;
-        gap: var(--spacing-8);
-    }
-
-    .skills-block-reverse {
-        direction: ltr;
+        gap: var(--spacing-12);
     }
 }
 

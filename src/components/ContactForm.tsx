@@ -95,7 +95,8 @@ export default function ContactForm({ subdomain }: ContactFormProps) {
                                 <div className="contact-icon">📞</div>
                                 <div>
                                     <h4>Phone</h4>
-                                    <p><a href={`tel:${contact.phone}`}>{contact.phone}</a></p>
+                                    <p><a href={`tel:${contact.primaryPhone}`}>{contact.primaryPhone}</a></p>
+                                    <p><a href={`tel:${contact.primaryPhone}`}>{contact.secondaryPhone}</a></p>
                                 </div>
                             </div>
 

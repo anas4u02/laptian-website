@@ -6,19 +6,18 @@
         "items": [
             {
                 "id": 1,
-                "title": "Basic Laptop Repair",
-                "slug": "basic-laptop-repair",
+                "title": "Desktop Repair Training",
+                "slug": "desktop-chip-level-repair-training",
                 "icon": "Wrench",
                 "image": "/laptop-repair.png",
-                "duration": "4 Weeks",
+                "duration": "2 Weeks",
                 "level": "Beginner",
-                "price": "₹15,000",
                 "description": "Learn fundamental laptop repair skills including hardware troubleshooting, component replacement, and basic diagnostics.",
                 "highlights": [
-                    "Hardware Basics",
-                    "OS Installation",
-                    "Basic Troubleshooting",
-                    "Tool Usage"
+                    "Computer Assembling & Disassembling",
+                    "Soldering & Desoldering",
+                    "RAM, VRM, PCH Tracing & Troubleshooting",
+                    "BIOS Programming & Troubleshooting"
                 ],
                 "detailedDescription": "Our Basic Laptop Repair course is designed to provide you with a solid foundation in laptop repair and maintenance. This beginner-friendly program covers essential hardware components, common issues, and practical repair techniques that will enable you to diagnose and fix typical laptop problems confidently.",
                 "whoShouldEnroll": [
@@ -51,19 +50,18 @@
             },
             {
                 "id": 2,
-                "title": "Advanced Motherboard Repair",
-                "slug": "advanced-motherboard-repair",
+                "title": "Laptop Chip Level Repair Training",
+                "slug": "laptop-chip-level-repair-training",
                 "icon": "Cpu",
                 "image": "/laptop-repair.png",
-                "duration": "8 Weeks",
-                "level": "Advanced",
-                "price": "₹35,000",
-                "description": "Master complex motherboard-level repairs, circuit analysis, and component-level troubleshooting techniques.",
+                "duration": "6 Weeks",
+                "level": "Beginner",
+                "description": "Master complex chip-level repairs, circuit analysis, and component-level troubleshooting techniques.",
                 "highlights": [
-                    "Circuit Analysis",
-                    "BGA Reballing",
-                    "Chip-level Repair",
-                    "Advanced Diagnostics"
+                    "Laptop Motherboard Fundamentals & Power Supply Sequence",
+                    "DC-IN, Battery Charging/Discharging Circuits",
+                    "VRM, RAM, PCH & Clock, Fan, USB, LVDS, HDMI, Audio Circuits",
+                    "BIOS Programming, & Hinge/Body Fabrication Repair"
                 ],
                 "detailedDescription": "Take your skills to the next level with our Advanced Motherboard Repair course. This intensive program delves deep into component-level troubleshooting, circuit board analysis, and micro-soldering techniques. You'll learn to diagnose and repair complex motherboard issues that most technicians consider irreparable.",
                 "whoShouldEnroll": [
@@ -103,15 +101,14 @@
                 "slug": "professional-certification-course",
                 "icon": "Award",
                 "image": "/training-facility.png",
-                "duration": "12 Weeks",
+                "duration": "8 Weeks",
                 "level": "Professional",
-                "price": "₹50,000",
                 "description": "Comprehensive training covering all aspects of laptop repair with industry-recognized certification and placement support.",
                 "highlights": [
-                    "Complete Curriculum",
-                    "Certification",
-                    "Internship",
-                    "Placement Support"
+                    "Laptop motherboard architecture and power section analysis",
+                    "Schematic reading, tracing, and board view interpretation",
+                    "Component testing, fault diagnosis, and dead board repair",
+                    "Advanced soldering techniques, BGA rework, and tools handling"
                 ],
                 "detailedDescription": "Our flagship Professional Certification Course is a complete career transformation program. Combining basic fundamentals with advanced techniques, this comprehensive course prepares you for immediate employment in the laptop repair industry. You'll receive industry-recognized certifications, internship opportunities, and guaranteed placement support.",
                 "whoShouldEnroll": [

@@ -8,7 +8,7 @@ interface Course {
     slug: string;
     duration: string;
     level: string;
-    price: string;
+    price?: string;
     description: string;
     highlights: string[];
     detailedDescription: string;
@@ -52,7 +52,7 @@ export default function CourseDetail({ course }: CourseDetailProps) {
                                 <span className="meta-icon">💰</span>
                                 <div>
                                     <div className="meta-label">Investment</div>
-                                    <div className="meta-value">{course.price}</div>
+                                    <div className="meta-value">{course?.price}</div>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +195,7 @@ export default function CourseDetail({ course }: CourseDetailProps) {
                             </div>
                         </div>
                         <p>
-                            With the increasing complexity of modern laptops and the growing demand for skilled technicians, now is the perfect time to invest in your laptop repair career. Join Laptian Academy and become part of a thriving community of successful repair professionals.
+                            With the increasing complexity of modern laptops and the growing demand for skilled technicians, now is the perfect time to invest in your laptop repair career. Join Laptian Technical Institue and become part of a thriving community of successful repair professionals.
                         </p>
                     </div>
                 </div>
@@ -207,7 +207,7 @@ export default function CourseDetail({ course }: CourseDetailProps) {
                     <div className="final-cta-content">
                         <h2>Ready to Start Your Journey?</h2>
                         <p>
-                            Join thousands of successful technicians who transformed their careers with Laptian Academy
+                            Join thousands of successful technicians who transformed their careers with Laptian Technical Institue
                         </p>
                         <div className="final-cta-buttons">
                             <Link href="/contact" className="btn btn-primary btn-lg">

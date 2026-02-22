@@ -8,7 +8,7 @@ A professional Next.js 15 website for Laptian business with subdomain-based rout
 
 - ✅ **Multi-subdomain routing** using Next.js middleware
 - ✅ **SEO optimized** with metadata, structured data (JSON-LD), and sitemaps
-- ✅ **Premium dark theme** with gold accents inspired by academy.dhruvrathee.com
+- ✅ **Premium dark theme** with gold accents
 - ✅ **Fully responsive** design for mobile, tablet, and desktop
 - ✅ **Server-Side Rendering (SSR)** + **Static Site Generation (SSG)**
 - ✅ **Component-based architecture** with reusable components
