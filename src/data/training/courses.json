@@ -6,50 +6,63 @@
         "items": [
             {
                 "id": 3,
-                "title": "Professional Certification Course",
-                "slug": "professional-certification-course",
+                "title": "Advanced Laptop Chip Level Course",
+                "slug": "advanced-laptop-chip-level-course",
                 "icon": "Award",
                 "image": "/training-facility.png",
                 "duration": "8 Weeks",
                 "price": "",
                 "level": "Professional",
-                "description": "Comprehensive training covering all aspects of laptop repair with industry-recognized certification and placement support.",
+                "description": "Theory + Live Practical Workshop by Laptian Technical Institute, PCMC",
                 "highlights": [
                     "Laptop motherboard architecture and power section analysis",
                     "Schematic reading, tracing, and board view interpretation",
                     "Component testing, fault diagnosis, and dead board repair",
                     "Advanced soldering techniques, BGA rework, and tools handling"
                 ],
-                "detailedDescription": "Our flagship Professional Certification Course is a complete career transformation program. Combining basic fundamentals with advanced techniques, this comprehensive course prepares you for immediate employment in the laptop repair industry. You'll receive industry-recognized certifications, internship opportunities, and guaranteed placement support.",
+                "detailedDescription": "This is an advanced chip level laptop repair training program designed to transform you into a skilled and confident laptop motherboard repair professional. You will learn practical, step-by-step voltage rail analysis, signal tracing, and logical fault diagnosis methods used by industry experts. The course focuses on accuracy, productivity, and real repair outcomes—helping you work smarter and grow faster in your career. By the end of this laptop repair course in Pimpri and Chinchwad, Pune, you will think and troubleshoot like a professional chip-level technician.",
                 "whoShouldEnroll": [
-                    "Career starters seeking comprehensive training",
-                    "Professionals wanting career transition",
-                    "Entrepreneurs planning repair business",
-                    "Recent graduates entering tech industry",
-                    "Anyone serious about laptop repair career"
+                    "Beginners starting their laptop repair journey",
+                    "Job seekers looking for technical skills",
+                    "Working technicians aiming to upgrade to chip-level repair",
+                    "Entrepreneurs planning to start or expand a repair business"
                 ],
                 "practicalTraining": "Experience the most comprehensive hands-on training available. Work with over 50 different laptop models, handle real customer repairs during your internship, and learn business aspects including customer service, pricing strategies, and workshop management. Our 95% placement rate speaks to the quality and depth of this program.",
                 "curriculum": [
-                    "Foundation: Hardware Fundamentals",
-                    "Component Identification & Testing",
-                    "Common Repair Scenarios",
-                    "Display & Video Systems",
-                    "Power & Charging Issues",
-                    "Storage Solutions & Data Recovery",
-                    "Advanced: Motherboard Repair",
-                    "Circuit Analysis & Diagnostics",
-                    "Micro-Soldering & BGA Work",
-                    "Brand-Specific Repair Techniques",
-                    "Dell, HP, Lenovo Certifications",
-                    "Apple MacBook Repair",
-                    "Business Skills: Customer Service",
-                    "Workshop Management",
-                    "Parts Sourcing & Inventory",
-                    "Pricing & Profitability",
-                    "Marketing Your Services",
-                    "Internship: Real-World Experience",
-                    "Placement Preparation",
-                    "Interview Skills & Resume Building"
+                    {
+                        "title": "Analog & Digital Electronic Components",
+                        "description": "Understand and work with ICs, chipsets, MOSFETs, transistors, capacitors, coils, and resistors used in laptop motherboards."
+                    },
+                    {
+                        "title": "Schematic & Board View Interpretation",
+                        "description": "Learn to use schematics and board views to trace faults quickly and perform accurate motherboard repairs across different laptop brands."
+                    },
+                    {
+                        "title": "Dead Laptop & Short Circuit Repair",
+                        "description": "Diagnose and fix short circuits using advanced tools and smart techniques applicable to laptops, desktops, tablets, and other electronic devices."
+                    },
+                    {
+                        "title": "Expert SMD & Micro-Soldering Techniques",
+                        "description": "Master hot air stations, SMD tools, and micro-soldering methods with precision heat control and component-level accuracy."
+                    },
+                    {
+                        "title": "BIOS Programming & Editing",
+                        "description": "Gain hands-on experience in BIOS recovery, SPI chip handling, and flashing techniques to fix corrupted firmware, resolve boot issues, and restore system stability using professional tools."
+                    },
+                    {
+                        "title": "Power Section & Signal Communication Analysis",
+                        "description": "Diagnose charging circuits, standby rails, RAM rails, VRMs, and DC-DC converters, and analyze signal communication between CPU, RAM, BIOS, PCH, SIO, and peripherals to identify deep-level motherboard faults."
+                    },
+                    {
+                        "title": "Hands-On Training with Advanced Diagnostic Tools",
+                        "description": "Work with professional repair lab tools to measure signals, track power flow, detect faults, and perform accurate chip-level motherboard repairs.",
+                        "bulletPoints": [
+                            "DSO / CRO signal testing",
+                            "DC power supply usage",
+                            "SMD rework stations",
+                            "Thermal sensors and diagnostic testers"
+                        ]
+                    }
                 ],
                 "courseContent": [
                     {
@@ -247,15 +260,32 @@
                     }
                 ],
                 "careerOutcomes": [
+                    "Certificate of Completion from Laptian Technical Institute upon successful course completion",
                     "Certified Professional Laptop Technician",
-                    "Average starting salary: ₹25,000-₹32,000/month",
-                    "Placement in leading service centers",
+                    "Increased technical confidence in diagnostics and troubleshooting",
                     "Start your own repair business",
-                    "Freelance with established client base",
-                    "Become a technical trainer",
-                    "Partner with OEM service networks",
+                    "Career advancement toward becoming a chip-level repair expert",
                     "Lifetime career support and mentorship"
-                ]
+                ],
+                "futureSection": {
+                    "heading": "Prepare Yourself for the <highlight>Future</highlight> of Laptop Repair",
+                    "description": "The laptop repair industry is evolving rapidly with new technologies, components, and repair techniques emerging constantly. Our training program keeps pace with these changes, ensuring you're always ahead of the curve.",
+                    "stats": [
+                        {
+                            "value": "₹50K+",
+                            "label": "Average Monthly Earnings"
+                        },
+                        {
+                            "value": "85%",
+                            "label": "Students Become Entrepreneurs"
+                        },
+                        {
+                            "value": "2500+",
+                            "label": "Successful Graduates"
+                        }
+                    ],
+                    "closingText": "With the increasing complexity of modern laptops and the growing demand for skilled technicians, now is the perfect time to invest in your laptop repair career. Join Laptian Technical Institute and become part of a thriving community of successful repair professionals."
+                }
             },
             {
                 "id": 1,
@@ -282,16 +312,30 @@
                 ],
                 "practicalTraining": "Our hands-on approach ensures you work with real laptops from day one. You'll disassemble and reassemble various laptop models, diagnose actual hardware failures, and perform component replacements under expert supervision. This practical experience builds muscle memory and confidence that theoretical learning alone cannot provide.",
                 "curriculum": [
-                    "Laptop Architecture & Components",
-                    "Power System Troubleshooting",
-                    "Display & Video Issues",
-                    "Keyboard & Touchpad Repair",
-                    "Storage Device Management",
-                    "RAM & Memory Upgrades",
-                    "Operating System Installation",
-                    "Software Troubleshooting",
-                    "Basic Diagnostics Tools",
-                    "Professional Repair Practices"
+                    {
+                        "title": "Laptop Architecture & Components",
+                        "description": "Understand the building blocks of a desktop computer and how they work together."
+                    },
+                    {
+                        "title": "Power System Troubleshooting",
+                        "description": "Diagnose and fix common power supply and startup issues."
+                    },
+                    {
+                        "title": "Display & Input Devices",
+                        "description": "Repair display, keyboard, and touchpad related problems."
+                    },
+                    {
+                        "title": "Storage & Memory",
+                        "description": "Manage storage devices and perform RAM upgrades."
+                    },
+                    {
+                        "title": "OS & Software",
+                        "description": "Install operating systems and troubleshoot common software issues."
+                    },
+                    {
+                        "title": "Diagnostics & Best Practices",
+                        "description": "Use professional diagnostic tools and follow industry repair standards."
+                    }
                 ],
                 "courseContent": [
                     {
@@ -321,7 +365,26 @@
                     "Freelance repair services",
                     "IT support roles in companies",
                     "Foundation for advanced certifications"
-                ]
+                ],
+                "futureSection": {
+                    "heading": "Prepare Yourself for the <highlight>Future</highlight> of Desktop Repair",
+                    "description": "Desktop repair skills form the essential foundation for all computer repair careers. Master these fundamentals and you'll be ready to take on any hardware challenge.",
+                    "stats": [
+                        {
+                            "value": "₹20K+",
+                            "label": "Average Monthly Earnings"
+                        },
+                        {
+                            "value": "100%",
+                            "label": "Hands-On Training"
+                        },
+                        {
+                            "value": "500+",
+                            "label": "Graduates Placed"
+                        }
+                    ],
+                    "closingText": "Desktop repair is the first step toward becoming a complete hardware professional. Build a strong foundation and unlock opportunities across the entire computer repair industry."
+                }
             },
             {
                 "id": 2,
@@ -348,18 +411,30 @@
                 ],
                 "practicalTraining": "Work with advanced diagnostic equipment including oscilloscopes, multimeters, and thermal cameras. You'll practice BGA reballing, micro-soldering on actual motherboards, and learn to read schematics like a pro. Our experienced instructors guide you through real-world repair scenarios that you'll encounter in professional settings.",
                 "curriculum": [
-                    "Motherboard Architecture Deep Dive",
-                    "Circuit Theory & Analysis",
-                    "Power Delivery Systems",
-                    "Reading & Understanding Schematics",
-                    "Component-Level Diagnostics",
-                    "Micro-Soldering Techniques",
-                    "BGA Reballing & Rework",
-                    "GPU & CPU Troubleshooting",
-                    "BIOS Programming & Recovery",
-                    "EC (Embedded Controller) Repair",
-                    "Advanced Testing Equipment",
-                    "Professional Workshop Setup"
+                    {
+                        "title": "Motherboard Architecture",
+                        "description": "Deep dive into laptop motherboard layouts, power delivery, and circuit theory."
+                    },
+                    {
+                        "title": "Schematic Reading & Diagnostics",
+                        "description": "Read schematics and perform component-level fault diagnosis."
+                    },
+                    {
+                        "title": "Micro-Soldering & BGA",
+                        "description": "Professional soldering techniques including BGA reballing and rework."
+                    },
+                    {
+                        "title": "CPU & GPU Troubleshooting",
+                        "description": "Diagnose and repair processor and graphics-related failures."
+                    },
+                    {
+                        "title": "BIOS & EC Repair",
+                        "description": "BIOS programming, recovery, and embedded controller repair."
+                    },
+                    {
+                        "title": "Advanced Tools & Workshop Setup",
+                        "description": "Master advanced testing equipment and set up a professional repair workshop."
+                    }
                 ],
                 "courseContent": [
                     {
@@ -400,7 +475,26 @@
                     "Work with authorized service centers",
                     "Freelance high-value repair services",
                     "Train other technicians"
-                ]
+                ],
+                "futureSection": {
+                    "heading": "Prepare Yourself for the <highlight>Future</highlight> of Chip-Level Repair",
+                    "description": "Chip-level repair is the most in-demand and highest-paying skill in the electronics repair industry. Stay ahead with cutting-edge techniques and advanced diagnostic expertise.",
+                    "stats": [
+                        {
+                            "value": "₹40K+",
+                            "label": "Average Monthly Earnings"
+                        },
+                        {
+                            "value": "90%",
+                            "label": "Career Success Rate"
+                        },
+                        {
+                            "value": "1500+",
+                            "label": "Skilled Technicians Trained"
+                        }
+                    ],
+                    "closingText": "As laptops become more complex, chip-level technicians are in higher demand than ever. Position yourself as an expert and command premium rates in this growing field."
+                }
             }
         ]
     }

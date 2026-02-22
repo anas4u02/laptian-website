@@ -16,9 +16,15 @@ interface Course {
     detailedDescription: string;
     whoShouldEnroll: string[];
     practicalTraining: string;
-    curriculum: string[];
+    curriculum: { title: string; description: string; bulletPoints?: string[] }[];
     courseContent?: { title: string; description: string; topics: string[] }[];
     careerOutcomes: string[];
+    futureSection?: {
+        heading: string;
+        description: string;
+        stats: { value: string; label: string }[];
+        closingText: string;
+    };
 }
 
 interface CourseDetailProps {
@@ -90,11 +96,41 @@ export default function CourseDetail({ course }: CourseDetailProps) {
                 </div>
             </section>
 
+            {/* Course Highlights / Curriculum Section */}
+            <section className="course-section course-curriculum">
+                <div className="container">
+                    <h2>
+                        Course <span className="text-highlight">Highlights</span>
+                    </h2>
+                    <p className="section-subtitle">
+                        Comprehensive curriculum designed to make you industry-ready
+                    </p>
+                    <div className="curriculum-grid">
+                        {course.curriculum.map((item, index) => (
+                            <div key={index} className="curriculum-item">
+                                <span className="curriculum-number">{String(index + 1).padStart(2, '0')}</span>
+                                <div className="curriculum-content">
+                                    <h4 className="curriculum-title">{item.title}</h4>
+                                    <p className="curriculum-description">{item.description}</p>
+                                    {item.bulletPoints && item.bulletPoints.length > 0 && (
+                                        <ul className="curriculum-bullets">
+                                            {item.bulletPoints.map((point, pIndex) => (
+                                                <li key={pIndex}>{point}</li>
+                                            ))}
+                                        </ul>
+                                    )}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* Who Should Enroll Section */}
             <section className="course-section course-audience">
                 <div className="container">
                     <h2>
-                        Who Should <span className="text-highlight">Enroll</span>
+                        Who Should <span className="text-highlight">Enroll</span> in this Laptop Repair Course?
                     </h2>
                     <p className="section-subtitle">
                         This course is perfect for individuals who are:
@@ -109,6 +145,8 @@ export default function CourseDetail({ course }: CourseDetailProps) {
                     </div>
                 </div>
             </section>
+
+
 
             {/* Why Practical Training Section */}
             <section className="course-section course-practical">
@@ -182,25 +220,7 @@ export default function CourseDetail({ course }: CourseDetailProps) {
                 </section>
             )}
 
-            {/* Course Highlights / Curriculum Section */}
-            <section className="course-section course-curriculum">
-                <div className="container">
-                    <h2>
-                        Course <span className="text-highlight">Highlights</span>
-                    </h2>
-                    <p className="section-subtitle">
-                        Comprehensive curriculum designed to make you industry-ready
-                    </p>
-                    <div className="curriculum-grid">
-                        {course.curriculum.map((item, index) => (
-                            <div key={index} className="curriculum-item">
-                                <span className="curriculum-number">{String(index + 1).padStart(2, '0')}</span>
-                                <span className="curriculum-text">{item}</span>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+
 
             {/* Level Up Your Career Section */}
             <section className="course-section course-career">
@@ -223,35 +243,29 @@ export default function CourseDetail({ course }: CourseDetailProps) {
             </section>
 
             {/* Future of Laptop Repair Section */}
-            <section className="course-section course-future">
-                <div className="container">
-                    <h2>
-                        Prepare Yourself for the <span className="text-highlight">Future</span> of Laptop Repair
-                    </h2>
-                    <div className="future-content">
-                        <p>
-                            The laptop repair industry is evolving rapidly with new technologies, components, and repair techniques emerging constantly. Our training program keeps pace with these changes, ensuring you're always ahead of the curve.
-                        </p>
-                        <div className="future-stats">
-                            <div className="future-stat">
-                                <div className="stat-value">₹50K+</div>
-                                <div className="stat-label">Average Monthly Earnings</div>
+            {course.futureSection && (
+                <section className="course-section course-future">
+                    <div className="container">
+                        <h2 dangerouslySetInnerHTML={{
+                            __html: course.futureSection.heading
+                                .replace('<highlight>', '<span class="text-highlight">')
+                                .replace('</highlight>', '</span>')
+                        }} />
+                        <div className="future-content">
+                            <p>{course.futureSection.description}</p>
+                            <div className="future-stats">
+                                {course.futureSection.stats.map((stat, index) => (
+                                    <div key={index} className="future-stat">
+                                        <div className="stat-value">{stat.value}</div>
+                                        <div className="stat-label">{stat.label}</div>
+                                    </div>
+                                ))}
                             </div>
-                            <div className="future-stat">
-                                <div className="stat-value">95%</div>
-                                <div className="stat-label">Placement Success Rate</div>
-                            </div>
-                            <div className="future-stat">
-                                <div className="stat-value">2500+</div>
-                                <div className="stat-label">Successful Graduates</div>
-                            </div>
+                            <p>{course.futureSection.closingText}</p>
                         </div>
-                        <p>
-                            With the increasing complexity of modern laptops and the growing demand for skilled technicians, now is the perfect time to invest in your laptop repair career. Join Laptian Technical Institue and become part of a thriving community of successful repair professionals.
-                        </p>
                     </div>
-                </div>
-            </section>
+                </section>
+            )}
 
             {/* Final CTA Section */}
             <section className="course-section course-final-cta">
