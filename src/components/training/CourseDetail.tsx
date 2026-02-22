@@ -1,11 +1,13 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import Link from 'next/link';
 import './CourseDetail.css';
 
 interface Course {
     id: number;
     title: string;
-    slug: string;
+    slug?: string;
     duration: string;
     level: string;
     price?: string;
@@ -15,6 +17,7 @@ interface Course {
     whoShouldEnroll: string[];
     practicalTraining: string;
     curriculum: string[];
+    courseContent?: { title: string; description: string; topics: string[] }[];
     careerOutcomes: string[];
 }
 
@@ -23,6 +26,12 @@ interface CourseDetailProps {
 }
 
 export default function CourseDetail({ course }: CourseDetailProps) {
+    const [openAccordion, setOpenAccordion] = useState<number | null>(0);
+
+    const toggleAccordion = (index: number) => {
+        setOpenAccordion(openAccordion === index ? null : index);
+    };
+
     return (
         <div className="course-detail">
             {/* Hero Section */}
@@ -48,13 +57,15 @@ export default function CourseDetail({ course }: CourseDetailProps) {
                                     <div className="meta-value">{course.level}</div>
                                 </div>
                             </div>
-                            <div className="course-meta-item">
-                                <span className="meta-icon">💰</span>
-                                <div>
-                                    <div className="meta-label">Investment</div>
-                                    <div className="meta-value">{course?.price}</div>
+                            {course.price && (
+                                <div className="course-meta-item">
+                                    <span className="meta-icon">💰</span>
+                                    <div>
+                                        <div className="meta-label">Investment</div>
+                                        <div className="meta-value">{course?.price}</div>
+                                    </div>
                                 </div>
-                            </div>
+                            )}
                         </div>
 
                         <div className="course-cta-group">
@@ -129,6 +140,47 @@ export default function CourseDetail({ course }: CourseDetailProps) {
                     </div>
                 </div>
             </section>
+
+            {/* Course Content Accordion Section */}
+            {course.courseContent && course.courseContent.length > 0 && (
+                <section className="course-section course-content-section">
+                    <div className="container">
+                        <h2>
+                            Course <span className="text-highlight">Content</span>
+                        </h2>
+                        <p className="section-subtitle">
+                            Explore what you&apos;ll learn in each module
+                        </p>
+                        <div className="accordion-container">
+                            {course.courseContent.map((module, index) => (
+                                <div
+                                    key={index}
+                                    className={`accordion-item ${openAccordion === index ? 'accordion-open' : ''}`}
+                                >
+                                    <button
+                                        className="accordion-header"
+                                        onClick={() => toggleAccordion(index)}
+                                        aria-expanded={openAccordion === index}
+                                    >
+                                        <span className="accordion-title">{module.title}</span>
+                                        <span className="accordion-icon">
+                                            {openAccordion === index ? '−' : '+'}
+                                        </span>
+                                    </button>
+                                    <div className="accordion-body">
+                                        <p className="accordion-description">{module.description}</p>
+                                        <ul className="accordion-topics">
+                                            {module.topics.map((topic, tIndex) => (
+                                                <li key={tIndex}>{topic}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            )}
 
             {/* Course Highlights / Curriculum Section */}
             <section className="course-section course-curriculum">

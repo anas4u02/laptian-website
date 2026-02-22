@@ -11,7 +11,8 @@ import {
     ArrowRight,
     Wrench,
     Cpu,
-    Award
+    Award,
+    CircleCheck
 } from 'lucide-react';
 
 export const Icons = {
@@ -27,5 +28,6 @@ export const Icons = {
     ArrowRight,
     Wrench,
     Cpu,
-    Award
+    Award,
+    CircleCheck
 };

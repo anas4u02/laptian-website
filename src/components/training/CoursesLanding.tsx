@@ -46,8 +46,8 @@ export default function CoursesPage() {
                             title={course.title}
                             description={course.description}
                             icon={course.icon as keyof typeof Icons}
-                            image={course.image}
-                            url={`/courses/${course.slug}`}
+                            highlights={course.highlights}
+                            url={course.slug ? `/courses/${course.slug}` : undefined}
                             buttonText="Explore More"
                         />
                     ))}

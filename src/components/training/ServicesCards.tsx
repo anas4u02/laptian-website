@@ -24,7 +24,9 @@ export default function ServicesCards() {
                                     <span className="meta-icon">⏱️</span>
                                     {course.duration}
                                 </span>
-                                <span className="service-price">{course?.price}</span>
+                                {course?.price && (
+                                    <span className="service-price">{course.price}</span>
+                                )}
                             </div>
                             <p className="card-description">{course.description}</p>
                             <ul className="service-highlights">
@@ -35,9 +37,11 @@ export default function ServicesCards() {
                                     </li>
                                 ))}
                             </ul>
-                            <Link href={`/courses/${course.slug}`} className="btn btn-primary w-full mt-4">
-                                Learn More
-                            </Link>
+                            {course.slug && (
+                                <Link href={`/courses/${course.slug}`} className="btn btn-primary w-full mt-4">
+                                    Learn More
+                                </Link>
+                            )}
                         </div>
                     ))}
                 </div>

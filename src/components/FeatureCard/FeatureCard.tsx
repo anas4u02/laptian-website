@@ -9,12 +9,13 @@ interface FeatureCardProps {
     title: string;
     description: string;
     icon: keyof typeof Icons;
-    image: string;
+    image?: string;
+    highlights?: string[];
     url?: string;
     buttonText?: string;
 }
 
-export default function FeatureCard({ id, title, description, icon, image, url, buttonText = 'Learn More' }: FeatureCardProps) {
+export default function FeatureCard({ id, title, description, icon, image, highlights, url, buttonText = 'Learn More' }: FeatureCardProps) {
     const IconComponent = Icons[icon];
 
     return (
@@ -48,39 +49,65 @@ export default function FeatureCard({ id, title, description, icon, image, url, 
                     )}
                 </div>
 
-
-                {/* Right Image with blend effect - positioned absolutely to blend into card */}
-                {image && (
-                    <div className={styles.imageContainerDesktop}>
-                        {/* Gradient overlay for blending from left to right */}
-                        <div className={styles.imageOverlay} />
-
-                        {/* Image */}
-
-                        <div className={styles.imageWrapper}>
-                            <Image
-                                src={image}
-                                alt={title}
-                                fill
-                                className={styles.image}
-                                priority
-                            />
+                {/* Right side: Highlights list OR Image */}
+                {highlights && highlights.length > 0 ? (
+                    <>
+                        {/* Desktop Highlights */}
+                        <div className={styles.highlightsContainerDesktop}>
+                            <h4 className={styles.highlightsTitle}>Course Highlights</h4>
+                            <ul className={styles.highlightsList}>
+                                {highlights.map((item, index) => (
+                                    <li key={index} className={styles.highlightItem}>
+                                        <Icons.CircleCheck className={styles.highlightIcon} />
+                                        <span>{item}</span>
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
-
-                    </div>
-                )}
-                {/* Mobile Image */}
-                {image && (
-                    <div className={styles.imageContainerMobile}>
-                        <div className={styles.imageOverlayMobile} />
-                        <Image
-                            src={image}
-                            alt={title}
-                            fill
-                            className={styles.image}
-                            priority
-                        />
-                    </div>
+                        {/* Mobile Highlights */}
+                        <div className={styles.highlightsContainerMobile}>
+                            <h4 className={styles.highlightsTitle}>Course Highlights</h4>
+                            <ul className={styles.highlightsList}>
+                                {highlights.map((item, index) => (
+                                    <li key={index} className={styles.highlightItem}>
+                                        <Icons.CircleCheck className={styles.highlightIcon} />
+                                        <span>{item}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </>
+                ) : (
+                    <>
+                        {/* Right Image with blend effect */}
+                        {image && (
+                            <div className={styles.imageContainerDesktop}>
+                                <div className={styles.imageOverlay} />
+                                <div className={styles.imageWrapper}>
+                                    <Image
+                                        src={image}
+                                        alt={title}
+                                        fill
+                                        className={styles.image}
+                                        priority
+                                    />
+                                </div>
+                            </div>
+                        )}
+                        {/* Mobile Image */}
+                        {image && (
+                            <div className={styles.imageContainerMobile}>
+                                <div className={styles.imageOverlayMobile} />
+                                <Image
+                                    src={image}
+                                    alt={title}
+                                    fill
+                                    className={styles.image}
+                                    priority
+                                />
+                            </div>
+                        )}
+                    </>
                 )}
             </div>
         </div>

@@ -5,103 +5,13 @@
         "subtitle": "Choose the program that fits your career goals",
         "items": [
             {
-                "id": 1,
-                "title": "Desktop Repair Training",
-                "slug": "desktop-chip-level-repair-training",
-                "icon": "Wrench",
-                "image": "/laptop-repair.png",
-                "duration": "2 Weeks",
-                "level": "Beginner",
-                "description": "Learn fundamental laptop repair skills including hardware troubleshooting, component replacement, and basic diagnostics.",
-                "highlights": [
-                    "Computer Assembling & Disassembling",
-                    "Soldering & Desoldering",
-                    "RAM, VRM, PCH Tracing & Troubleshooting",
-                    "BIOS Programming & Troubleshooting"
-                ],
-                "detailedDescription": "Our Basic Laptop Repair course is designed to provide you with a solid foundation in laptop repair and maintenance. This beginner-friendly program covers essential hardware components, common issues, and practical repair techniques that will enable you to diagnose and fix typical laptop problems confidently.",
-                "whoShouldEnroll": [
-                    "Complete beginners with no prior technical experience",
-                    "Students looking to start a career in laptop repair",
-                    "Small business owners wanting to handle basic IT issues",
-                    "Anyone interested in understanding how laptops work",
-                    "Professionals seeking a career change into tech services"
-                ],
-                "practicalTraining": "Our hands-on approach ensures you work with real laptops from day one. You'll disassemble and reassemble various laptop models, diagnose actual hardware failures, and perform component replacements under expert supervision. This practical experience builds muscle memory and confidence that theoretical learning alone cannot provide.",
-                "curriculum": [
-                    "Laptop Architecture & Components",
-                    "Power System Troubleshooting",
-                    "Display & Video Issues",
-                    "Keyboard & Touchpad Repair",
-                    "Storage Device Management",
-                    "RAM & Memory Upgrades",
-                    "Operating System Installation",
-                    "Software Troubleshooting",
-                    "Basic Diagnostics Tools",
-                    "Professional Repair Practices"
-                ],
-                "careerOutcomes": [
-                    "Start as a Junior Laptop Technician",
-                    "Work in computer repair shops",
-                    "Freelance repair services",
-                    "IT support roles in companies",
-                    "Foundation for advanced certifications"
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Laptop Chip Level Repair Training",
-                "slug": "laptop-chip-level-repair-training",
-                "icon": "Cpu",
-                "image": "/laptop-repair.png",
-                "duration": "6 Weeks",
-                "level": "Beginner",
-                "description": "Master complex chip-level repairs, circuit analysis, and component-level troubleshooting techniques.",
-                "highlights": [
-                    "Laptop Motherboard Fundamentals & Power Supply Sequence",
-                    "DC-IN, Battery Charging/Discharging Circuits",
-                    "VRM, RAM, PCH & Clock, Fan, USB, LVDS, HDMI, Audio Circuits",
-                    "BIOS Programming, & Hinge/Body Fabrication Repair"
-                ],
-                "detailedDescription": "Take your skills to the next level with our Advanced Motherboard Repair course. This intensive program delves deep into component-level troubleshooting, circuit board analysis, and micro-soldering techniques. You'll learn to diagnose and repair complex motherboard issues that most technicians consider irreparable.",
-                "whoShouldEnroll": [
-                    "Technicians with basic laptop repair experience",
-                    "Service center professionals seeking specialization",
-                    "Graduates of our Basic Laptop Repair course",
-                    "Electronics enthusiasts with soldering experience",
-                    "Anyone looking to master high-value repair skills"
-                ],
-                "practicalTraining": "Work with advanced diagnostic equipment including oscilloscopes, multimeters, and thermal cameras. You'll practice BGA reballing, micro-soldering on actual motherboards, and learn to read schematics like a pro. Our experienced instructors guide you through real-world repair scenarios that you'll encounter in professional settings.",
-                "curriculum": [
-                    "Motherboard Architecture Deep Dive",
-                    "Circuit Theory & Analysis",
-                    "Power Delivery Systems",
-                    "Reading & Understanding Schematics",
-                    "Component-Level Diagnostics",
-                    "Micro-Soldering Techniques",
-                    "BGA Reballing & Rework",
-                    "GPU & CPU Troubleshooting",
-                    "BIOS Programming & Recovery",
-                    "EC (Embedded Controller) Repair",
-                    "Advanced Testing Equipment",
-                    "Professional Workshop Setup"
-                ],
-                "careerOutcomes": [
-                    "Become a motherboard repair specialist",
-                    "Command premium service rates",
-                    "Open specialized repair centers",
-                    "Work with authorized service centers",
-                    "Freelance high-value repair services",
-                    "Train other technicians"
-                ]
-            },
-            {
                 "id": 3,
                 "title": "Professional Certification Course",
                 "slug": "professional-certification-course",
                 "icon": "Award",
                 "image": "/training-facility.png",
                 "duration": "8 Weeks",
+                "price": "",
                 "level": "Professional",
                 "description": "Comprehensive training covering all aspects of laptop repair with industry-recognized certification and placement support.",
                 "highlights": [
@@ -141,6 +51,201 @@
                     "Placement Preparation",
                     "Interview Skills & Resume Building"
                 ],
+                "courseContent": [
+                    {
+                        "title": "Module 1: Basic Electronics & Circuit Fundamentals",
+                        "description": "Study of basic circuit elements, passive components, semiconductor devices, digital electronics, and fault finding using diagnostic tools.",
+                        "topics": [
+                            "Basic circuit elements and passive components (Resistor, Capacitor, Inductor, Diode)",
+                            "Semiconductor devices: BJT, FET and MOSFET",
+                            "Crystal, Oscillators and RTC fundamentals",
+                            "Fuse, Fusible Resistor and CLR",
+                            "Identification and testing of ICs and chipsets",
+                            "Types of circuits: Series, Parallel, Open and Short circuits",
+                            "Difference between analog and digital electronics",
+                            "Logic gates: AND, NAND, OR, NOT and NOR",
+                            "Fault finding using Digital Multimeter, SMD Tester and DSO/CRO"
+                        ]
+                    },
+                    {
+                        "title": "Module 2: PS_ID, AD_ID & Laptop Battery Architecture",
+                        "description": "Understanding adapter identification circuits, battery architecture, communication lines, and troubleshooting battery-related issues.",
+                        "topics": [
+                            "Introduction to PS_ID and AD_ID",
+                            "PS_ID and AD_ID circuit tracing",
+                            "Repair techniques for PS_ID and AD_ID",
+                            "Laptop battery basics and different architectures",
+                            "Battery connector and pin details",
+                            "Battery communication and protection circuits",
+                            "Battery voltage and signal lines",
+                            "Battery fault finding and troubleshooting"
+                        ]
+                    },
+                    {
+                        "title": "Module 3: DCIN & Charging Section",
+                        "description": "Comprehensive study of DC input and charging circuits across different motherboard architectures with tracing and troubleshooting methods.",
+                        "topics": [
+                            "DCIN/VIN section in different architecture motherboards",
+                            "Universal concept of DCIN section",
+                            "DCIN circuit tracing",
+                            "Common DCIN faults and troubleshooting techniques",
+                            "Charging section in different architecture boards",
+                            "Charging IC pin functions",
+                            "Working concept of charging IC",
+                            "Charging control and protection circuits",
+                            "Charging related problems and troubleshooting techniques"
+                        ]
+                    },
+                    {
+                        "title": "Module 4: 3V & 5V Step-Down Power Section",
+                        "description": "Understanding always-on voltages, step-down converters, DC-DC circuits, and troubleshooting 3V/5V power rails.",
+                        "topics": [
+                            "Introduction to 3V and 5V step-down section",
+                            "Difference between always-ON and suspend voltages",
+                            "Step-down working principle",
+                            "Controller functions and IC pin details",
+                            "3V and 5V rail start sequence",
+                            "3V and 5V circuit tracing (practical)",
+                            "DC to DC circuit concepts",
+                            "Generation of 12V, 15V and 28V",
+                            "Common 3V/5V faults and troubleshooting"
+                        ]
+                    },
+                    {
+                        "title": "Module 5: RAM Power & PWM Section",
+                        "description": "Detailed study of RAM power rails, PWM controllers, supply sequences, and RAM communication with CPU.",
+                        "topics": [
+                            "RAM PWM section overview",
+                            "RAM IC pin functions",
+                            "Supply sequence with power states (S5, S3, S0)",
+                            "RAM power rails (VDDP, VTT, VDD)",
+                            "RAM PWM IC working principle",
+                            "Voltage and signal requirements of DDR3, DDR3L, DDR4 and DDR5",
+                            "RAM and CPU data communication",
+                            "RAM PWM faults and troubleshooting techniques",
+                            "RAM slot common faults and solutions"
+                        ]
+                    },
+                    {
+                        "title": "Module 6: Super IO (SIO/EC) Controller",
+                        "description": "Understanding Super IO controller logic, triggering sequence, communication with system components, and troubleshooting.",
+                        "topics": [
+                            "Super IO controller working principle",
+                            "SIO voltage requirements and triggering logic",
+                            "Signal sequence and SIO communication",
+                            "SIO/EC interaction with charging, PCH, RAM and step-down sections",
+                            "Power button detection",
+                            "Keyboard, touchpad and fan control role of SIO",
+                            "IO programming basics",
+                            "SIO fault finding and troubleshooting techniques"
+                        ]
+                    },
+                    {
+                        "title": "Module 7: RTC Section & No Power Diagnosis",
+                        "description": "Study of RTC circuit, clock generation, reset signals, and troubleshooting no power and no trigger issues.",
+                        "topics": [
+                            "RTC section fundamentals",
+                            "SIO and PCH 32.768 kHz frequency generation",
+                            "VCCRTC voltage and PCH RTCRST",
+                            "RTCRST, SRTCRST, SUSCLK and INTVRMEN concepts",
+                            "Intruder and RTC reset concepts",
+                            "Fault finding with case studies",
+                            "No power and no trigger troubleshooting"
+                        ]
+                    },
+                    {
+                        "title": "Module 8: VRM & CPU Core Section",
+                        "description": "Understanding CPU power sequence, core voltage generation, VRM controller operation, and core fault diagnosis.",
+                        "topics": [
+                            "VRM and core power section",
+                            "Core IC requirements and pin functions",
+                            "CPU power sequence and enable signals",
+                            "CPU voltage and signal requirements",
+                            "Core IC communication with CPU",
+                            "CPU and RAM communication",
+                            "CPU, PCH, BIOS and RAM SMBus communication",
+                            "CPU and core faults diagnosis and troubleshooting"
+                        ]
+                    },
+                    {
+                        "title": "Module 9: PCH Power & Signal Management",
+                        "description": "In-depth analysis of PCH power signals, system resets, and communication with major motherboard components.",
+                        "topics": [
+                            "PCH voltage and signal requirements",
+                            "Power management signals (RSMRST, SLP_S3, SLP_S4, SLP_S5, DPWROK, SYS_RESET)",
+                            "PWROK, PWRBTN, SUSCLK, BATLOW and PLTRST signals",
+                            "ACPRESENT and DRAMPWROK concepts",
+                            "PCH communication with SIO, BIOS and CPU",
+                            "Troubleshooting sound, USB, LAN, Wi-Fi, Bluetooth and card reader issues"
+                        ]
+                    },
+                    {
+                        "title": "Module 10: Display Section (LVDS & eDP)",
+                        "description": "Understanding laptop display interfaces, signal tracing, and troubleshooting display-related faults.",
+                        "topics": [
+                            "LVDS and eDP display concepts",
+                            "LVDS and eDP fault diagnosis and solutions",
+                            "Laptop no display troubleshooting",
+                            "Dim display fault analysis",
+                            "External display working but internal display not working",
+                            "LVDS signal tracing and testing"
+                        ]
+                    },
+                    {
+                        "title": "Module 11: BIOS Programming & Signal Analysis",
+                        "description": "BIOS programming, signal testing using DSO/CRO, ME region editing, and solving display and boot-related issues.",
+                        "topics": [
+                            "BIOS update and fault solving techniques",
+                            "BIOS signal testing using DSO/CRO",
+                            "BIOS waveform analysis for display faults",
+                            "BIOS pin functions and testing",
+                            "BIOS programming and editing",
+                            "ME region cleaning and editing",
+                            "Diagnosing no display, dim display and delayed display issues",
+                            "Noise and glitch detection using DSO"
+                        ]
+                    },
+                    {
+                        "title": "Module 12: Power Sequence & Advanced Diagnostics",
+                        "description": "Comprehensive study of power states, short detection, live case studies, and motherboard analysis using boardview.",
+                        "topics": [
+                            "Power sequence with states S5, S4, S3 and S0",
+                            "Identification of power rail short and IC internal short",
+                            "Live motherboard fault case studies",
+                            "Verification of successful repair",
+                            "Graphics to UMA (DIS to UMA) conversion technique",
+                            "Boardview usage and signal identification",
+                            "SoC and CPU communication fundamentals"
+                        ]
+                    },
+                    {
+                        "title": "Module 13: DC Power Supply & Short Circuit Detection",
+                        "description": "Practical usage of DC power supply, power injection methods, and short circuit tracing techniques.",
+                        "topics": [
+                            "DC power supply introduction and usage",
+                            "Short circuit detection techniques",
+                            "Power injection practical methods",
+                            "Voltage and current limit settings",
+                            "Safe injection point selection",
+                            "Current consumption analysis",
+                            "Short and leakage path tracing"
+                        ]
+                    },
+                    {
+                        "title": "Module 14: DSO/CRO Advanced Testing Techniques",
+                        "description": "Advanced oscilloscope settings, waveform analysis, trigger modes, and signal integrity testing for accurate motherboard diagnostics.",
+                        "topics": [
+                            "DSO/CRO settings and trigger functions",
+                            "Advanced waveform testing techniques",
+                            "Trigger modes (Auto, Normal, Edge, Level)",
+                            "PWM signal checking",
+                            "Reset signal timing verification",
+                            "Missing or unstable signal detection",
+                            "SMBus communication signal testing",
+                            "Noise and distortion detection using DSO"
+                        ]
+                    }
+                ],
                 "careerOutcomes": [
                     "Certified Professional Laptop Technician",
                     "Average starting salary: ₹25,000-₹32,000/month",
@@ -150,6 +255,151 @@
                     "Become a technical trainer",
                     "Partner with OEM service networks",
                     "Lifetime career support and mentorship"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Desktop Repair Training",
+                "icon": "Wrench",
+                "image": "/laptop-repair.png",
+                "duration": "2 Weeks",
+                "price": "",
+                "level": "Beginner",
+                "description": "Learn fundamental laptop repair skills including hardware troubleshooting, component replacement, and basic diagnostics.",
+                "highlights": [
+                    "Computer Assembling & Disassembling",
+                    "Soldering & Desoldering",
+                    "RAM, VRM, PCH Tracing & Troubleshooting",
+                    "BIOS Programming & Troubleshooting"
+                ],
+                "detailedDescription": "Our Basic Laptop Repair course is designed to provide you with a solid foundation in laptop repair and maintenance. This beginner-friendly program covers essential hardware components, common issues, and practical repair techniques that will enable you to diagnose and fix typical laptop problems confidently.",
+                "whoShouldEnroll": [
+                    "Complete beginners with no prior technical experience",
+                    "Students looking to start a career in laptop repair",
+                    "Small business owners wanting to handle basic IT issues",
+                    "Anyone interested in understanding how laptops work",
+                    "Professionals seeking a career change into tech services"
+                ],
+                "practicalTraining": "Our hands-on approach ensures you work with real laptops from day one. You'll disassemble and reassemble various laptop models, diagnose actual hardware failures, and perform component replacements under expert supervision. This practical experience builds muscle memory and confidence that theoretical learning alone cannot provide.",
+                "curriculum": [
+                    "Laptop Architecture & Components",
+                    "Power System Troubleshooting",
+                    "Display & Video Issues",
+                    "Keyboard & Touchpad Repair",
+                    "Storage Device Management",
+                    "RAM & Memory Upgrades",
+                    "Operating System Installation",
+                    "Software Troubleshooting",
+                    "Basic Diagnostics Tools",
+                    "Professional Repair Practices"
+                ],
+                "courseContent": [
+                    {
+                        "title": "Week 1: Desktop Fundamentals",
+                        "description": "Get hands-on with desktop hardware — learn to assemble, disassemble, and perform essential soldering work.",
+                        "topics": [
+                            "Computer assembling and disassembling",
+                            "Component identification and testing",
+                            "Soldering and desoldering basics",
+                            "Power supply troubleshooting"
+                        ]
+                    },
+                    {
+                        "title": "Week 2: Repair & Diagnostics",
+                        "description": "Apply your skills to real-world repair scenarios covering BIOS, circuit tracing, and OS-level troubleshooting.",
+                        "topics": [
+                            "RAM, VRM, PCH tracing and troubleshooting",
+                            "BIOS programming and troubleshooting",
+                            "Operating system installation and configuration",
+                            "Professional repair practices and tools"
+                        ]
+                    }
+                ],
+                "careerOutcomes": [
+                    "Start as a Junior Laptop Technician",
+                    "Work in computer repair shops",
+                    "Freelance repair services",
+                    "IT support roles in companies",
+                    "Foundation for advanced certifications"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Laptop Chip Level Repair Training",
+                "icon": "Cpu",
+                "image": "/laptop-repair.png",
+                "duration": "6 Weeks",
+                "price": "",
+                "level": "Beginner",
+                "description": "Master complex chip-level repairs, circuit analysis, and component-level troubleshooting techniques.",
+                "highlights": [
+                    "Laptop Motherboard Fundamentals & Power Supply Sequence",
+                    "DC-IN, Battery Charging/Discharging Circuits",
+                    "VRM, RAM, PCH & Clock, Fan, USB, LVDS, HDMI, Audio Circuits",
+                    "BIOS Programming, & Hinge/Body Fabrication Repair"
+                ],
+                "detailedDescription": "Take your skills to the next level with our Advanced Motherboard Repair course. This intensive program delves deep into component-level troubleshooting, circuit board analysis, and micro-soldering techniques. You'll learn to diagnose and repair complex motherboard issues that most technicians consider irreparable.",
+                "whoShouldEnroll": [
+                    "Technicians with basic laptop repair experience",
+                    "Service center professionals seeking specialization",
+                    "Graduates of our Basic Laptop Repair course",
+                    "Electronics enthusiasts with soldering experience",
+                    "Anyone looking to master high-value repair skills"
+                ],
+                "practicalTraining": "Work with advanced diagnostic equipment including oscilloscopes, multimeters, and thermal cameras. You'll practice BGA reballing, micro-soldering on actual motherboards, and learn to read schematics like a pro. Our experienced instructors guide you through real-world repair scenarios that you'll encounter in professional settings.",
+                "curriculum": [
+                    "Motherboard Architecture Deep Dive",
+                    "Circuit Theory & Analysis",
+                    "Power Delivery Systems",
+                    "Reading & Understanding Schematics",
+                    "Component-Level Diagnostics",
+                    "Micro-Soldering Techniques",
+                    "BGA Reballing & Rework",
+                    "GPU & CPU Troubleshooting",
+                    "BIOS Programming & Recovery",
+                    "EC (Embedded Controller) Repair",
+                    "Advanced Testing Equipment",
+                    "Professional Workshop Setup"
+                ],
+                "courseContent": [
+                    {
+                        "title": "Week 1-2: Motherboard Fundamentals",
+                        "description": "Understand laptop motherboard architecture from the ground up, including power delivery and charging circuits.",
+                        "topics": [
+                            "Laptop motherboard architecture deep dive",
+                            "Power supply sequence and DC-IN circuits",
+                            "Battery charging and discharging circuits",
+                            "Circuit theory and analysis basics"
+                        ]
+                    },
+                    {
+                        "title": "Week 3-4: Circuit-Level Diagnostics",
+                        "description": "Master circuit-level diagnostics across all major laptop subsystems using professional-grade tools.",
+                        "topics": [
+                            "VRM, RAM, PCH and clock circuits",
+                            "Fan, USB, LVDS, HDMI, and audio circuits",
+                            "Reading and understanding schematics",
+                            "Component-level diagnostics with advanced tools"
+                        ]
+                    },
+                    {
+                        "title": "Week 5-6: Advanced Repair Techniques",
+                        "description": "Learn advanced repair skills including micro-soldering, BIOS programming, and physical fabrication repair.",
+                        "topics": [
+                            "Micro-soldering and BGA rework techniques",
+                            "BIOS programming and EC repair",
+                            "Hinge and body fabrication repair",
+                            "Professional workshop setup and best practices"
+                        ]
+                    }
+                ],
+                "careerOutcomes": [
+                    "Become a motherboard repair specialist",
+                    "Command premium service rates",
+                    "Open specialized repair centers",
+                    "Work with authorized service centers",
+                    "Freelance high-value repair services",
+                    "Train other technicians"
                 ]
             }
         ]
