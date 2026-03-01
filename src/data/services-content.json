@@ -87,6 +87,12 @@
                 "title": "General Maintenance",
                 "description": "Complete laptop servicing including cleaning, optimization, and health check-up.",
                 "price": "From ₹600"
+            },
+            {
+                "icon": "🔧",
+                "title": "Body Fabrication",
+                "description": "Complete laptop body fabrication including cleaning, optimization, and health check-up.",
+                "price": "From ₹600"
             }
         ],
         "brandsHeading": "We Repair All Major Brands",
@@ -203,5 +209,182 @@
                 "image": "👩‍🏫"
             }
         ]
+    },
+    "serviceAreas": {
+        "title": "Service Areas",
+        "titleHighlight": "We Cover",
+        "subtitle": "We offer same-day laptop repair services across PCMC, including:",
+        "areas": [
+            "Wakad",
+            "Hinjewadi",
+            "Nigdi",
+            "Bhosari",
+            "Akurdi",
+            "Ravet",
+            "Punawale",
+            "Kalewadi"
+        ],
+        "highlightedCta": "Doorstep pickup & drop available across Pimpri, Chinchwad & Pune!"
+    },
+    "trustedPartner": {
+        "title": "Your Trusted",
+        "titleHighlight": "Laptop Repair Partner",
+        "titleSuffix": "in PCMC",
+        "description": "With 10+ years of hands-on experience, we operate our own advanced laptop repair service centre in PCMC. We specialize in Windows laptop, computer, and MacBook repairs, using modern diagnostic tools and genuine-quality spare parts.",
+        "points": [
+            "Same-day laptop repairs (subject to issue complexity)",
+            "After-warranty laptop repair specialists",
+            "Transparent diagnosis and honest pricing"
+        ]
+    },
+    "whyChoose": {
+        "title": "Why Choose",
+        "titleHighlight": "Laptian",
+        "titleSuffix": "for Laptop Repair in Pimpri-Chinchwad?",
+        "subtitle": "As a leading laptop repair service centre in PCMC, we are trusted by individual users, students, professionals, and businesses alike.",
+        "points": [
+            {
+                "icon": "🏅",
+                "text": "Certified & experienced technicians"
+            },
+            {
+                "icon": "🔬",
+                "text": "Chip-level motherboard repair experts"
+            },
+            {
+                "icon": "✅",
+                "text": "Genuine OEM laptop spare parts"
+            },
+            {
+                "icon": "🛡️",
+                "text": "3–6 month service warranty"
+            },
+            {
+                "icon": "🔍",
+                "text": "Free complete diagnostics"
+            },
+            {
+                "icon": "🚗",
+                "text": "Pickup & drop facility available"
+            },
+            {
+                "icon": "⚡",
+                "text": "Same-day repair for minor issues"
+            },
+            {
+                "icon": "💯",
+                "text": "No repair – no charge policy"
+            }
+        ]
+    },
+    "multiBrand": {
+        "title": "Multi-Brand",
+        "titleHighlight": "Laptop Repair Services",
+        "titleSuffix": "in PCMC",
+        "subtitle": "Whether it is a personal laptop or a business device, we repair all major laptop brands, including:",
+        "description": "From basic hardware issues to advanced motherboard and chip-level repairs, our technicians ensure fast, reliable, and quality-assured service across Pimpri-Chinchwad.",
+        "brands": [
+            "Lenovo",
+            "HP",
+            "Dell",
+            "Apple (MacBook)",
+            "Asus",
+            "Acer",
+            "MSI",
+            "Samsung",
+            "Microsoft Surface"
+        ]
+    },
+    "completeServices": {
+        "title": "Complete Laptop",
+        "titleHighlight": "Repair Services",
+        "titleSuffix": "We Offer",
+        "hardwareRepair": {
+            "title": "Hardware",
+            "titleHighlight": "Repair Services",
+            "icon": "🔧",
+            "items": [
+                {
+                    "text": "Laptop motherboard repair",
+                    "detail": "for power and display issues"
+                },
+                {
+                    "text": "Battery and charger",
+                    "detail": "repair or replacement"
+                },
+                {
+                    "text": "Fan repair and replacement",
+                    "detail": "for overheating issues"
+                },
+                {
+                    "text": "Hinge repair",
+                    "detail": "and replacement"
+                },
+                {
+                    "text": "Keyboard replacement",
+                    "detail": "with original-quality parts"
+                },
+                {
+                    "text": "Screen replacement",
+                    "detail": "LED, LCD, and touch screens"
+                },
+                {
+                    "text": "Laptop body replacement",
+                    "detail": ""
+                },
+                {
+                    "text": "Speaker and audio jack",
+                    "detail": "repair"
+                },
+                {
+                    "text": "Touchpad repair",
+                    "detail": ""
+                }
+            ]
+        },
+        "performanceUpgrades": {
+            "title": "Performance &",
+            "titleHighlight": "Upgrade Services",
+            "icon": "🚀",
+            "items": [
+                {
+                    "text": "SSD / Hard Disk Upgrade",
+                    "detail": "Boost speed & performance"
+                },
+                {
+                    "text": "RAM Upgrade",
+                    "detail": "Smooth multitasking"
+                },
+                {
+                    "text": "Laptop Upgrades",
+                    "detail": "for Old & New Models"
+                }
+            ]
+        },
+        "softwareServices": {
+            "title": "Software &",
+            "titleHighlight": "System Services",
+            "icon": "💻",
+            "items": [
+                {
+                    "text": "OS Installation",
+                    "detail": "Windows with required drivers"
+                },
+                {
+                    "text": "Software Troubleshooting",
+                    "detail": ""
+                },
+                {
+                    "text": "System Optimization",
+                    "detail": "& Maintenance"
+                }
+            ]
+        }
+    },
+    "chipLevelRepair": {
+        "title": "Laptop Chip-Level &",
+        "titleHighlight": "Motherboard Repair",
+        "titleSuffix": "Specialists",
+        "description": "We are known for advanced SMD & BGA chip-level motherboard repair in PCMC, using professional tools and controlled repair techniques to fix complex faults that other service centres cannot."
     }
 }

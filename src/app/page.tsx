@@ -20,6 +20,12 @@ import OtherServices from '@/components/training/OtherServices';
 
 // Services components  
 import ServicesHero from '@/components/services/HeroSection';
+import ServiceAreas from '@/components/services/ServiceAreas';
+import TrustedPartner from '@/components/services/TrustedPartner';
+import WhyChoose from '@/components/services/WhyChoose';
+import MultiBrand from '@/components/services/MultiBrand';
+import CompleteServices from '@/components/services/CompleteServices';
+import ChipLevelRepair from '@/components/services/ChipLevelRepair';
 import ServicesList from '@/components/services/ServicesList';
 import ProcessFlow from '@/components/services/ProcessFlow';
 import ServicesTestimonials from '@/components/services/Testimonials';
@@ -100,6 +106,12 @@ export default async function HomePage() {
           )}
           <main>
             <ServicesHero />
+            <ServiceAreas />
+            <TrustedPartner />
+            <WhyChoose />
+            <MultiBrand />
+            <CompleteServices />
+            <ChipLevelRepair />
             <ServicesList />
             <ProcessFlow />
             <ServicesTestimonials />

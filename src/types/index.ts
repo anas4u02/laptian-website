@@ -39,6 +39,15 @@ export type {
     TestimonialsSection as ServicesTestimonialsSection,
     Testimonial as ServicesTestimonial,
     HeroFeature,
+    ServiceAreasSection,
+    TrustedPartnerSection,
+    WhyChooseSection,
+    WhyChoosePoint,
+    MultiBrandSection,
+    CompleteServicesSection,
+    ServiceCategory,
+    ServiceCategoryItem,
+    ChipLevelSection,
 } from './services';
 export type {
     TrainingContent,

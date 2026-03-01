@@ -59,43 +59,48 @@
     "services": [
         {
             "id": 1,
-            "question": "How long does a typical laptop repair take?",
-            "answer": "Most repairs are completed within 24-48 hours. However, the exact turnaround time depends on the issue complexity and parts availability. For common problems like screen replacement or keyboard repairs, we often offer same-day service. We'll provide you with an accurate timeline after our free diagnosis."
+            "question": "Is Laptian an authorized laptop service centre?",
+            "answer": "No. Laptian is an independent laptop repair service centre and is not affiliated with brands like Dell, HP, Lenovo, Apple, Asus, Acer, MSI, or Microsoft. This allows us to provide reliable and cost-effective after-warranty laptop repairs."
         },
         {
             "id": 2,
-            "question": "Do you offer a warranty on repairs?",
-            "answer": "Yes! All our repairs come with a comprehensive 6-month warranty covering both parts and labor. If you experience any issues related to the repair work within this period, we'll fix it at no additional cost. This warranty demonstrates our confidence in the quality of our work and genuine parts."
+            "question": "Do you offer chip-level motherboard repair?",
+            "answer": "Yes. We specialize in advanced chip-level laptop motherboard repair, including SMD and BGA IC repairs, using professional diagnostic and rework equipment."
         },
         {
             "id": 3,
-            "question": "What brands of laptops do you repair?",
-            "answer": "We repair all major laptop brands including Dell, HP, Lenovo, Acer, ASUS, Apple MacBook, MSI, Toshiba, Samsung, and more. Our certified technicians have extensive experience with various models and configurations, from budget laptops to high-end gaming and professional workstations."
+            "question": "How much does laptop repair cost in Pune?",
+            "answer": "Laptop repair charges typically start from ₹1,200. The final cost depends on the laptop model, issue complexity, and parts required after diagnosis."
         },
         {
             "id": 4,
+            "question": "Do you use genuine spare parts?",
+            "answer": "Yes. We use 100% genuine OEM or high-quality compatible spare parts, all backed by a service warranty for reliability and performance."
+        },
+        {
+            "id": 5,
+            "question": "Is pickup and drop available in PCMC and Pune?",
+            "answer": "Yes. We provide convenient doorstep pickup and drop services across PCMC and Pune to make the repair process hassle-free for our customers."
+        },
+        {
+            "id": 6,
+            "question": "How long does laptop repair take?",
+            "answer": "Most minor and motherboard repairs are completed on the same day or within 24 hours. Complex issues may take slightly longer depending on the diagnosis and parts availability."
+        },
+        {
+            "id": 7,
+            "question": "Do you provide warranty on laptop repairs?",
+            "answer": "Yes. We offer a 3 to 6-month service warranty depending on the type of repair and the parts replaced."
+        },
+        {
+            "id": 8,
             "question": "Is the diagnosis really free?",
             "answer": "Yes, absolutely! We offer completely free diagnostics with no hidden charges. Our expert technicians will thoroughly examine your laptop, identify the problem, and provide a detailed quote before any repair work begins. You're under no obligation to proceed with the repair after the diagnosis."
         },
         {
-            "id": 5,
-            "question": "Do you use genuine parts for repairs?",
-            "answer": "We use only genuine OEM (Original Equipment Manufacturer) parts and high-quality compatible components. All parts come with manufacturer warranties and are sourced from authorized distributors. We never compromise on quality, ensuring your laptop performs optimally after repair."
-        },
-        {
-            "id": 6,
+            "id": 9,
             "question": "Can you recover data from my laptop if it's not working?",
             "answer": "Yes, we offer professional data recovery services. Whether your laptop won't boot, has a damaged hard drive, or suffered physical damage, our specialists can attempt to recover your important files, photos, and documents. We'll assess the situation during diagnosis and explain the recovery options available."
-        },
-        {
-            "id": 7,
-            "question": "Do you provide pickup and delivery service?",
-            "answer": "Yes, we offer convenient pickup and delivery service within the city for your laptop repairs. You can schedule a pickup at your preferred time, and we'll deliver the repaired laptop back to you. This service ensures a hassle-free repair experience without you having to visit our service center."
-        },
-        {
-            "id": 8,
-            "question": "What if the repair costs more than expected?",
-            "answer": "Transparency is our priority. After our free diagnosis, we provide a detailed quote with no hidden charges. If during the repair we discover additional issues, we'll contact you for approval before proceeding. You'll never be surprised by unexpected costs – we believe in upfront, honest pricing."
         }
     ]
 }
