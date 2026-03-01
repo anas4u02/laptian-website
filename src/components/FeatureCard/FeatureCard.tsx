@@ -8,7 +8,7 @@ interface FeatureCardProps {
     id: number | string;
     title: string;
     description: string;
-    icon: keyof typeof Icons;
+    icon?: keyof typeof Icons;
     image?: string;
     highlights?: string[];
     url?: string;
@@ -16,7 +16,7 @@ interface FeatureCardProps {
 }
 
 export default function FeatureCard({ id, title, description, icon, image, highlights, url, buttonText = 'Learn More' }: FeatureCardProps) {
-    const IconComponent = Icons[icon];
+    const IconComponent = icon ? Icons[icon] : null;
 
     return (
         <div className={styles.card}>
@@ -24,11 +24,13 @@ export default function FeatureCard({ id, title, description, icon, image, highl
                 {/* Left Content */}
                 <div className={styles.content}>
                     {/* Icon */}
-                    <div className={styles.iconWrapper}>
-                        <div className={styles.iconBox}>
-                            <IconComponent className={styles.icon} />
+                    {IconComponent && (
+                        <div className={styles.iconWrapper}>
+                            <div className={styles.iconBox}>
+                                <IconComponent className={styles.icon} />
+                            </div>
                         </div>
-                    </div>
+                    )}
 
                     {/* Title */}
                     <h3 className={styles.title}>

@@ -5,8 +5,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import aboutData from '@/data/about-content.json';
 import type { AboutContent } from '@/types';
-import { Icons } from '@/components/Icons';
-import FeatureCard from '@/components/FeatureCard/FeatureCard';
+import AboutUsCard from '@/components/AboutUsCard/AboutUsCard';
+import './about.css';
 
 const data = aboutData as AboutContent;
 
@@ -17,35 +17,37 @@ export const metadata = {
 
 export default async function AboutPage() {
     const subdomain = await getSubdomain();
-    const { pageHeader, sections } = data;
+    const { pageHeader, aboutUsCards } = data;
+    const [before, after] = pageHeader.title.split("Trusted");
 
     return (
         <>
             <InfoBar subdomain={subdomain} />
             <Header subdomain={subdomain} />
 
-            <main className="bg-black min-h-screen py-20 md:py-32">
-                <div className="container mx-auto px-4">
-                    <div className="text-center mb-16 md:mb-24">
-                        <h1 className="text-5xl md:text-6xl font-black text-[#ffbd00] mb-4 mt-4 tracking-tighter">
-                            {pageHeader.title}
+            {/* Hero Banner */}
+            <section className="about-hero-section">
+                <div className="hero-background" style={{ backgroundImage: 'url(/hero-bg.png)' }}></div>
+                <div className="container">
+                    <div className="about-hero-content">
+                        <h1 className="about-hero-title animate-fade-in">
+                            {before}
+                            <span className="text-highlight">Trusted</span>
+                            {after}
                         </h1>
-                        <p className="text-gray-400 text-lg md:text-xl font-light">
+                        <p className="about-hero-subtitle animate-fade-in">
                             {pageHeader.subtitle}
                         </p>
                     </div>
+                </div>
+            </section>
 
-                    <div className="flex flex-col gap-8">
-                        {sections.map((section) => (
-                            <FeatureCard
-                                key={section.id}
-                                id={section.id}
-                                title={section.title}
-                                description={section.description}
-                                icon={section.icon as keyof typeof Icons}
-                                image={section.image}
-                                url={section.url}
-                            />
+            {/* About Cards */}
+            <main className="about-cards-section">
+                <div className="container">
+                    <div className="about-cards-grid">
+                        {aboutUsCards.map((card) => (
+                            <AboutUsCard key={card.id} card={card} />
                         ))}
                     </div>
                 </div>

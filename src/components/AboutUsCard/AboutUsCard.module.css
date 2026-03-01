@@ -1,0 +1,94 @@
+/* AboutUsCard Styles */
+.card {
+    position: relative;
+    width: 100%;
+    border-radius: var(--radius-2xl);
+    border: 1px solid rgba(42, 42, 42, 0.5);
+    background: linear-gradient(to bottom right, rgba(6, 78, 59, 0.4), rgba(19, 78, 74, 0.6));
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.card:hover {
+    border-color: rgba(234, 179, 8, 0.25);
+    box-shadow: 0 0 30px rgba(234, 179, 8, 0.06);
+}
+
+.cardInner {
+    padding: var(--spacing-8);
+}
+
+/* Header */
+.header {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-6);
+    line-height: 1.25;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4);
+}
+
+/* Description */
+.description {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-base);
+    line-height: 1.8;
+}
+
+/* Subheader */
+.subheader {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-accent-gold);
+    margin-top: var(--spacing-2);
+    letter-spacing: 0.01em;
+}
+
+/* Bullet List */
+.bulletList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+    padding-left: var(--spacing-2);
+}
+
+.bulletItem {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-3);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+}
+
+.bulletIcon {
+    color: var(--color-accent-gold);
+    font-weight: var(--font-weight-bold);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+    .cardInner {
+        padding: var(--spacing-12);
+    }
+
+    .header {
+        font-size: var(--font-size-3xl);
+    }
+
+    .description {
+        font-size: var(--font-size-lg);
+    }
+}

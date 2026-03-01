@@ -1,11 +1,29 @@
-export interface AboutSection {
+export interface RichTextSegment {
+    text: string;
+    highlight?: boolean;
+}
+
+export interface DescriptionBlock {
+    type: 'description';
+    richText: RichTextSegment[];
+}
+
+export interface BulletsBlock {
+    type: 'bullets';
+    items: RichTextSegment[][];
+}
+
+export interface SubheaderBlock {
+    type: 'subheader';
+    text: string;
+}
+
+export type ContentBlock = DescriptionBlock | BulletsBlock | SubheaderBlock;
+
+export interface AboutUsCard {
     id: string;
-    title: string;
-    description: string;
-    icon: string;
-    image: string;
-    url: string;
-    theme: string;
+    header: string;
+    content: ContentBlock[];
 }
 
 export interface AboutPageHeader {
@@ -15,5 +33,5 @@ export interface AboutPageHeader {
 
 export interface AboutContent {
     pageHeader: AboutPageHeader;
-    sections: AboutSection[];
+    aboutUsCards: AboutUsCard[];
 }
