@@ -1,20 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import type { BlogPost } from '@/types';
 import './BlogDetail.css';
-
-interface BlogPost {
-    id: number;
-    slug: string;
-    title: string;
-    excerpt: string;
-    content: string[];
-    author: string;
-    date: string;
-    category: string;
-    tags: string[];
-    youtubeEmbedUrl: string | null;
-    image: string;
-}
 
 interface BlogDetailProps {
     post: BlogPost;

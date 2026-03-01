@@ -2,9 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import './ServicesCards.css';
 import coursesContent from '@/data/training/courses.json';
+import type { CoursesContent } from '@/types';
+
+const data = coursesContent as CoursesContent;
 
 export default function ServicesCards() {
-    const { courses } = coursesContent;
+    const { courses } = data;
 
     return (
         <section className="section services-section">
@@ -24,7 +27,7 @@ export default function ServicesCards() {
                                     <span className="meta-icon">⏱️</span>
                                     {course.duration}
                                 </span>
-                                {course?.price && (
+                                {course.price && (
                                     <span className="service-price">{course.price}</span>
                                 )}
                             </div>

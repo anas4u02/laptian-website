@@ -4,12 +4,15 @@ import React, { useState } from 'react';
 import FeatureCard from '@/components/FeatureCard/FeatureCard';
 import { Icons } from '@/components/Icons';
 import coursesContent from '@/data/training/courses.json';
+import type { CoursesContent } from '@/types';
 import './courses.css';
+
+const data = coursesContent as CoursesContent;
 
 const LEVELS = ['All', 'Beginner', 'Advanced', 'Professional'] as const;
 
 export default function CoursesPage() {
-    const { courses } = coursesContent;
+    const { courses } = data;
     const [activeTab, setActiveTab] = useState<string>('All');
 
     const filteredCourses = activeTab === 'All'

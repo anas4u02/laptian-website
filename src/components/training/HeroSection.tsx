@@ -1,10 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import trainingContent from '@/data/training-content.json';
+import type { TrainingContent } from '@/types';
 import './HeroSection.css';
 
+const data = trainingContent as TrainingContent;
+
 export default function HeroSection() {
-    const { hero } = trainingContent;
+    const { hero } = data;
 
     return (
         <section className="hero-section">

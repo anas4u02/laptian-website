@@ -1,6 +1,7 @@
 import { getSubdomain } from '@/lib/subdomain';
 import { generateMetadata as createMetadata, generateOrganizationSchema } from '@/lib/seo';
 import commonContent from '@/data/common-content.json';
+import type { CommonContent } from '@/types';
 import InfoBar from '@/components/InfoBar';
 import Header from '@/components/Header';
 import PromotionalBar from '@/components/PromotionalBar';
@@ -48,7 +49,7 @@ export async function generateMetadata() {
 
 export default async function HomePage() {
   const subdomain = await getSubdomain();
-  const { promotionalOffers } = commonContent;
+  const { promotionalOffers } = commonContent as CommonContent;
 
   // Set promotional offer end date from JSON config
   const offerConfig = promotionalOffers[subdomain];

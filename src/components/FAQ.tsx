@@ -3,23 +3,19 @@
 import { useState } from 'react';
 import './FAQ.css';
 
-interface FAQItem {
-    id: number;
-    question: string;
-    answer: string;
-}
+import type { FAQItem, FAQData } from '@/types';
+import faqData from '@/data/faqs.json';
+
+const data = faqData as FAQData;
 
 interface FAQProps {
     subdomain: string;
 }
 
-// Import FAQ data
-import faqData from '@/data/faqs.json';
-
 export default function FAQ({ subdomain }: FAQProps) {
     const [openId, setOpenId] = useState<number | null>(null);
 
-    const faqs: FAQItem[] = faqData[subdomain as keyof typeof faqData] || [];
+    const faqs: FAQItem[] = data[subdomain as keyof FAQData] || [];
 
     const toggleFAQ = (id: number) => {
         setOpenId(openId === id ? null : id);

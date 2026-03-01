@@ -4,17 +4,20 @@ import InfoBar from '@/components/InfoBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import aboutData from '@/data/about-content.json';
+import type { AboutContent } from '@/types';
 import { Icons } from '@/components/Icons';
 import FeatureCard from '@/components/FeatureCard/FeatureCard';
 
+const data = aboutData as AboutContent;
+
 export const metadata = {
-    title: 'Many Problems. One Solution.',
+    title: 'A Trusted Laptop Repair Training Institute in India.',
     description: 'Transform your life with our coursework.',
 };
 
 export default async function AboutPage() {
     const subdomain = await getSubdomain();
-    const { pageHeader, sections } = aboutData;
+    const { pageHeader, sections } = data;
 
     return (
         <>

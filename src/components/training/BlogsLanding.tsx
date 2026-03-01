@@ -3,12 +3,15 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import blogsContent from '@/data/blogs-content.json';
+import type { BlogsContent } from '@/types';
 import './blogs.css';
 
-const CATEGORIES = blogsContent.blogs.categories;
+const data = blogsContent as BlogsContent;
+
+const CATEGORIES = data.blogs.categories;
 
 export default function BlogsLanding() {
-    const { blogs } = blogsContent;
+    const { blogs } = data;
     const [activeTab, setActiveTab] = useState<string>('All');
 
     const filteredPosts = activeTab === 'All'

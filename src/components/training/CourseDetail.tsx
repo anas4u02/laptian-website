@@ -2,30 +2,8 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import type { Course } from '@/types';
 import './CourseDetail.css';
-
-interface Course {
-    id: number;
-    title: string;
-    slug?: string;
-    duration: string;
-    level: string;
-    price?: string;
-    description: string;
-    highlights: string[];
-    detailedDescription: string;
-    whoShouldEnroll: string[];
-    practicalTraining: string;
-    curriculum: { title: string; description: string; bulletPoints?: string[] }[];
-    courseContent?: { title: string; description: string; topics: string[] }[];
-    careerOutcomes: string[];
-    futureSection?: {
-        heading: string;
-        description: string;
-        stats: { value: string; label: string }[];
-        closingText: string;
-    };
-}
 
 interface CourseDetailProps {
     course: Course;

@@ -6,6 +6,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlogDetail from '@/components/training/BlogDetail';
 import blogsContent from '@/data/blogs-content.json';
+import type { BlogsContent } from '@/types';
+
+const data = blogsContent as BlogsContent;
 
 
 type Props = {
@@ -15,7 +18,7 @@ type Props = {
 export async function generateMetadata({ params }: Props) {
     const { slug } = await params;
     const subdomain = await getSubdomain();
-    const post = blogsContent.blogs.items.find((p) => p.slug === slug);
+    const post = data.blogs.items.find((p) => p.slug === slug);
 
     if (!post) {
         return createMetadata({
@@ -37,7 +40,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function BlogPostPage({ params }: Props) {
     const subdomain = await getSubdomain();
     const { slug } = await params;
-    const post = blogsContent.blogs.items.find((p) => p.slug === slug);
+    const post = data.blogs.items.find((p) => p.slug === slug);
 
     if (!post) {
         notFound();

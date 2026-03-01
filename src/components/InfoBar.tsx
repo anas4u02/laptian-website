@@ -1,13 +1,16 @@
 import React from 'react';
 import commonContent from '@/data/common-content.json';
+import type { CommonContent } from '@/types';
 import './InfoBar.css';
+
+const data = commonContent as CommonContent;
 
 interface InfoBarProps {
     subdomain: 'training' | 'services';
 }
 
 export default function InfoBar({ subdomain }: InfoBarProps) {
-    const { contact, social, infoBar } = commonContent;
+    const { contact, social, infoBar } = data;
     const message = infoBar[subdomain].message;
 
     return (

@@ -1,10 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import trainingContent from '@/data/training-content.json';
+import type { TrainingContent } from '@/types';
 import './TrainingFeatures.css';
 
+const data = trainingContent as TrainingContent;
+
 export default function TrainingFeatures() {
-    const { trainingFeatures } = trainingContent;
+    const { trainingFeatures } = data;
     const { cards, sectionTitle, sectionTitleHighlight, videoCta } = trainingFeatures;
 
     return (

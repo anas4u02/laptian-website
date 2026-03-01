@@ -1,9 +1,12 @@
 import React from 'react';
 import servicesContent from '@/data/services-content.json';
+import type { ServicesContent } from '@/types';
 import './ProcessFlow.css';
 
+const data = servicesContent as ServicesContent;
+
 export default function ProcessFlow() {
-    const { processFlow } = servicesContent;
+    const { processFlow } = data;
 
     return (
         <section className="section process-flow-section">

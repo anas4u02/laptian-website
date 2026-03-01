@@ -1,10 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import servicesContent from '@/data/services-content.json';
+import type { ServicesContent } from '@/types';
 import './HeroSection.css';
 
+const data = servicesContent as ServicesContent;
+
 export default function HeroSection() {
-    const { hero } = servicesContent;
+    const { hero } = data;
 
     return (
         <section className="services-hero-section">

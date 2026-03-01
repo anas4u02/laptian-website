@@ -1,9 +1,12 @@
 import React from 'react';
 import trainingContent from '@/data/training-content.json';
+import type { TrainingContent } from '@/types';
 import './SkillsMastery.css';
 
+const data = trainingContent as TrainingContent;
+
 export default function SkillsMastery() {
-    const { skillsMastery } = trainingContent;
+    const { skillsMastery } = data;
 
     return (
         <section className="section skills-mastery-section">
@@ -14,7 +17,7 @@ export default function SkillsMastery() {
                             <div className="skills-text-content">
                                 <h2>{block.title} <span className="text-highlight">{block.titleHighlight}</span></h2>
                                 <p className="skills-description">{block.description}</p>
-                                {'subdescription' in block && block.subdescription && (
+                                {block.subdescription && (
                                     <p className="skills-subdesc">{block.subdescription}</p>
                                 )}
                             </div>

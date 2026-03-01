@@ -3,15 +3,20 @@
 import React, { useState } from 'react';
 import contactFormData from '@/data/contact-form.json';
 import commonContent from '@/data/common-content.json';
+import type { ContactFormContent } from '@/types/contact';
+import type { CommonContent } from '@/types';
 import './ContactForm.css';
+
+const contactData = contactFormData as ContactFormContent;
+const commonData = commonContent as CommonContent;
 
 interface ContactFormProps {
     subdomain: 'training' | 'services';
 }
 
 export default function ContactForm({ subdomain }: ContactFormProps) {
-    const { contact } = commonContent;
-    const { form, info } = contactFormData.contact;
+    const { contact } = commonData;
+    const { form, info } = contactData.contact;
     const serviceOptions = form.fields.service.options[subdomain];
     const contactInfo = info[subdomain];
 

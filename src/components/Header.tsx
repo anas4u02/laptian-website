@@ -3,7 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import commonContent from '@/data/common-content.json';
+import type { CommonContent } from '@/types';
 import './Header.css';
+
+const data = commonContent as CommonContent;
 
 interface HeaderProps {
     subdomain: 'training' | 'services';
@@ -13,7 +16,7 @@ export default function Header({ subdomain }: HeaderProps) {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    const { navigation, seo } = commonContent;
+    const { navigation, seo } = data;
     const links = navigation[subdomain];
     const siteName = seo[subdomain].siteNameShort;
 

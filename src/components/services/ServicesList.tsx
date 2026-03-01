@@ -1,10 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import servicesContent from '@/data/services-content.json';
+import type { ServicesContent } from '@/types';
 import './ServicesList.css';
 
+const data = servicesContent as ServicesContent;
+
 export default function ServicesList() {
-    const { servicesList } = servicesContent;
+    const { servicesList } = data;
 
     return (
         <section className="section services-list-section">

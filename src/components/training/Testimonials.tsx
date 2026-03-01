@@ -1,9 +1,12 @@
 import React from 'react';
 import trainingContent from '@/data/training-content.json';
+import type { TrainingContent } from '@/types';
 import './Testimonials.css';
 
+const data = trainingContent as TrainingContent;
+
 export default function Testimonials() {
-    const { testimonials } = trainingContent;
+    const { testimonials } = data;
 
     return (
         <section className="section testimonials-section">

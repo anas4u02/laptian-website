@@ -2,10 +2,13 @@
 
 import React, { useState } from 'react';
 import trainingContent from '@/data/training-content.json';
+import type { TrainingContent } from '@/types';
 import './Gallery.css';
 
+const data = trainingContent as TrainingContent;
+
 export default function Gallery() {
-    const { gallery } = trainingContent;
+    const { gallery } = data;
     const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
     return (

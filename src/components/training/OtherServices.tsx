@@ -1,10 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import trainingContent from '@/data/training-content.json';
+import type { TrainingContent } from '@/types';
 import './OtherServices.css';
 
+const data = trainingContent as TrainingContent;
+
 export default function OtherServices() {
-    const { otherServices } = trainingContent;
+    const { otherServices } = data;
 
     return (
         <section className="section other-services-section">

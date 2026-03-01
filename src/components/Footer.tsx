@@ -1,7 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import commonContent from '@/data/common-content.json';
+import type { CommonContent } from '@/types';
 import './Footer.css';
+
+const data = commonContent as CommonContent;
 
 interface FooterProps {
     subdomain: 'training' | 'services';
@@ -9,7 +12,7 @@ interface FooterProps {
 
 export default function Footer({ subdomain }: FooterProps) {
     const currentYear = new Date().getFullYear();
-    const { contact, social, navigation, footer } = commonContent;
+    const { contact, social, navigation, footer } = data;
     const footerData = footer[subdomain];
     const links = navigation[subdomain];
 
