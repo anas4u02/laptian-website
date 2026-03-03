@@ -42,7 +42,7 @@ Timestamp: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
         await resend.emails.send({
             from: 'noreply@laptian.com',
             to: RECIPIENT_EMAIL,
-            subject: emailSubject,
+            subject: emailSubject + ' - ' + new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }),
             text: emailBody,
             replyTo: email,
         });
