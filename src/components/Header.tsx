@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import commonContent from '@/data/common-content.json';
 import type { CommonContent } from '@/types';
 import './Header.css';
@@ -15,6 +16,12 @@ interface HeaderProps {
 export default function Header({ subdomain }: HeaderProps) {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const pathname = usePathname();
+
+    const isActive = (href: string) => {
+        if (href === '/') return pathname === '/';
+        return pathname.startsWith(href);
+    };
 
     const { navigation, seo } = data;
     const links = navigation[subdomain];
@@ -44,7 +51,7 @@ export default function Header({ subdomain }: HeaderProps) {
                         <ul className="nav-list">
                             {links.map((link) => (
                                 <li key={link.href}>
-                                    <Link href={link.href} className="nav-link">
+                                    <Link href={link.href} className={`nav-link ${isActive(link.href) ? 'nav-link-active' : ''}`}>
                                         {link.label}
                                     </Link>
                                 </li>
@@ -87,7 +94,7 @@ export default function Header({ subdomain }: HeaderProps) {
                                 <li key={link.href}>
                                     <Link
                                         href={link.href}
-                                        className="nav-link-mobile"
+                                        className={`nav-link-mobile ${isActive(link.href) ? 'nav-link-mobile-active' : ''}`}
                                         onClick={() => setIsMobileMenuOpen(false)}
                                     >
                                         {link.label}

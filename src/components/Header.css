@@ -79,6 +79,14 @@
     width: 100%;
 }
 
+.nav-link-active {
+    color: var(--color-accent-gold);
+}
+
+.nav-link-active::after {
+    width: 100%;
+}
+
 .header-actions {
     display: flex;
     align-items: center;
@@ -133,5 +141,11 @@
 
     .nav-link-mobile:hover {
         color: var(--color-accent-gold);
+    }
+
+    .nav-link-mobile-active {
+        color: var(--color-accent-gold);
+        border-left: 3px solid var(--color-accent-gold);
+        padding-left: var(--spacing-3);
     }
 }

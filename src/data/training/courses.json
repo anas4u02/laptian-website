@@ -294,6 +294,7 @@
                 "image": "/laptop-repair.png",
                 "duration": "2 Weeks",
                 "price": "",
+                "slug": "advanced-laptop-chip-level-course",
                 "level": "Beginner",
                 "description": "Learn fundamental laptop repair skills including hardware troubleshooting, component replacement, and basic diagnostics.",
                 "highlights": [
@@ -393,6 +394,7 @@
                 "image": "/laptop-repair.png",
                 "duration": "6 Weeks",
                 "price": "",
+                "slug": "advanced-laptop-chip-level-course",
                 "level": "Beginner",
                 "description": "Master complex chip-level repairs, circuit analysis, and component-level troubleshooting techniques.",
                 "highlights": [
