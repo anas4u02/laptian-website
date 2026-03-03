@@ -48,6 +48,7 @@ export type {
     ServiceCategory,
     ServiceCategoryItem,
     ChipLevelSection,
+    RepairServicesOverviewSection,
 } from './services';
 export type {
     TrainingContent,

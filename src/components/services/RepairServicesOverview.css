@@ -1,0 +1,31 @@
+.repair-overview-section {
+    background: var(--color-bg-secondary);
+}
+
+.repair-overview-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.repair-overview-content h2 {
+    font-size: var(--font-size-4xl);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-6);
+}
+
+.repair-overview-description {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .repair-overview-content h2 {
+        font-size: var(--font-size-3xl);
+    }
+
+    .repair-overview-description {
+        font-size: var(--font-size-base);
+    }
+}

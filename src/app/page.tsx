@@ -26,6 +26,7 @@ import WhyChoose from '@/components/services/WhyChoose';
 import MultiBrand from '@/components/services/MultiBrand';
 import CompleteServices from '@/components/services/CompleteServices';
 import ChipLevelRepair from '@/components/services/ChipLevelRepair';
+import RepairServicesOverview from '@/components/services/RepairServicesOverview';
 import ServicesList from '@/components/services/ServicesList';
 import ProcessFlow from '@/components/services/ProcessFlow';
 import ServicesTestimonials from '@/components/services/Testimonials';
@@ -106,6 +107,7 @@ export default async function HomePage() {
           )}
           <main>
             <ServicesHero />
+            <RepairServicesOverview />
             <ServiceAreas />
             <TrustedPartner />
             <WhyChoose />

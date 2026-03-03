@@ -139,6 +139,13 @@ export interface ChipLevelSection {
     description: string;
 }
 
+export interface RepairServicesOverviewSection {
+    title: string;
+    titleHighlight: string;
+    titleSuffix: string;
+    description: string;
+}
+
 export interface ServicesContent {
     hero: ServicesHero;
     servicesList: ServicesListSection;
@@ -150,4 +157,5 @@ export interface ServicesContent {
     multiBrand: MultiBrandSection;
     completeServices: CompleteServicesSection;
     chipLevelRepair: ChipLevelSection;
+    repairServicesOverview: RepairServicesOverviewSection;
 }

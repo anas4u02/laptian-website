@@ -386,5 +386,11 @@
         "titleHighlight": "Motherboard Repair",
         "titleSuffix": "Specialists",
         "description": "We are known for advanced SMD & BGA chip-level motherboard repair in PCMC, using professional tools and controlled repair techniques to fix complex faults that other service centres cannot."
+    },
+    "repairServicesOverview": {
+        "title": "Professional",
+        "titleHighlight": "Laptop Repair Services",
+        "titleSuffix": "in Pimpri-Chinchwad",
+        "description": "At Laptian, we provide comprehensive laptop repair and maintenance services across PCMC. Whether your laptop has a broken screen, battery issue, motherboard fault, or software problem — our certified technicians diagnose and fix it with precision. With 10+ years of experience, genuine spare parts, and a commitment to transparent pricing, we ensure your laptop is back in perfect working condition with minimal downtime. From basic servicing to advanced chip-level repairs, we handle it all under one roof."
     }
 }
