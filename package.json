@@ -10,6 +10,7 @@
     "build:cf": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
+    "critters": "^0.0.25",
     "lucide-react": "^0.563.0",
     "next": "15.5.2",
     "react": "19.2.3",
