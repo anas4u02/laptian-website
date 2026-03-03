@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import trainingContent from '@/data/training-content.json';
 import type { TrainingContent } from '@/types';
 import './Gallery.css';
@@ -26,7 +27,13 @@ export default function Gallery() {
                             className="gallery-item"
                             onClick={() => setSelectedImage(index)}
                         >
-                            <img src={image.src} alt={image.alt} />
+                            <Image
+                                src={image.src}
+                                alt={image.alt}
+                                fill
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                className="gallery-img"
+                            />
                             <div className="gallery-overlay">
                                 <span className="gallery-title">{image.title}</span>
                                 <span className="gallery-icon">🔍</span>
@@ -35,15 +42,18 @@ export default function Gallery() {
                     ))}
                 </div>
 
-                {/* Lightbox */}
                 {selectedImage !== null && (
                     <div className="lightbox" onClick={() => setSelectedImage(null)}>
                         <button className="lightbox-close" onClick={() => setSelectedImage(null)}>✕</button>
-                        <img
-                            src={gallery.images[selectedImage].src}
-                            alt={gallery.images[selectedImage].alt}
-                            className="lightbox-image"
-                        />
+                        <div className="lightbox-image-wrapper">
+                            <Image
+                                src={gallery.images[selectedImage].src}
+                                alt={gallery.images[selectedImage].alt}
+                                fill
+                                sizes="100vw"
+                                className="lightbox-image"
+                            />
+                        </div>
                         <div className="lightbox-nav">
                             <button
                                 className="lightbox-prev"
