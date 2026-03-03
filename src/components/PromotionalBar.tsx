@@ -18,8 +18,7 @@ export default function PromotionalBar({ offerText, targetDate }: PromotionalBar
             const difference = new Date(targetDate).getTime() - new Date().getTime();
 
             if (difference <= 0) {
-                setIsExpired(true);
-                return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+                return null;
             }
 
             return {
@@ -30,11 +29,17 @@ export default function PromotionalBar({ offerText, targetDate }: PromotionalBar
             };
         };
 
-        const timer = setInterval(() => {
-            setTimeLeft(calculateTimeLeft());
-        }, 1000);
+        const tick = () => {
+            const result = calculateTimeLeft();
+            if (result === null) {
+                setIsExpired(true);
+            } else {
+                setTimeLeft(result);
+            }
+        };
 
-        setTimeLeft(calculateTimeLeft());
+        tick();
+        const timer = setInterval(tick, 1000);
 
         return () => clearInterval(timer);
     }, [targetDate]);
