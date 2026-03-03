@@ -47,7 +47,7 @@ export async function generateMetadata() {
   }
 
   return createMetadata({
-    title: 'Professional Laptop Repair Training - Laptian Technical Institue',
+    title: 'Professional Laptop Repair Training - Laptian Technical Institute',
     description: 'Master laptop repair with hands-on training, industry certifications, and 95% placement rate. Join 2500+ successful technicians.',
     subdomain: 'training',
     path: '/',

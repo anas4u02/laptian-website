@@ -8,7 +8,7 @@ import BlogsLanding from '@/components/training/BlogsLanding';
 export async function generateMetadata() {
     const subdomain = await getSubdomain();
     return createMetadata({
-        title: subdomain === 'training' ? 'Blog - Laptian Technical Institue' : 'Blog - Laptian Repair',
+        title: subdomain === 'training' ? 'Blog - Laptian Technical Institute' : 'Blog - Laptian Repair',
         description: 'Stay updated with the latest laptop repair tips, tutorials, and industry news.',
         subdomain,
         path: '/blogs',

@@ -1,5 +1,6 @@
 import React from 'react';
 import { getSubdomain } from '@/lib/subdomain';
+import { generateMetadata as createMetadata } from '@/lib/seo';
 import InfoBar from '@/components/InfoBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -10,10 +11,25 @@ import './about.css';
 
 const allData = aboutData as AboutData;
 
-export const metadata = {
-    title: 'About Us - Laptian',
-    description: 'Learn more about Laptian — our story, values, and commitment to excellence.',
-};
+export async function generateMetadata() {
+    const subdomain = await getSubdomain();
+
+    if (subdomain === 'services') {
+        return createMetadata({
+            title: 'About Us - Laptian Repair Services',
+            description: 'Learn about Laptian Repair Services — our expert team, values, and commitment to quality laptop repairs.',
+            subdomain: 'services',
+            path: '/about',
+        });
+    }
+
+    return createMetadata({
+        title: 'About Us - Laptian Technical Institute',
+        description: 'Learn about Laptian Technical Institute — our story, training philosophy, and commitment to producing skilled laptop repair technicians.',
+        subdomain: 'training',
+        path: '/about',
+    });
+}
 
 export default async function AboutPage() {
     const subdomain = await getSubdomain();
