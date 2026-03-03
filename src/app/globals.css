@@ -239,10 +239,26 @@ a:hover {
   margin-bottom: var(--spacing-12);
 }
 
+.section-header h2 {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section-header p {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Reusable content description block with optimal reading width */
+.section-description {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  line-height: 1.8;
 }
 
 /* ===== BUTTON COMPONENTS ===== */
