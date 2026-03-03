@@ -10,7 +10,7 @@ export default function ServicesList() {
     const { servicesList } = data;
 
     return (
-        <section className="section services-list-section">
+        <section id="services" className="section services-list-section">
             <div className="container">
                 <div className="section-header">
                     <h2>{servicesList.title} <span className="text-highlight">{servicesList.titleHighlight}</span></h2>

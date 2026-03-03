@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getSubdomain } from '@/lib/subdomain';
-import { generateMetadata as createMetadata } from '@/lib/seo';
+import { generateMetadata as createMetadata, generateCourseSchema } from '@/lib/seo';
 import coursesContent from '@/data/training/courses.json';
 import type { CoursesContent } from '@/types';
 import InfoBar from '@/components/InfoBar';
@@ -58,6 +58,28 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
     return (
         <>
+            {/* Structured Data for SEO */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: generateCourseSchema({
+                        name: course.title,
+                        description: course.description,
+                        provider: {
+                            '@type': 'Organization',
+                            name: 'Laptian Technical Institute',
+                        },
+                        hasCourseInstance: [
+                            {
+                                '@type': 'CourseInstance',
+                                courseMode: 'onsite',
+                                courseWorkload: course.duration,
+                            },
+                        ],
+                    }),
+                }}
+            />
+
             <InfoBar subdomain="training" />
             <Header subdomain="training" />
             <CourseDetail course={course} />

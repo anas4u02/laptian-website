@@ -1,4 +1,6 @@
 import { MetadataRoute } from 'next';
+import coursesContent from '@/data/training/courses.json';
+import blogsContent from '@/data/blogs-content.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrls = {
@@ -11,13 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/courses',
         '/about',
         '/contact',
+        '/blogs',
     ];
 
     const servicesPages = [
         '',
-        '/services',
         '/about',
-        '/pricing',
         '/contact',
     ];
 
@@ -35,5 +36,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: path === '' ? 1 : 0.8,
     }));
 
-    return [...trainingSitemap, ...servicesSitemap];
+    // Dynamic course pages
+    const courseSitemap = coursesContent.courses.items
+        .filter((course) => course.slug)
+        .map((course) => ({
+            url: `${baseUrls.training}/courses/${course.slug}`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly' as const,
+            priority: 0.7,
+        }));
+
+    // Dynamic blog pages
+    const blogSitemap = blogsContent.blogs.items
+        .filter((post) => post.slug)
+        .map((post) => ({
+            url: `${baseUrls.training}/blogs/${post.slug}`,
+            lastModified: new Date(post.date),
+            changeFrequency: 'monthly' as const,
+            priority: 0.6,
+        }));
+
+    return [...trainingSitemap, ...servicesSitemap, ...courseSitemap, ...blogSitemap];
 }

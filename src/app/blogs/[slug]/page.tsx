@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getSubdomain } from '@/lib/subdomain';
-import { generateMetadata as createMetadata } from '@/lib/seo';
+import { generateMetadata as createMetadata, generateArticleSchema } from '@/lib/seo';
 import InfoBar from '@/components/InfoBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -46,12 +46,39 @@ export default async function BlogPostPage({ params }: Props) {
         notFound();
     }
 
+    const baseUrl = subdomain === 'training'
+        ? 'https://training.laptian.com'
+        : 'https://services.laptian.com';
+
     return (
         <>
+            {/* Structured Data for SEO */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: generateArticleSchema({
+                        title: post.title,
+                        description: post.excerpt,
+                        author: post.author,
+                        datePublished: post.date,
+                        url: `${baseUrl}/blogs/${post.slug}`,
+                    }),
+                }}
+            />
+
             <InfoBar subdomain={subdomain} />
             <Header subdomain={subdomain} />
             <BlogDetail post={post} />
             <Footer subdomain={subdomain} />
         </>
     );
+}
+
+// Generate static params for all blog posts
+export async function generateStaticParams() {
+    return data.blogs.items
+        .filter((post) => post.slug)
+        .map((post) => ({
+            slug: post.slug,
+        }));
 }

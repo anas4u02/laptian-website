@@ -40,6 +40,26 @@ export interface CourseSchema {
     }>;
 }
 
+export interface ArticleSchema {
+    '@context': string;
+    '@type': string;
+    headline: string;
+    description: string;
+    author: {
+        '@type': string;
+        name: string;
+    };
+    datePublished?: string;
+    publisher: {
+        '@type': string;
+        name: string;
+    };
+    mainEntityOfPage?: {
+        '@type': string;
+        '@id': string;
+    };
+}
+
 export function generateLocalBusinessSchema(data: Partial<LocalBusinessSchema>): string {
     const schema: LocalBusinessSchema = {
         '@context': 'https://schema.org',
@@ -64,6 +84,36 @@ export function generateCourseSchema(data: Partial<CourseSchema>): string {
             name: 'Laptian Training Center',
         },
         ...data,
+    };
+
+    return JSON.stringify(schema);
+}
+
+export function generateArticleSchema(data: {
+    title: string;
+    description: string;
+    author: string;
+    datePublished?: string;
+    url: string;
+}): string {
+    const schema: ArticleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: data.title,
+        description: data.description,
+        author: {
+            '@type': 'Person',
+            name: data.author,
+        },
+        datePublished: data.datePublished,
+        publisher: {
+            '@type': 'Organization',
+            name: 'Laptian',
+        },
+        mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': data.url,
+        },
     };
 
     return JSON.stringify(schema);
@@ -107,6 +157,7 @@ export function generateMetadata(params: {
     description: string;
     subdomain: 'training' | 'services';
     path?: string;
+    ogImage?: string;
 }): Metadata {
     const { title, description, subdomain, path = '' } = params;
 
@@ -130,11 +181,24 @@ export function generateMetadata(params: {
             siteName: subdomain === 'training' ? 'Laptian Training Center' : 'Laptian Repair Services',
             type: 'website',
             locale: 'en_US',
+            images: [
+                {
+                    url: params.ogImage || (subdomain === 'training'
+                        ? `${baseUrl}/training-facility.png`
+                        : `${baseUrl}/laptop-repair.png`),
+                    width: 1200,
+                    height: 630,
+                    alt: title,
+                },
+            ],
         },
         twitter: {
             card: 'summary_large_image',
             title,
             description,
+            images: [params.ogImage || (subdomain === 'training'
+                ? `${baseUrl}/training-facility.png`
+                : `${baseUrl}/laptop-repair.png`)],
         },
         alternates: {
             canonical: url,

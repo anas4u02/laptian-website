@@ -10,7 +10,7 @@
         },
         "secondaryCta": {
             "text": "Our Services",
-            "link": "/services"
+            "link": "#services"
         },
         "features": [
             {
