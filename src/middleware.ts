@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const runtime = 'edge';
+
 export function middleware(request: NextRequest) {
     // Get hostname from request headers
     const hostname = request.headers.get('host') || '';
