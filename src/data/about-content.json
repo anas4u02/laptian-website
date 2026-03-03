@@ -1,436 +1,724 @@
 {
-    "pageHeader": {
-        "title": "A Trusted Laptop Repair Training Institute in India",
-        "subtitle": "Let me show you how to fully take control of your life."
-    },
-    "aboutUsCards": [
-        {
-            "id": "unique-training",
-            "header": "You Are Unique. So Is the Way We Train You.",
-            "content": [
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "At "
-                        },
-                        {
-                            "text": "Laptian Technical Institute",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", we believe every learner has unique potential—and so does our training approach. As a professional "
-                        },
-                        {
-                            "text": "Laptop Repair Training Institute in India",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", we help you master laptop motherboard repair and confidently build a successful repair career or service centre. We support your learning journey with:"
-                        }
-                    ]
-                },
-                {
-                    "type": "bullets",
-                    "items": [
-                        [
+    "training": {
+        "pageHeader": {
+            "title": "A Trusted Laptop Repair Training Institute in India",
+            "subtitle": "Let me show you how to fully take control of your life."
+        },
+        "aboutUsCards": [
+            {
+                "id": "unique-training",
+                "header": "You Are Unique. So Is the Way We Train You.",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
                             {
-                                "text": "Personalized training based on your skill level and goals"
-                            }
-                        ],
-                        [
-                            {
-                                "text": "Structured learning for "
+                                "text": "At "
                             },
                             {
-                                "text": "laptop motherboard and chip-level repair",
+                                "text": "Laptian Technical Institute",
                                 "highlight": true
-                            }
-                        ],
-                        [
+                            },
                             {
-                                "text": "Smart, practical techniques for faster repair decision-making"
-                            }
-                        ],
-                        [
+                                "text": ", we believe every learner has unique potential—and so does our training approach. As a professional "
+                            },
                             {
-                                "text": "Advanced chip-level technology with real-world application"
+                                "text": "Laptop Repair Training Institute in India",
+                                "highlight": true
+                            },
+                            {
+                                "text": ", we help you master laptop motherboard repair and confidently build a successful repair career or service centre. We support your learning journey with:"
                             }
                         ]
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "our-story",
-            "header": "Our Story – Built with Purpose, Driven by Skill",
-            "content": [
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "Laptian Institute began with a single, powerful goal: to create a strong community of "
-                        },
-                        {
-                            "text": "chip-level laptop repair experts",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", logical thinkers, and skilled professionals. What started as a small venture has grown into a recognized "
-                        },
-                        {
-                            "text": "Laptop Repairing Institute in India",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", focused on self-employment and career growth. Our journey is defined by:"
-                        }
-                    ]
-                },
-                {
-                    "type": "bullets",
-                    "items": [
-                        [
+                    },
+                    {
+                        "type": "bullets",
+                        "items": [
+                            [
+                                {
+                                    "text": "Personalized training based on your skill level and goals"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Structured learning for "
+                                },
+                                {
+                                    "text": "laptop motherboard and chip-level repair",
+                                    "highlight": true
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Smart, practical techniques for faster repair decision-making"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Advanced chip-level technology with real-world application"
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "our-story",
+                "header": "Our Story – Built with Purpose, Driven by Skill",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
                             {
-                                "text": "A clear mission to empower skilled laptop repair professionals"
-                            }
-                        ],
-                        [
+                                "text": "Laptian Institute began with a single, powerful goal: to create a strong community of "
+                            },
                             {
-                                "text": "Strong focus on self-employment and business-ready training"
-                            }
-                        ],
-                        [
+                                "text": "chip-level laptop repair experts",
+                                "highlight": true
+                            },
                             {
-                                "text": "Growth driven by practical, industry-relevant repair education"
-                            }
-                        ],
-                        [
+                                "text": ", logical thinkers, and skilled professionals. What started as a small venture has grown into a recognized "
+                            },
                             {
-                                "text": "Commitment to creating sustainable career opportunities across India"
+                                "text": "Laptop Repairing Institute in India",
+                                "highlight": true
+                            },
+                            {
+                                "text": ", focused on self-employment and career growth. Our journey is defined by:"
                             }
                         ]
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "about-institute",
-            "header": "About Laptian Technical Institute",
-            "content": [
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "Laptian Technical Institute is a leading "
-                        },
-                        {
-                            "text": "Laptop Repair Training Institute in Pune",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", offering customized and industry-aligned laptop repair courses designed to meet real workshop demands."
-                        }
-                    ]
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "Our "
-                        },
-                        {
-                            "text": "advanced chip level laptop repair training",
-                            "highlight": true
-                        },
-                        {
-                            "text": " blends:"
-                        }
-                    ]
-                },
-                {
-                    "type": "bullets",
-                    "items": [
-                        [
+                    },
+                    {
+                        "type": "bullets",
+                        "items": [
+                            [
+                                {
+                                    "text": "A clear mission to empower skilled laptop repair professionals"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Strong focus on self-employment and business-ready training"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Growth driven by practical, industry-relevant repair education"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Commitment to creating sustainable career opportunities across India"
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "about-institute",
+                "header": "About Laptian Technical Institute",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
                             {
-                                "text": "Hands-on motherboard repair practice"
-                            }
-                        ],
-                        [
+                                "text": "Laptian Technical Institute is a leading "
+                            },
                             {
-                                "text": "Industry insights from experienced professionals"
-                            }
-                        ],
-                        [
+                                "text": "Laptop Repair Training Institute in Pune",
+                                "highlight": true
+                            },
                             {
-                                "text": "Structured learning for beginners and working technicians"
+                                "text": ", offering customized and industry-aligned laptop repair courses designed to meet real workshop demands."
                             }
                         ]
-                    ]
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "We ensure our students stay ahead in a fast-evolving technology landscape."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "find-your-niche",
-            "header": "Find Your Niche and Stand Out in Laptop Repair",
-            "content": [
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "Competition is one of the biggest challenges for new laptop repair technicians. With many "
-                        },
-                        {
-                            "text": "chip-level experts",
-                            "highlight": true
-                        },
-                        {
-                            "text": " already in the market, standing out requires more than basic skills—it requires strategy."
-                        }
-                    ]
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "At "
-                        },
-                        {
-                            "text": "Laptian",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", we teach you how to:"
-                        }
-                    ]
-                },
-                {
-                    "type": "bullets",
-                    "items": [
-                        [
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
                             {
-                                "text": "Identify your unique niche in laptop repairing"
-                            }
-                        ],
-                        [
+                                "text": "Our "
+                            },
                             {
-                                "text": "Position yourself as a specialist"
-                            }
-                        ],
-                        [
+                                "text": "advanced chip level laptop repair training",
+                                "highlight": true
+                            },
                             {
-                                "text": "Use shortcut techniques and proven methods to accelerate success"
+                                "text": " blends:"
                             }
                         ]
-                    ]
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "This focused approach helps you rise above the crowd and grow faster."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "training-philosophy",
-            "header": "Our Training Philosophy – Skills That Create Professionals",
-            "content": [
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "Our philosophy is rooted in practical, industry-driven learning. Through our "
-                        },
-                        {
-                            "text": "motherboard repair course",
-                            "highlight": true
-                        },
-                        {
-                            "text": " and "
-                        },
-                        {
-                            "text": "computer chip level training in India",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", we emphasize:"
-                        }
-                    ]
-                },
-                {
-                    "type": "bullets",
-                    "items": [
-                        [
+                    },
+                    {
+                        "type": "bullets",
+                        "items": [
+                            [
+                                {
+                                    "text": "Hands-on motherboard repair practice"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Industry insights from experienced professionals"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Structured learning for beginners and working technicians"
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
                             {
-                                "text": "Real-time fault diagnosis"
-                            }
-                        ],
-                        [
-                            {
-                                "text": "Schematic, IC datasheet and board-view understanding"
-                            }
-                        ],
-                        [
-                            {
-                                "text": "Intensive hands-on practice"
+                                "text": "We ensure our students stay ahead in a fast-evolving technology landscape."
                             }
                         ]
-                    ]
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "Our "
-                        },
-                        {
-                            "text": "chip level technical course",
-                            "highlight": true
-                        },
-                        {
-                            "text": " and fast-track computer repairing course are designed to create confident, job-ready professionals for modern computer service centres across India."
-                        }
-                    ]
-                }
-            ]
+                    }
+                ]
+            },
+            {
+                "id": "find-your-niche",
+                "header": "Find Your Niche and Stand Out in Laptop Repair",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Competition is one of the biggest challenges for new laptop repair technicians. With many "
+                            },
+                            {
+                                "text": "chip-level experts",
+                                "highlight": true
+                            },
+                            {
+                                "text": " already in the market, standing out requires more than basic skills—it requires strategy."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "At "
+                            },
+                            {
+                                "text": "Laptian",
+                                "highlight": true
+                            },
+                            {
+                                "text": ", we teach you how to:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "bullets",
+                        "items": [
+                            [
+                                {
+                                    "text": "Identify your unique niche in laptop repairing"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Position yourself as a specialist"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Use shortcut techniques and proven methods to accelerate success"
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "This focused approach helps you rise above the crowd and grow faster."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "training-philosophy",
+                "header": "Our Training Philosophy – Skills That Create Professionals",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Our philosophy is rooted in practical, industry-driven learning. Through our "
+                            },
+                            {
+                                "text": "motherboard repair course",
+                                "highlight": true
+                            },
+                            {
+                                "text": " and "
+                            },
+                            {
+                                "text": "computer chip level training in India",
+                                "highlight": true
+                            },
+                            {
+                                "text": ", we emphasize:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "bullets",
+                        "items": [
+                            [
+                                {
+                                    "text": "Real-time fault diagnosis"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Schematic, IC datasheet and board-view understanding"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Intensive hands-on practice"
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Our "
+                            },
+                            {
+                                "text": "chip level technical course",
+                                "highlight": true
+                            },
+                            {
+                                "text": " and fast-track computer repairing course are designed to create confident, job-ready professionals for modern computer service centres across India."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "step-by-step-training",
+                "header": "How Our Step-by-Step Training Delivers Results",
+                "content": [
+                    {
+                        "type": "subheader",
+                        "text": "Customized Learning"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "We simplify chip-level diagnosis using schematics, datasheets, and board views—allowing students to confidently repair laptops of any brand or generation."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "subheader",
+                        "text": "Interactive Learning"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Real-time discussions and fault analysis keep students updated and sharpen their troubleshooting skills, shaping them into confident laptop technicians."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "subheader",
+                        "text": "Innovative Learning"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "We encourage students to share ideas and learning experiences, creating an engaging environment and a strong technical foundation."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "subheader",
+                        "text": "Virtual & Live Learning"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "We offer "
+                            },
+                            {
+                                "text": "online laptop repair courses",
+                                "highlight": true
+                            },
+                            {
+                                "text": ", live classes, and recorded sessions for complete learning backup—ensuring every student benefits from Pune's best chip level laptop repair training."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "values",
+                "header": "The Values That Drive Laptian",
+                "content": [
+                    {
+                        "type": "subheader",
+                        "text": "Our Vision"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "To become a leading institute in advanced chip-level laptop repair training, creating skilled entrepreneurs and strengthening India's laptop repair industry through practical expertise."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "subheader",
+                        "text": "Our Mission"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "To be a one-stop "
+                            },
+                            {
+                                "text": "Laptop Repair Training Institute in Pune",
+                                "highlight": true
+                            },
+                            {
+                                "text": ", delivering excellence-driven education, maintaining ISO standards, and producing industry-ready professionals across India."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "our-team",
+                "header": "Our Team – Passionate, Skilled, and Student-Focused",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "We are innovative, trustworthy, and deeply committed to helping learners become successful "
+                            },
+                            {
+                                "text": "laptop repair experts",
+                                "highlight": true
+                            },
+                            {
+                                "text": "."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Our two-way learning approach allows us to continuously improve teaching methods while keeping students updated with the latest repair technologies. The founder strongly believes in learning-driven tasks that create impact—both for students and the industry."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "services": {
+        "pageHeader": {
+            "title": "Your Trusted Laptop Repair Partner in PCMC",
+            "subtitle": "Expert repair services backed by skill, integrity, and years of hands-on experience."
         },
-        {
-            "id": "step-by-step-training",
-            "header": "How Our Step-by-Step Training Delivers Results",
-            "content": [
-                {
-                    "type": "subheader",
-                    "text": "Customized Learning"
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "We simplify chip-level diagnosis using schematics, datasheets, and board views—allowing students to confidently repair laptops of any brand or generation."
-                        }
-                    ]
-                },
-                {
-                    "type": "subheader",
-                    "text": "Interactive Learning"
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "Real-time discussions and fault analysis keep students updated and sharpen their troubleshooting skills, shaping them into confident laptop technicians."
-                        }
-                    ]
-                },
-                {
-                    "type": "subheader",
-                    "text": "Innovative Learning"
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "We encourage students to share ideas and learning experiences, creating an engaging environment and a strong technical foundation."
-                        }
-                    ]
-                },
-                {
-                    "type": "subheader",
-                    "text": "Virtual & Live Learning"
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "We offer "
-                        },
-                        {
-                            "text": "online laptop repair courses",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", live classes, and recorded sessions for complete learning backup—ensuring every student benefits from Pune’s best chip level laptop repair training."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "values",
-            "header": "The Values That Drive Laptian",
-            "content": [
-                {
-                    "type": "subheader",
-                    "text": "Our Vision"
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "To become a leading institute in advanced chip-level laptop repair training, creating skilled entrepreneurs and strengthening India’s laptop repair industry through practical expertise."
-                        }
-                    ]
-                },
-                {
-                    "type": "subheader",
-                    "text": "Our Mission"
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "To be a one-stop "
-                        },
-                        {
-                            "text": "Laptop Repair Training Institute in Pune",
-                            "highlight": true
-                        },
-                        {
-                            "text": ", delivering excellence-driven education, maintaining ISO standards, and producing industry-ready professionals across India."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "our-team",
-            "header": "Our Team – Passionate, Skilled, and Student-Focused",
-            "content": [
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "We are innovative, trustworthy, and deeply committed to helping learners become successful "
-                        },
-                        {
-                            "text": "laptop repair experts",
-                            "highlight": true
-                        },
-                        {
-                            "text": "."
-                        }
-                    ]
-                },
-                {
-                    "type": "description",
-                    "richText": [
-                        {
-                            "text": "Our two-way learning approach allows us to continuously improve teaching methods while keeping students updated with the latest repair technologies. The founder strongly believes in learning-driven tasks that create impact—both for students and the industry."
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+        "aboutUsCards": [
+            {
+                "id": "who-we-are",
+                "header": "Who We Are – Laptian Repair Services",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Laptian Repair"
+                            },
+                            {
+                                "text": " is a professional ",
+                                "highlight": false
+                            },
+                            {
+                                "text": "laptop repair service centre in PCMC",
+                                "highlight": true
+                            },
+                            {
+                                "text": ", offering trusted, affordable, and high-quality repair solutions for all laptop brands. With 10+ years of hands-on experience, we specialize in:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "bullets",
+                        "items": [
+                            [
+                                {
+                                    "text": "Advanced chip-level and "
+                                },
+                                {
+                                    "text": "motherboard repair",
+                                    "highlight": true
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Screen, keyboard, and battery replacements"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Software troubleshooting and OS installation"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Data recovery and performance upgrades"
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "our-story",
+                "header": "Our Story – From Passion to Profession",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Laptian started with a passion for technology and a mission to provide "
+                            },
+                            {
+                                "text": "honest, expert-level laptop repair services",
+                                "highlight": true
+                            },
+                            {
+                                "text": " in Pimpri-Chinchwad. What began as a small workshop has grown into a trusted multi-brand service centre, known for quality workmanship and customer satisfaction."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "bullets",
+                        "items": [
+                            [
+                                {
+                                    "text": "Founded on the principles of transparency and fair pricing"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Grown through word-of-mouth referrals and repeat customers"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Expanded from basic repairs to advanced chip-level diagnostics"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Now serving individuals, students, professionals, and businesses"
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "why-choose-us",
+                "header": "Why Choose Laptian for Laptop Repair?",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "With countless repair shops in PCMC, choosing the right one matters. At "
+                            },
+                            {
+                                "text": "Laptian",
+                                "highlight": true
+                            },
+                            {
+                                "text": ", we stand out because we combine deep technical expertise with genuine customer care. Here's what makes us different:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "bullets",
+                        "items": [
+                            [
+                                {
+                                    "text": "Certified and experienced technicians with "
+                                },
+                                {
+                                    "text": "chip-level repair expertise",
+                                    "highlight": true
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Free diagnosis before every repair — no hidden charges"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "3–6 month warranty on all repairs"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Genuine OEM and original-quality spare parts"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "Same-day repair for most common issues"
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "our-approach",
+                "header": "Our Approach – Transparent, Honest, and Reliable",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "We believe in a customer-first approach. Every laptop that comes to us goes through a systematic process to ensure "
+                            },
+                            {
+                                "text": "accurate diagnosis and quality repair",
+                                "highlight": true
+                            },
+                            {
+                                "text": ":"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "subheader",
+                        "text": "Thorough Diagnosis"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "We examine every laptop carefully using professional diagnostic tools before suggesting any repair, ensuring you only pay for what's actually needed."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "subheader",
+                        "text": "Transparent Communication"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "We explain the issue in simple terms, share the repair plan and cost upfront, and only proceed with your approval — no surprises."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "subheader",
+                        "text": "Quality-Assured Repairs"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Every repair undergoes rigorous quality checks and testing before handover, backed by our service warranty for complete peace of mind."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "values",
+                "header": "The Values That Drive Laptian Repair",
+                "content": [
+                    {
+                        "type": "subheader",
+                        "text": "Our Vision"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "To be the most trusted and reliable laptop repair service in Pimpri-Chinchwad, known for expertise, integrity, and customer satisfaction."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "subheader",
+                        "text": "Our Mission"
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "To provide affordable, high-quality "
+                            },
+                            {
+                                "text": "laptop repair services in PCMC",
+                                "highlight": true
+                            },
+                            {
+                                "text": " with transparent pricing, genuine parts, and fast turnaround — making professional repair accessible to everyone."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "our-team",
+                "header": "Our Team – Skilled, Certified, and Customer-Focused",
+                "content": [
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "Our team of "
+                            },
+                            {
+                                "text": "certified repair technicians",
+                                "highlight": true
+                            },
+                            {
+                                "text": " brings years of hands-on experience across all major laptop brands. We are passionate about technology and committed to delivering the best repair experience."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "description",
+                        "richText": [
+                            {
+                                "text": "We invest in continuous learning and stay updated with the latest laptop technologies, ensuring our customers always receive expert-level service backed by modern diagnostic techniques and repair methods."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 }

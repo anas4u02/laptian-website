@@ -4,21 +4,26 @@ import InfoBar from '@/components/InfoBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import aboutData from '@/data/about-content.json';
-import type { AboutContent } from '@/types';
+import type { AboutData } from '@/types';
 import AboutUsCard from '@/components/AboutUsCard/AboutUsCard';
 import './about.css';
 
-const data = aboutData as AboutContent;
+const allData = aboutData as AboutData;
 
 export const metadata = {
-    title: 'A Trusted Laptop Repair Training Institute in India.',
-    description: 'Transform your life with our coursework.',
+    title: 'About Us - Laptian',
+    description: 'Learn more about Laptian — our story, values, and commitment to excellence.',
 };
 
 export default async function AboutPage() {
     const subdomain = await getSubdomain();
+    const data = allData[subdomain];
     const { pageHeader, aboutUsCards } = data;
-    const [before, after] = pageHeader.title.split("Trusted");
+
+    // Split the title around "Trusted" to highlight it
+    const highlightWord = 'Trusted';
+    const parts = pageHeader.title.split(highlightWord);
+    const hasHighlight = parts.length > 1;
 
     return (
         <>
@@ -31,9 +36,15 @@ export default async function AboutPage() {
                 <div className="container">
                     <div className="about-hero-content">
                         <h1 className="about-hero-title animate-fade-in">
-                            {before}
-                            <span className="text-highlight">Trusted</span>
-                            {after}
+                            {hasHighlight ? (
+                                <>
+                                    {parts[0]}
+                                    <span className="text-highlight">{highlightWord}</span>
+                                    {parts[1]}
+                                </>
+                            ) : (
+                                pageHeader.title
+                            )}
                         </h1>
                         <p className="about-hero-subtitle animate-fade-in">
                             {pageHeader.subtitle}

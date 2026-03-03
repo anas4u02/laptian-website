@@ -1,4 +1,4 @@
-export type { AboutContent, AboutPageHeader, AboutUsCard, ContentBlock, RichTextSegment, DescriptionBlock, BulletsBlock, SubheaderBlock } from './about';
+export type { AboutContent, AboutData, AboutPageHeader, AboutUsCard, ContentBlock, RichTextSegment, DescriptionBlock, BulletsBlock, SubheaderBlock } from './about';
 export type { BlogPost, BlogsContent, BlogsSection } from './blogs';
 export type {
     Address,

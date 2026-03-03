@@ -2,8 +2,8 @@
     "hero": {
         "title": "Expert",
         "titleHighlight": "Laptop Repair",
-        "titleSuffix": "Services",
-        "subtitle": "Fast, reliable, and professional laptop repair services. We fix all brands with certified technicians and genuine parts.",
+        "titleSuffix": "Services in PCMC",
+        "subtitle": "Fast, reliable, chip level experts and professional laptop repair services. We fix all brands with certified technicians and genuine parts.",
         "primaryCta": {
             "text": "Book Repair",
             "link": "/contact"

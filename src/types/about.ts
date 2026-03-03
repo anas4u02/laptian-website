@@ -35,3 +35,8 @@ export interface AboutContent {
     pageHeader: AboutPageHeader;
     aboutUsCards: AboutUsCard[];
 }
+
+export type AboutData = {
+    training: AboutContent;
+    services: AboutContent;
+};
