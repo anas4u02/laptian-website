@@ -76,11 +76,3 @@ export default async function BlogPostPage({ params }: Props) {
     );
 }
 
-// Generate static params for all blog posts
-export async function generateStaticParams() {
-    return data.blogs.items
-        .filter((post) => post.slug)
-        .map((post) => ({
-            slug: post.slug,
-        }));
-}
