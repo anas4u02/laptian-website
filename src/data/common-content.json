@@ -100,17 +100,52 @@
             "isVisible": false
         }
     },
+    "_seoGuide": "This section controls all SEO (Search Engine Optimization) settings. Changes here affect how the site appears in Google search results, social media shares, etc. You do NOT need to touch any code files — just edit the values below.",
     "seo": {
+        "_comment": "Global defaults apply to all pages. Per-subdomain settings (training/services) override these where applicable.",
+        "global": {
+            "_comment": "These are site-wide defaults used by every page unless a specific page overrides them.",
+            "metadataBase": "https://laptian.com",
+            "defaultTitle": "Laptian - Laptop Repair Training & Services",
+            "titleTemplate": "%s | Laptian",
+            "defaultDescription": "Professional laptop repair training and expert repair services",
+            "defaultKeywords": ["laptop repair", "training", "certification", "repair services"],
+            "author": "Laptian",
+            "publisherName": "Laptian",
+            "locale": "en_US",
+            "ogImageWidth": 1200,
+            "ogImageHeight": 630
+        },
         "training": {
+            "_comment": "SEO settings for the training subdomain (training.laptian.com). 'keywords' appear in search engine meta tags. 'ogImage' is the image shown when someone shares a training page link on WhatsApp, Facebook, etc. 'socialLinks' are shown in Google's knowledge panel.",
             "siteNameShort": "Laptian Technical Institue",
             "siteName": "Laptian Training Center",
-            "organizationType": "EducationalOrganization"
+            "baseUrl": "https://training.laptian.com",
+            "organizationType": "EducationalOrganization",
+            "description": "Professional laptop repair training and certification center",
+            "keywords": "laptop repair training, computer repair course, hardware training, laptop technician certification, repair skills",
+            "ogImage": "/training-facility.png",
+            "defaultCourseProvider": "Laptian Technical Institute",
+            "socialLinks": [
+                "https://www.facebook.com/share/1KnJ81pEbo/",
+                "https://www.instagram.com/laptianpune?igsh=MWdlM3ZxZmJuNzV4dg==",
+                "https://linkedin.com/company/laptian"
+            ]
         },
         "services": {
+            "_comment": "SEO settings for the services subdomain (services.laptian.com). 'priceRange' tells Google the general cost level ($ = cheap, $$ = moderate, $$$ = expensive). 'ogImage' is the image shown when someone shares a services page link on social media.",
             "siteNameShort": "Laptian Repair",
             "siteName": "Laptian Repair Services",
+            "baseUrl": "https://services.laptian.com",
             "organizationType": "ComputerStore",
-            "priceRange": "$$"
+            "description": "Expert laptop repair and maintenance services",
+            "keywords": "laptop repair services, computer repair, screen replacement, motherboard repair, data recovery",
+            "ogImage": "/laptop-repair.png",
+            "priceRange": "$$",
+            "socialLinks": [
+                "https://www.facebook.com/share/1KnJ81pEbo/",
+                "https://www.instagram.com/laptianpune?igsh=MWdlM3ZxZmJuNzV4dg=="
+            ]
         }
     }
 }

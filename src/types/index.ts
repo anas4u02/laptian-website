@@ -9,6 +9,7 @@ export type {
     NavLink,
     PromotionalOffer,
     SeoConfig,
+    SeoGlobalConfig,
     SocialLinks,
     SubdomainMap,
 } from './common';

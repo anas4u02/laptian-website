@@ -1,14 +1,19 @@
 import type { Metadata } from 'next';
+import commonContent from '@/data/common-content.json';
+import type { CommonContent } from '@/types';
 import './globals.css';
 
+const { seo } = commonContent as CommonContent;
+const globalSeo = seo.global;
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://laptian.com'),
+  metadataBase: new URL(globalSeo.metadataBase),
   title: {
-    default: 'Laptian - Laptop Repair Training & Services',
-    template: '%s | Laptian',
+    default: globalSeo.defaultTitle,
+    template: globalSeo.titleTemplate,
   },
-  description: 'Professional laptop repair training and expert repair services',
-  keywords: ['laptop repair', 'training', 'certification', 'repair services'],
+  description: globalSeo.defaultDescription,
+  keywords: globalSeo.defaultKeywords,
 };
 
 export default function RootLayout({

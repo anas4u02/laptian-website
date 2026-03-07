@@ -21,8 +21,7 @@ export function middleware(request: NextRequest) {
     // Determine which subdomain we're on
     let currentSubdomain = querySubdomain || subdomain;
 
-    // Root domain and services subdomain both default to services
-    if (currentSubdomain === 'localhost' || currentSubdomain === 'laptian' || currentSubdomain === 'services' || !currentSubdomain) {
+    if (currentSubdomain !== 'training') {
         currentSubdomain = 'services';
     }
 
