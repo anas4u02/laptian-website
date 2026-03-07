@@ -11,6 +11,8 @@ import './about.css';
 
 const allData = aboutData as AboutData;
 
+export const runtime = 'edge';
+
 export async function generateMetadata() {
     const subdomain = await getSubdomain();
 
