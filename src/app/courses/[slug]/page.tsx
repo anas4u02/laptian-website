@@ -10,6 +10,8 @@ import CourseDetail from '@/components/training/CourseDetail';
 
 const data = coursesContent as CoursesContent;
 
+export const runtime = 'edge';
+
 interface CoursePageProps {
     params: Promise<{
         slug: string;

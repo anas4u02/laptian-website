@@ -34,6 +34,8 @@ import ServicesTestimonials from '@/components/services/Testimonials';
 // Shared components
 import FAQ from '@/components/FAQ';
 
+export const runtime = 'edge';
+
 export async function generateMetadata() {
   const subdomain = await getSubdomain();
 

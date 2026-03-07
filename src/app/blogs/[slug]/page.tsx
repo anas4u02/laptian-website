@@ -10,6 +10,8 @@ import type { BlogsContent } from '@/types';
 
 const data = blogsContent as BlogsContent;
 
+export const runtime = 'edge';
+
 
 type Props = {
     params: Promise<{ slug: string }>;

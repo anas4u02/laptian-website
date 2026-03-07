@@ -6,6 +6,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CoursesLanding from '@/components/training/CoursesLanding';
 
+export const runtime = 'edge';
+
 export async function generateMetadata() {
     return createMetadata({
         title: 'Our Training Courses - Laptian Technical Institute',

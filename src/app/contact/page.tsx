@@ -5,6 +5,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 
+export const runtime = 'edge';
+
 export async function generateMetadata() {
     const subdomain = await getSubdomain();
 
