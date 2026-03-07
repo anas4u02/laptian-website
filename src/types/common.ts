@@ -45,11 +45,32 @@ export interface PromotionalOffer {
     isVisible: boolean;
 }
 
+export interface SeoGlobalConfig {
+    _comment?: string;
+    metadataBase: string;
+    defaultTitle: string;
+    titleTemplate: string;
+    defaultDescription: string;
+    defaultKeywords: string[];
+    author: string;
+    publisherName: string;
+    locale: string;
+    ogImageWidth: number;
+    ogImageHeight: number;
+}
+
 export interface SeoConfig {
+    _comment?: string;
     siteNameShort: string;
     siteName: string;
+    baseUrl: string;
     organizationType: string;
+    description: string;
+    keywords: string;
+    ogImage: string;
+    defaultCourseProvider?: string;
     priceRange?: string;
+    socialLinks: string[];
 }
 
 export type SubdomainMap<T> = {
@@ -64,5 +85,9 @@ export interface CommonContent {
     navigation: SubdomainMap<NavLink[]>;
     footer: SubdomainMap<FooterConfig>;
     promotionalOffers: SubdomainMap<PromotionalOffer>;
-    seo: SubdomainMap<SeoConfig>;
+    _seoGuide: string;
+    seo: SubdomainMap<SeoConfig> & {
+        _comment?: string;
+        global: SeoGlobalConfig;
+    };
 }

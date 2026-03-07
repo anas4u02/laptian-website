@@ -1,4 +1,9 @@
 import { Metadata } from 'next';
+import commonContent from '@/data/common-content.json';
+import type { CommonContent } from '@/types';
+
+const { seo } = commonContent as CommonContent;
+const globalSeo = seo.global;
 
 export interface LocalBusinessSchema {
     '@context': string;
@@ -64,9 +69,9 @@ export function generateLocalBusinessSchema(data: Partial<LocalBusinessSchema>):
     const schema: LocalBusinessSchema = {
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
-        name: data.name || 'Laptian',
+        name: data.name || globalSeo.publisherName,
         description: data.description || '',
-        url: data.url || 'https://laptian.com',
+        url: data.url || globalSeo.metadataBase,
         ...data,
     };
 
@@ -74,6 +79,7 @@ export function generateLocalBusinessSchema(data: Partial<LocalBusinessSchema>):
 }
 
 export function generateCourseSchema(data: Partial<CourseSchema>): string {
+    const trainingSeo = seo.training;
     const schema: CourseSchema = {
         '@context': 'https://schema.org',
         '@type': 'Course',
@@ -81,7 +87,7 @@ export function generateCourseSchema(data: Partial<CourseSchema>): string {
         description: data.description || '',
         provider: data.provider || {
             '@type': 'Organization',
-            name: 'Laptian Training Center',
+            name: trainingSeo.defaultCourseProvider || trainingSeo.siteName,
         },
         ...data,
     };
@@ -108,7 +114,7 @@ export function generateArticleSchema(data: {
         datePublished: data.datePublished,
         publisher: {
             '@type': 'Organization',
-            name: 'Laptian',
+            name: globalSeo.publisherName,
         },
         mainEntityOfPage: {
             '@type': 'WebPage',
@@ -120,36 +126,22 @@ export function generateArticleSchema(data: {
 }
 
 export function generateOrganizationSchema(subdomain: 'training' | 'services') {
-    const schemas = {
-        training: {
-            '@context': 'https://schema.org',
-            '@type': 'EducationalOrganization',
-            name: 'Laptian Training Center',
-            description: 'Professional laptop repair training and certification center',
-            url: 'https://training.laptian.com',
-            sameAs: [
-                'https://facebook.com/laptian',
-                'https://instagram.com/laptian',
-                'https://twitter.com/laptian',
-                'https://linkedin.com/company/laptian',
-            ],
-        },
-        services: {
-            '@context': 'https://schema.org',
-            '@type': 'ComputerStore',
-            name: 'Laptian Repair Services',
-            description: 'Expert laptop repair and maintenance services',
-            url: 'https://services.laptian.com',
-            sameAs: [
-                'https://facebook.com/laptian',
-                'https://instagram.com/laptian',
-                'https://twitter.com/laptian',
-            ],
-            priceRange: '$$',
-        },
+    const subdomainSeo = seo[subdomain];
+
+    const schema: Record<string, unknown> = {
+        '@context': 'https://schema.org',
+        '@type': subdomainSeo.organizationType,
+        name: subdomainSeo.siteName,
+        description: subdomainSeo.description,
+        url: subdomainSeo.baseUrl,
+        sameAs: subdomainSeo.socialLinks,
     };
 
-    return JSON.stringify(schemas[subdomain]);
+    if (subdomainSeo.priceRange) {
+        schema.priceRange = subdomainSeo.priceRange;
+    }
+
+    return JSON.stringify(schema);
 }
 
 export function generateMetadata(params: {
@@ -160,34 +152,30 @@ export function generateMetadata(params: {
     ogImage?: string;
 }): Metadata {
     const { title, description, subdomain, path = '' } = params;
+    const subdomainSeo = seo[subdomain];
 
-    const baseUrl = subdomain === 'training'
-        ? 'https://training.laptian.com'
-        : 'https://services.laptian.com';
-
+    const baseUrl = subdomainSeo.baseUrl;
     const url = `${baseUrl}${path}`;
+
+    const ogImageUrl = params.ogImage || `${baseUrl}${subdomainSeo.ogImage}`;
 
     return {
         title,
         description,
-        keywords: subdomain === 'training'
-            ? 'laptop repair training, computer repair course, hardware training, laptop technician certification, repair skills'
-            : 'laptop repair services, computer repair, screen replacement, motherboard repair, data recovery',
-        authors: [{ name: 'Laptian' }],
+        keywords: subdomainSeo.keywords,
+        authors: [{ name: globalSeo.author }],
         openGraph: {
             title,
             description,
             url,
-            siteName: subdomain === 'training' ? 'Laptian Training Center' : 'Laptian Repair Services',
+            siteName: subdomainSeo.siteName,
             type: 'website',
-            locale: 'en_US',
+            locale: globalSeo.locale,
             images: [
                 {
-                    url: params.ogImage || (subdomain === 'training'
-                        ? `${baseUrl}/training-facility.png`
-                        : `${baseUrl}/laptop-repair.png`),
-                    width: 1200,
-                    height: 630,
+                    url: ogImageUrl,
+                    width: globalSeo.ogImageWidth,
+                    height: globalSeo.ogImageHeight,
                     alt: title,
                 },
             ],
@@ -196,9 +184,7 @@ export function generateMetadata(params: {
             card: 'summary_large_image',
             title,
             description,
-            images: [params.ogImage || (subdomain === 'training'
-                ? `${baseUrl}/training-facility.png`
-                : `${baseUrl}/laptop-repair.png`)],
+            images: [ogImageUrl],
         },
         alternates: {
             canonical: url,

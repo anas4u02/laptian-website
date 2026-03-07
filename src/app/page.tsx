@@ -41,7 +41,7 @@ export async function generateMetadata() {
 
   if (subdomain === 'services') {
     return createMetadata({
-      title: 'Expert Laptop Repair Services - Laptian',
+      title: 'Expert Laptop Repair Services in PCMC - Laptian',
       description: 'Fast, reliable laptop repair services for all brands. Same-day service, certified technicians, 6-month warranty. Free diagnosis!',
       subdomain: 'services',
       path: '/',
@@ -49,8 +49,8 @@ export async function generateMetadata() {
   }
 
   return createMetadata({
-    title: 'Professional Laptop Repair Training - Laptian Technical Institute',
-    description: 'Master laptop repair with hands-on training, industry certifications, and 95% placement rate. Join 2500+ successful technicians.',
+    title: 'Chip Level Laptop Repair Training - Laptian Technical Institute',
+    description: 'Master advanced chip level laptop repair with hands-on training, industry certifications, and 95% placement rate. Join 2500+ successful technicians.',
     subdomain: 'training',
     path: '/',
   });
