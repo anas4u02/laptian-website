@@ -90,11 +90,3 @@ export default async function CoursePage({ params }: CoursePageProps) {
     );
 }
 
-// Generate static params for all courses
-export async function generateStaticParams() {
-    return data.courses.items
-        .filter((course) => course.slug)
-        .map((course) => ({
-            slug: course.slug,
-        }));
-}
