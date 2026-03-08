@@ -72,16 +72,24 @@
 
 @media (max-width: 768px) {
     .info-bar-content {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: var(--spacing-2);
     }
 
     .info-bar-left {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: var(--spacing-2);
+    }
+
+    .info-bar-right {
+        gap: var(--spacing-1);
     }
 
     .info-link {
         font-size: var(--font-size-xs);
+    }
+
+    .info-link .icon {
+        display: none;
     }
 }
