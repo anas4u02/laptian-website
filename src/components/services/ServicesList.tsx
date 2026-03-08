@@ -24,7 +24,7 @@ export default function ServicesList() {
                             <h3 className="card-title">{service.title}</h3>
                             <p className="card-description">{service.description}</p>
                             <div className="service-list-footer">
-                                <span className="service-price-tag">{service.price}</span>
+                                {/* <span className="service-price-tag">{service.price}</span> */}
                                 <Link href="/contact" className="btn btn-sm btn-primary">
                                     Book Now
                                 </Link>
