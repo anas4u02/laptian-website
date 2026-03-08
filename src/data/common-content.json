@@ -74,7 +74,7 @@
             "contactHeading": "Contact Us",
             "exploreHeading": "Explore More",
             "exploreLinkText": "Visit Repair Center",
-            "exploreLinkUrl": "/?subdomain=services",
+            "exploreLinkUrl": "https://services.laptian.com",
             "exploreMessage": "Looking for repair services?"
         },
         "services": {
@@ -84,7 +84,7 @@
             "contactHeading": "Contact Us",
             "exploreHeading": "Explore More",
             "exploreLinkText": "Visit Training Academy",
-            "exploreLinkUrl": "/?subdomain=training",
+            "exploreLinkUrl": "https://training.laptian.com",
             "exploreMessage": "Looking for training courses?"
         }
     },
