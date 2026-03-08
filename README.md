@@ -209,7 +209,7 @@ Configure custom domains in Vercel dashboard:
 
 For issues or questions:
 - Email: info@laptian.com
-- Phone: +91 98765 43210
+- Phone: +91 7219000219
 
 ## 📄 License
 
